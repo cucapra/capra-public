@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>WAX 2017: {{ title }}</title>
+
+  <link href="style.css" rel="stylesheet">
+  {{#if serve}}
+  <script src="http://localhost:35729/livereload.js"></script>
+  {{/if}}
+</head>
+<body {{#if wide }}class="wide"{{/if}}>
+  <header>
+    <nav>
+      <h1>
+        <a href="./{{ relative '/' }}">WAX 2017</a>
+      </h1>
+      {{#each pages}}
+      <p><a href="{{ relative this.link }}">{{ this.title }}</a></p>
+      {{/each}}
+    </nav>
+  </header>
+  <main>
+  {{{ contents }}}
+  </main>
+</body>
+</html>

@@ -1,0 +1,103 @@
+$main-color: #51a012;
+$disabled-color: #666;
+$exception-color: #ccc;
+$max-width: 40rem;
+$min-width: 400px;
+
+
+// Layout.
+body {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  padding: 0.5rem 0.5rem;
+  nav {
+    display: block;
+    margin: auto;
+    max-width: $max-width;
+  }
+}
+
+main {
+  margin: 1rem auto;
+  padding: 0 0.5rem;
+  max-width: $max-width;
+}
+
+// On wide pages, do not constrain.
+body.wide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  main {
+    margin: 1rem;
+    max-width: none;
+  }
+}
+
+
+// Fonts.
+body {
+  font-family: Verdana, Tahoma, Geneva, sans-serif;
+  line-height: 140%;
+}
+
+a {
+  color: $main-color;
+}
+
+h1 {
+  line-height: 110%;
+  margin-top: 0;
+}
+
+
+// Header links.
+header {
+  background: $main-color;
+  color: white;
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  h1 {
+    font-size: inherit;
+    font-weight: bold;
+  }
+  nav {
+    h1 {
+      display: inline-block;
+    }
+    p {
+      display: inline-block;
+      margin-left: 1rem;
+    }
+  }
+}
+
+
+// Footer links.
+footer {
+  text-align: center;
+  margin: 1rem;
+  color: $disabled-color;
+  font-size: 80%;
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+
+// Illustration image.
+img.illus {
+    float: right;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    @media (max-width: $min-width) {
+        display: none;
+    }
+}
