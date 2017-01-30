@@ -20,7 +20,7 @@ node_modules: package.json
 
 RSYNCARGS := --compress --recursive --checksum --itemize-changes \
 	--delete -e ssh --perms --chmod=Du=rwx,Dgo=rx,Fu=rw,Fog=r
-DEST := cslinux:/courses/cs6110/2017sp
+DEST := courses:coursewww/capra.cs.cornell.edu/htdocs/web
 
 deploy: clean build
 	rsync $(RSYNCARGS) build/ $(DEST)
