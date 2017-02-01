@@ -17,6 +17,20 @@ header {
     display: block;
     margin: auto;
     max-width: $max-width;
+
+    p, h1 {
+      margin: 0;
+      padding: 0.5rem 0;
+      display: inline-block;
+    }
+    p {
+      margin-left: 0.5rem;
+    }
+
+    // Compact layout on small screens.
+    @media (max-width: $small-width) {
+      padding: 0 0.5rem;
+    }
   }
 }
 
@@ -66,15 +80,6 @@ header {
   h1 {
     font-size: inherit;
     font-weight: bold;
-  }
-  nav {
-    h1 {
-      display: inline-block;
-    }
-    p {
-      display: inline-block;
-      margin-left: 1rem;
-    }
   }
 }
 
