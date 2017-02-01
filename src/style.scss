@@ -1,8 +1,8 @@
-$main-color: rgb(179, 27, 27);
-$disabled-color: #666;
-$exception-color: #ccc;
-$max-width: 40rem;
-$min-width: 400px;
+$main-color: rgb(179, 27, 27);  // Theme color.
+$disabled-color: #666;  // Grayed-out color.
+$exception-color: #ccc;  // Highlight color for "different" rows.
+$max-width: 40rem;  // Width of the content.
+$small-width: 400px;  // "Small devices" are smaller than this.
 
 
 // Layout.
@@ -97,7 +97,7 @@ img.illus {
     float: right;
     margin-left: 1rem;
     margin-bottom: 1rem;
-    @media (max-width: $min-width) {
+    @media (max-width: $small-width) {
         display: none;
     }
 }
