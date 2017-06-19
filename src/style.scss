@@ -17,7 +17,7 @@ header {
   nav {
     padding: 0.5rem 0.5rem;
     display: block;
-    margin: auto;
+    margin: 0 0 0 1rem;
     max-width: $max-width;
 
     p, h1 {
@@ -37,7 +37,7 @@ header {
 }
 
 main {
-  margin: 0 auto;
+  margin: 0 0 0 1rem;
   padding: 0 0.5rem;
   max-width: $max-width;
 }
