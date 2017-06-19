@@ -54,11 +54,20 @@ a {
   color: $main-color;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
   line-height: 110%;
   margin-top: 0;
   font-family: $display-font;
   font-size: 100%;
+}
+
+
+// More style.
+ul {
+  list-style-type: square;
+}
+ul, ol {
+  padding-left: 1.3rem;
 }
 
 
