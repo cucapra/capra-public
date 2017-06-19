@@ -3,8 +3,9 @@ $disabled-color: #666;  // Grayed-out color.
 $exception-color: #ccc;  // Highlight color for "different" rows.
 $max-width: 40rem;  // Width of the content.
 $small-width: 400px;  // "Small devices" are smaller than this.
-$main-font: Verdana, Tahoma, Geneva, sans-serif;
-$display-font: "Source Code Pro", Courier, monospace;
+$main-font: "Source Sans Pro", Verdana, Tahoma, Geneva, sans-serif;
+$display-font: "Source Code Pro", "Anonymous Pro", Inconsolata, Consolas,
+    Courier, monospace;
 
 
 // Layout.
@@ -17,7 +18,7 @@ header {
   nav {
     padding: 0.5rem 0.5rem;
     display: block;
-    margin: 0 0 0 1rem;
+    margin: 0 1rem 0;
     max-width: $max-width;
 
     p, h1 {
@@ -37,7 +38,7 @@ header {
 }
 
 main {
-  margin: 0 0 0 1rem;
+  margin: 0 1rem;
   padding: 0 0.5rem;
   max-width: $max-width;
 }
