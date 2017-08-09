@@ -24,8 +24,8 @@ In The IEEE International Conference on Computer Vision (ICCV), 2017.
         year = {2017},
     }
 
-[paper]: x
-[supp]: x
+[paper]: /pubs/visionmode-iccv2017.pdf
+[supp]: /pubs/visionmode-iccv2017-supplemental.pdf
 
 ## Code
 
