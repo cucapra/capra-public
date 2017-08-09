@@ -23,7 +23,7 @@ var site = Metalsmith(__dirname)
   .use(ignore(['**/.DS_Store']))
   .use(collections({
     pages: {
-      pattern: '*.{md,html,pug}',
+      pattern: '{*,*/index}.{md,html}',
       sortBy: 'order',
     }
   }))
@@ -34,11 +34,6 @@ var site = Metalsmith(__dirname)
   .use(inplace({
     engine: "handlebars",
     pattern: "*.{html,md}"
-  }))
-  .use(inplace({
-    engine: "pug",
-    pattern: "*.pug",
-    rename: true,
   }))
   .use(markdown({
     smartypants: true,
