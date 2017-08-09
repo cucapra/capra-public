@@ -13,7 +13,7 @@ TODO: Figures; main findings.
 
 Mark Buckler, Suren Jayasuriya, and Adrian Sampson.
 Reconfiguring the Imaging Pipeline for Computer Vision.
-In The IEEE International Conference on Computer Vision (ICCV), 2017.
+In the IEEE International Conference on Computer Vision (ICCV), 2017.
 
 [preprint PDF][paper], [supplementary material PDF][supp]
 
