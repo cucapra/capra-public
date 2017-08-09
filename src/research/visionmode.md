@@ -54,6 +54,10 @@ The license is [MIT][].
 
 TODO
 
-## People
+## Contact
 
-TODO
+You can contact [Mark Buckler][mark], [Suren Jayasuriya][suren], and [Adrian Sampson][adrian] with questions.
+
+[mark]: http://www.markbuckler.com
+[suren]: http://www.andrew.cmu.edu/user/sjayasur/website.html
+[adrian]: http://www.cs.cornell.edu/~asampson/
