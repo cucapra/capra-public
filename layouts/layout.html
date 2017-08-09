@@ -19,7 +19,9 @@
         <a href="/">Capra</a>
       </h1>
       {% for page in pages %}
+      {% if page.title !== 'Home' %}
       <p><a href="{{ page.link }}">{{ page.title }}</a></p>
+      {% endif %}
       {% endfor %}
     </nav>
   </header>
