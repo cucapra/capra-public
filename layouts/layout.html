@@ -8,9 +8,9 @@
   <title>Capra: {{ title }}</title>
 
   <link href="/style.css" rel="stylesheet">
-  {{#if serve}}
+  {% if serve %}
   <script src="http://localhost:35729/livereload.js"></script>
-  {{/if}}
+  {% endif %}
 </head>
 <body>
   <header>
@@ -18,13 +18,13 @@
       <h1>
         <a href="/">Capra</a>
       </h1>
-      {{#each pages}}
-      <p><a href="{{ relative this.link }}">{{ this.title }}</a></p>
-      {{/each}}
+      {% for page in pages %}
+      <p><a href="{{ page.link }}">{{ page.title }}</a></p>
+      {% endfor %}
     </nav>
   </header>
   <main>
-  {{{ contents }}}
+  {{ contents | safe }}
   </main>
 </body>
 </html>

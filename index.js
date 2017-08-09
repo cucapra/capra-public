@@ -47,7 +47,7 @@ var site = Metalsmith(__dirname)
   .use(filepath({
     absolute: true
   }))
-  .use(layouts('handlebars'));
+  .use(layouts('nunjucks'));
 
 if (serveMode) {
   var serve = require('metalsmith-serve');
