@@ -29,4 +29,31 @@ In the IEEE International Conference on Computer Vision (ICCV), 2017.
 
 ## Code
 
+We have released a set of [open-source tools][gh] for modeling approximate camera pipelines.
+The main component is the tool called "CRIP" in the [paper][], which can simulate a camera sensor and ISP chip forward and "backward." 
+The backward mode can convert from a standard image (i.e., a JPEG) into an approximation of its original RAW format.
+Then, you can run the pipeline *forward* again to convert the image to what it would have looked like had it been captured with a hypothetical pipeline configuration.
+We use this tool to convert standard vision datasets like [ImageNet][], [CIFAR][], and [COCO][] to degraded versions so we can train and test computer vision algorithms.
+
+[imagenet]: http://www.image-net.org
+[cifar]: https://www.cs.toronto.edu/~kriz/cifar.html
+[coco]: http://mscoco.org
+
+Check out the source from the [repository on GitHub][gh].
+The conversion tool is mainly written in [Halide][] with some auxiliary support scripts.
+The camera model is based on [this paper by Kim et al.][kim] (for details, see this [CVPR 2016 tutorial by Michael S. Brown][brown]).
+The license is [MIT][].
+
+[mit]: https://opensource.org/licenses/MIT
+[gh]: https://github.com/cucapra/approx-vision
+[halide]: http://halide-lang.org
+[kim]: http://ieeexplore.ieee.org/document/6158647/
+[brown]: http://www.eecs.yorku.ca/~mbrown/CVPR2016_Brown.html
+
 ## Results
+
+TODO
+
+## People
+
+TODO
