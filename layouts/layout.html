@@ -7,16 +7,16 @@
 
   <title>Capra: {{ title }}</title>
 
-  <link href="style.css" rel="stylesheet">
+  <link href="/style.css" rel="stylesheet">
   {{#if serve}}
   <script src="http://localhost:35729/livereload.js"></script>
   {{/if}}
 </head>
-<body {{#if wide }}class="wide"{{/if}}>
+<body>
   <header>
     <nav>
       <h1>
-        <a href="./{{ relative '/' }}">Capra</a>
+        <a href="/">Capra</a>
       </h1>
       {{#each pages}}
       <p><a href="{{ relative this.link }}">{{ this.title }}</a></p>
