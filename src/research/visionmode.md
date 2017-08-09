@@ -52,7 +52,16 @@ The license is [MIT][].
 
 ## Results
 
-TODO
+We collected a lot of vision task accuracy data to study the potential for a vision mode.
+The raw data and plotting infrastructure for all these results is [on GitHub][plot-gh].
+You can use this repository to reproduce all the charts in the paper.
+
+Because we had trouble deciding which kinds of plots to include in the paper, we have many many other visualizations for the same data.
+Thanks to the magic of [Vega-Lite][], you can see in-browser, interactive plots with fancy tooltips.
+[todo](https://capra.cs.cornell.edu/vision-plots/)
+
+[plot-gh]: https://github.com/cucapra/vision-plots
+[vega-lite]: https://vega.github.io/vega-lite/
 
 ## Contact
 
