@@ -9,6 +9,10 @@ $display-font: "Source Code Pro", "Anonymous Pro", Inconsolata, Consolas,
 $display-font-size: 120%;
 $line-height: 150%;
 
+// Laying out figures.
+$figure-width: 20rem;
+$figure-gap: 1rem;
+
 
 // Layout.
 body {
@@ -106,14 +110,16 @@ footer {
 }
 
 
-// Illustration image.
-img.illus {
-    float: right;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-    @media (max-width: $small-width) {
-        display: none;
-    }
+// Figures.
+figure {
+  float: right;
+  margin: 0 0 0 $figure-gap;
+  width: $figure-width;
+  margin-right: -($figure-width + $figure-gap);
+
+  img {
+    width: 100%;
+  }
 }
 
 // Code.
