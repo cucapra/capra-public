@@ -50,7 +50,7 @@ The license is [MIT][].
 [kim]: http://ieeexplore.ieee.org/document/6158647/
 [brown]: http://www.eecs.yorku.ca/~mbrown/CVPR2016_Brown.html
 
-## Results
+## Results and Visualizations
 
 We collected a lot of vision task accuracy data to study the potential for a vision mode.
 The raw data and plotting infrastructure for all these results is [on GitHub][plot-gh].
@@ -58,7 +58,7 @@ You can use this repository to reproduce all the charts in the paper.
 
 Because we had trouble deciding which kinds of plots to include in the paper, we have many many other visualizations for the same data.
 Thanks to the magic of [Vega-Lite][], you can see in-browser, interactive plots with fancy tooltips.
-[todo](https://capra.cs.cornell.edu/vision-plots/)
+View a [main set of plots](https://capra.cs.cornell.edu/vision-plots/), a grid of [single-benchmark plots](https://capra.cs.cornell.edu/vision-plots/singles.html), or our [quantization and resolution sweeps](https://capra.cs.cornell.edu/vision-plots/sweeps.html).
 
 [plot-gh]: https://github.com/cucapra/vision-plots
 [vega-lite]: https://vega.github.io/vega-lite/
