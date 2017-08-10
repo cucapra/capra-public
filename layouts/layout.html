@@ -30,9 +30,13 @@
       </h1>
       {% if collections[collection].metadata.name -%}
       <p>
+        {%- if collections[collection].metadata.link -%}
         <a href="{{ collections[collection].metadata.link }}">
-          {{ collections[collection].metadata.name }}
+        {%- endif -%}
+        {{ collections[collection].metadata.name }}
+        {%- if collections[collection].metadata.link -%}
         </a>
+        {%- endif -%}
       </p>
       {%- elseif section -%}
       <p>

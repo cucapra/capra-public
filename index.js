@@ -59,7 +59,6 @@ var site = Metalsmith(__dirname)
       pattern: 'research/{!index,*/index}.{md,html}',
       metadata: {
         name: 'Research',
-        link: '/research/',
       },
     },
   }))
