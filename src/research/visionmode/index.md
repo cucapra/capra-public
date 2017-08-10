@@ -1,6 +1,9 @@
 ---
-title: "Vision Mode"
 layout: layout.html
+title: "Vision Mode"
+longtitle: "A Vision Mode for Efficient Image Capture"
+summary: |
+    Text goes here.
 ---
 # Reconfiguring the Imaging Pipeline for Computer Vision
 
