@@ -7,11 +7,16 @@ var collections = require('metalsmith-collections');
 var filepath    = require('metalsmith-filepath');
 var inplace     = require('metalsmith-in-place');
 var ignore      = require('metalsmith-ignore');
-var define      = require('metalsmith-define');
 
-var url = require('url');
+var marked   = require('marked');
+var nunjucks = require('nunjucks');
 
 var serveMode = process.argv.indexOf('--serve') != -1;
+
+// Nunjucks options.
+nunjucks.configure().addFilter('markdown', function (str) {
+  return marked(str);
+});
 
 var site = Metalsmith(__dirname)
   .source('./src')
@@ -57,9 +62,6 @@ var site = Metalsmith(__dirname)
         link: '/research/',
       },
     },
-  }))
-  .use(define({
-    resolve: url.resolve,  // Path join helper.
   }))
   .use(inplace({
     engine: "nunjucks",
