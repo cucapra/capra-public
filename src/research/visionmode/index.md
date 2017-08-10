@@ -101,7 +101,7 @@ View a [main set of plots](https://capra.cs.cornell.edu/vision-plots/), a grid o
 ## Contact
 
 * [Mark Buckler][mark] &lt;<mab598@cornell.edu>&gt;
-* [Suren Jayasuriya][suren] &lt;<sjayasur@andrew.cmu.edu>&gt;
+* [Suren Jayasuriya][suren] &lt;<sjayasur@asu.edu>&gt;
 * [Adrian Sampson][adrian] &lt;<asampson@cs.cornell.edu>&gt;
 
 [mark]: http://www.markbuckler.com
