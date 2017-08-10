@@ -112,15 +112,23 @@ footer {
 
 // Figures.
 figure {
+  img {
+    width: 100%;
+  }
+
+  figcaption {
+    font-size: 70%;
+    line-height: 120%;
+    padding: 0 0.5em;
+  }
+
+  // On larger screens, lay out in the margin.
   float: right;
   margin: 0 0 0 $figure-gap;
   width: $figure-width;
   margin-right: -($figure-width + $figure-gap);
 
-  img {
-    width: 100%;
-  }
-
+  // Lay out inside the column on smaller screens.
   @media (max-width: $max-width + $figure-width + $figure-gap + 2rem) and
          (min-width: $small-width + 1) {
     margin: $figure-gap 0 $figure-gap $figure-gap;
