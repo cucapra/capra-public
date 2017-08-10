@@ -3,7 +3,7 @@ title: Home
 layout: layout.html
 order: 0
 ---
-# Computer Architecture and Programming Abstractions at Cornell
+# Computer Architecture and Programming Abstractions
 
 **Capra** is a research group at [Cornell][] in the [Computer Science][cs] and [Electrical and Computer Engineering][ece] departments.
 Our research studies abstractions and efficiency through the interaction of programming languages and computer architecture.
