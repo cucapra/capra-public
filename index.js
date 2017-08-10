@@ -21,6 +21,12 @@ var site = Metalsmith(__dirname)
     serve: serveMode,
   })
   .use(ignore(['**/.DS_Store']))
+  .use((files, metalsmith, done) => {
+    // Workaround:
+    // https://github.com/segmentio/metalsmith-collections/pull/48#issuecomment-246612758
+    metalsmith._metadata.collections = null;
+    done();
+  })
   .use(collections({
     pages: {
       pattern: '{*,*/index}.{md,html}',
