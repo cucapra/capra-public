@@ -36,8 +36,15 @@ In the IEEE International Conference on Computer Vision (ICCV), 2017.
 
 ## Code
 
+<figure>
+  <img src="crip.jpeg" style="width: 250px;">
+  <figcaption>
+    Our open-source tool can convert image datasets to simulate the effects of novel camera pipelines.
+  </figcaption>
+</figure>
+
 We have released a set of [open-source tools][gh] for modeling approximate camera pipelines.
-The main component is the tool called "CRIP" in the [paper][], which can simulate a camera sensor and ISP chip forward and "backward." 
+The main component is the tool called "CRIP" in the [paper][], which can simulate a camera sensor and ISP chip forward and "backward."
 The backward mode can convert from a standard image (i.e., a JPEG) into an approximation of its original RAW format.
 Then, you can run the pipeline *forward* again to convert the image to what it would have looked like had it been captured with a hypothetical pipeline configuration.
 We use this tool to convert standard vision datasets like [ImageNet][], [CIFAR][], and [COCO][] to degraded versions so we can train and test computer vision algorithms.
