@@ -27,7 +27,7 @@ var site = Metalsmith(__dirname)
       sortBy: 'order',
     },
     research: {
-      pattern: 'research/{*,*/index}.{md,html}',
+      pattern: 'research/{!index,*/index}.{md,html}',
       metadata: {
         name: 'Research',
         link: '/research/',
@@ -39,7 +39,7 @@ var site = Metalsmith(__dirname)
     resolve: url.resolve,  // Path join helper.
   }))
   .use(inplace({
-    engine: "handlebars",
+    engine: "nunjucks",
     pattern: "*.{html,md}"
   }))
   .use(markdown({

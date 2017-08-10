@@ -12,6 +12,14 @@ Our research studies abstractions and efficiency through the interaction of prog
 [cs]: http://www.cs.cornell.edu
 [cornell]: http://www.cornell.edu
 
+## Research
+
+{% for page in collections.research %}
+<div class="project">
+  <h3><a href="{{ page.link }}">{{ page.title }}</a></h3>
+</div>
+{% endfor %}
+
 ## People
 
 * [Adrian Sampson][adrian]

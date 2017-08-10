@@ -1,5 +1,5 @@
 ---
-title: "Research: Vision Mode"
+title: "Vision Mode"
 layout: layout.html
 ---
 # Reconfiguring the Imaging Pipeline for Computer Vision
