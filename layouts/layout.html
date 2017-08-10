@@ -8,9 +8,9 @@
   <title>Capra: {{ title }}</title>
 
   <link href="/style.css" rel="stylesheet">
-  {% if serve %}
+  {% if serve -%}
   <script src="http://localhost:35729/livereload.js"></script>
-  {% endif %}
+  {%- endif %}
 </head>
 <body>
   <header>
@@ -18,9 +18,17 @@
       <h1>
         <a href="/">Capra</a>
       </h1>
-      {% if section %}
-      <p>{{ section }}</p>
-      {% endif %}
+      {% if collections[collection].metadata.name -%}
+      <p>
+        <a href="{{ collections[collection].metadata.link }}">
+          {{ collections[collection].metadata.name }}
+        </a>
+      </p>
+      {%- elseif section -%}
+      <p>
+        {{ section }}
+      </p>
+      {%- endif %}
     </nav>
   </header>
   <main>

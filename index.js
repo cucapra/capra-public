@@ -25,7 +25,14 @@ var site = Metalsmith(__dirname)
     pages: {
       pattern: '{*,*/index}.{md,html}',
       sortBy: 'order',
-    }
+    },
+    research: {
+      pattern: 'research/*.{md,html}',
+      metadata: {
+        name: 'Research',
+        link: '/research/',
+      },
+    },
   }))
   .use(relative())
   .use(define({
