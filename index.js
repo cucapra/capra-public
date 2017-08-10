@@ -27,7 +27,7 @@ var site = Metalsmith(__dirname)
       sortBy: 'order',
     },
     research: {
-      pattern: 'research/*.{md,html}',
+      pattern: 'research/{*,*/index}.{md,html}',
       metadata: {
         name: 'Research',
         link: '/research/',
