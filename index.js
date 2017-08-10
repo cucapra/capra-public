@@ -48,6 +48,7 @@ var site = Metalsmith(__dirname)
     // Workaround:
     // https://github.com/segmentio/metalsmith-collections/pull/48#issuecomment-246612758
     metalsmith._metadata.collections = null;
+    metalsmith._metadata.pages = null;
     done();
   })
   .use(collections({
@@ -65,6 +66,13 @@ var site = Metalsmith(__dirname)
   .use(metadata({
     research_ext: 'data/research.yaml',
   }))
+  .use((files, metalsmith, done) => {
+    // Merge internal and external research.
+    metalsmith._metadata.projects =
+      metalsmith._metadata.research.concat(
+          metalsmith._metadata.research_ext);
+    done();
+  })
   .use(inplace({
     engine: "nunjucks",
     pattern: "*.{html,md}"

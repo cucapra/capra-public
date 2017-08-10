@@ -14,17 +14,10 @@ Our research studies abstractions and efficiency through the interaction of prog
 
 ## Research
 
-{% for page in collections.research %}
+{% for proj in projects %}
 <div class="project">
-  <h3><a href="{{ page.link }}">{{ page.longtitle or page.title }}</a></h3>
-  {{ page.summary | markdown | safe }}
-</div>
-{% endfor %}
-
-{% for page in research_ext %}
-<div class="project">
-  <h3><a href="{{ page.link }}">{{ page.longtitle or page.title }}</a></h3>
-  {{ page.summary | markdown | safe }}
+  <h3><a href="{{ proj.link }}">{{ proj.longtitle or proj.title }}</a></h3>
+  {{ proj.summary | markdown | safe }}
 </div>
 {% endfor %}
 
