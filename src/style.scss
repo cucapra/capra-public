@@ -7,6 +7,7 @@ $main-font: "Source Sans Pro", Verdana, Tahoma, Geneva, sans-serif;
 $display-font: "Source Code Pro", "Anonymous Pro", Inconsolata, Consolas,
     Courier, monospace;
 $display-font-size: 120%;
+$line-height: 150%;
 
 
 // Layout.
@@ -48,7 +49,7 @@ main {
 // Fonts.
 body {
   font-family: $main-font;
-  line-height: 150%;
+  line-height: $line-height;
 }
 
 a {
@@ -57,7 +58,7 @@ a {
 
 // Headings are all the same size. Non-top headings leave a gap.
 h1, h2, h3, h4, h5, h6 {
-  line-height: 110%;
+  line-height: $line-height;
   margin-top: 0;
   font-family: $display-font;
   font-size: $display-font-size;
