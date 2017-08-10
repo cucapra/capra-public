@@ -164,3 +164,21 @@ pre {
     margin-top: 0.25rem;
   }
 }
+
+// Links to paper stuff.
+.links {
+  list-style: none;
+  padding: 0;
+
+  a.pdf::before {
+    content: "";
+    display: inline-block;
+
+    background: bottom/90% url("/img/document.svg") no-repeat;
+    width: 18px;
+    height: 18px;
+
+    margin-right: 3px;
+    margin-bottom: -3px;
+  }
+}

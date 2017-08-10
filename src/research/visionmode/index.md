@@ -44,7 +44,10 @@ Reconfiguring the Imaging Pipeline for Computer Vision.
 To appear
 in the IEEE International Conference on Computer Vision (ICCV), 2017.
 
-[preprint PDF][paper], [supplementary material PDF][supp]
+<ul class="links">
+  <li><a href="/pubs/visionmode-iccv2017.pdf" class="pdf">paper preprint</a></li>
+  <li><a href="/pubs/visionmode-iccv2017-supplemental.pdf" class="pdf">supplemental material</a></li>
+</ul>
 
     @inproceedings{buckler-iccv2017,
         author = {Mark Buckler and Suren Jayasuriya and Adrian Sampson},
