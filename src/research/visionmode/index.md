@@ -10,7 +10,7 @@ summary: |
 Most camera systems today are optimized for photography.
 They expend time and energy to produce high-quality images that humans will enjoy.
 This pristine quality is wasted, however, when the goal is computer vision instead of human consumption.
-We argue that came pipelines should be configurable: they should be able to switch between a traditional *photography mode* and a low-power *vision mode* that produces raw image data suitable only for computer vision.
+We argue that camera pipelines should be configurable: they should be able to switch between a traditional *photography mode* and a low-power *vision mode* that produces raw image data suitable only for computer vision.
 
 <figure>
   <img src="bars_error_norm-special.svg">
@@ -27,7 +27,7 @@ All but one of the benchmarks we measured (and all of the CNN-based benchmarks) 
 
 We also propose modifications to the camera sensor itself to improve the efficiency of capture in vision mode.
 Using a subsampling technique, our sensor design can elicit most of the important effects of demosaicing without any signal processing.
-And using nonlinear [analog-to-digital converters (ADCs)][adc], the design can replace the effects of gamma correction and reduce the number of bits required per pixel.
+In addition, we use nonlinear [analog-to-digital converters (ADCs)][adc] to replace the effects of gamma correction, thereby reducing the number of bits which need to be captured per pixel.
 Together, these changes lead to cheaper data readout and can obviate the need for a separate ISP chip.
 
 Initial figures suggest that a vision mode may save roughly three quarters of the energy spent on the camera and ISP for image capture in a traditional system.
@@ -65,10 +65,10 @@ In the IEEE International Conference on Computer Vision (ICCV), 2017.
 </figure>
 
 We have released a set of [open-source tools][gh] for modeling approximate camera pipelines.
-The main component is the tool called "CRIP" in the [paper][], which can simulate a camera sensor and ISP chip forward and "backward."
+The main component is the forward and backward simulation of a camera sensor and ISP chip, referred to as the "CRIP" in the [paper][].
 The backward mode can convert from a standard image (i.e., a JPEG) into an approximation of its original RAW format.
 Then, you can run the pipeline *forward* again to convert the image to what it would have looked like had it been captured with a hypothetical pipeline configuration.
-We use this tool to convert standard vision datasets like [ImageNet][], [CIFAR][], and [COCO][] to degraded versions so we can train and test computer vision algorithms.
+We use this tool to convert standard vision datasets like [ImageNet][], [CIFAR][], and [COCO][] to degraded versions for the purpose of training and testing computer vision algorithms.
 
 [imagenet]: http://www.image-net.org
 [cifar]: https://www.cs.toronto.edu/~kriz/cifar.html
