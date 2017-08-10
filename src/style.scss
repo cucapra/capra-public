@@ -2,7 +2,7 @@ $main-color: rgb(179, 27, 27);  // Theme color.
 $disabled-color: #666;  // Grayed-out color.
 $exception-color: #ccc;  // Highlight color for "different" rows.
 $max-width: 40rem;  // Width of the content.
-$small-width: 400px;  // "Small devices" are smaller than this.
+$small-width: 450px;  // "Small devices" are smaller than this.
 $main-font: "Source Sans Pro", Verdana, Tahoma, Geneva, sans-serif;
 $display-font: "Source Code Pro", "Anonymous Pro", Inconsolata, Consolas,
     Courier, monospace;
@@ -118,6 +118,17 @@ figure {
   margin-right: -($figure-width + $figure-gap);
 
   img {
+    width: 100%;
+  }
+
+  @media (max-width: $max-width + $figure-width + $figure-gap + 2rem) and
+         (min-width: $small-width + 1) {
+    margin: $figure-gap 0 $figure-gap $figure-gap;
+    float: right;
+  }
+  @media (max-width: $small-width) {
+    float: none;
+    margin: $figure-gap 0;
     width: 100%;
   }
 }
