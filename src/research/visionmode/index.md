@@ -4,6 +4,11 @@ layout: layout.html
 ---
 # Reconfiguring the Imaging Pipeline for Computer Vision
 
+Most camera systems today are optimized for photography.
+They expend time and energy to produce high-quality images that humans will enjoy.
+This pristine quality is wasted, however, when the goal is computer vision instead of human consumption.
+We argue that came pipelines should be configurable: they should be able to switch between a traditional *photography mode* and a low-power *vision mode* that produces raw image data suitable only for computer vision.
+
 <figure>
   <img src="bars_error_norm-special.svg">
   <figcaption>
@@ -12,9 +17,22 @@ layout: layout.html
   </figcaption>
 </figure>
 
-Advancements in deep learning have ignited an explosion of research on efficient hardware for embedded computer vision. Hardware vision acceleration, however, does not address the cost of capturing and processing the image data that feeds these algorithms. We examine the role of the image signal processing (ISP) pipeline in computer vision to identify opportunities to reduce computation and save energy. The key insight is that imaging pipelines should be be configurable: to switch between a traditional photography mode and a low-power vision mode that produces lower-quality image data suitable only for computer vision. We use eight computer vision algorithms and a reversible pipeline simulation tool to study the imaging system’s impact on vision performance. For both CNN-based and classical vision algorithms, we observe that only two ISP stages, demosaicing and gamma compression, are critical for task performance. We propose a new image sensor design that can compensate for these stages. The sensor design features an adjustable resolution and tunable analog-to-digital converters (ADCs). Our proposed imaging system’s vision mode disables the ISP entirely and configures the sensor to produce subsampled, lower-precision image data. This vision mode can save ~75% of the average energy of a baseline photography mode with only a small impact on vision task accuracy.
+Our work takes an empirical approach to measuring the costs and benefits for a vision mode.
+We use eight computer vision algorithms, including both classical algorithms and convolutional neural networks, and we measure the impact on vision quality when we simulate low-power camera pipelines.
+The results suggest that most standard stages in [image signal processing (ISP)][isp] chips are unnecessary when capturing images for vision.
+All but one of the benchmarks we measured (and all of the CNN-based benchmarks) exhibited sensitivity to only two traditional ISP stages: [demosaicing][] and [gamma correction][gamma].
 
-TODO: Figures; main findings.
+We also propose modifications to the camera sensor itself to improve the efficiency of capture in vision mode.
+Using a subsampling technique, our sensor design can elicit most of the important effects of demosaicing without any signal processing.
+And using nonlinear [analog-to-digital converters (ADCs)][adc], the design can replace the effects of gamma correction and reduce the number of bits required per pixel.
+Together, these changes lead to cheaper data readout and can obviate the need for a separate ISP chip.
+
+Initial figures suggest that a vision mode may save roughly three quarters of the energy spent on the camera and ISP for image capture in a traditional system.
+
+[isp]: https://en.wikipedia.org/wiki/Image_processor
+[demosaicing]: https://en.wikipedia.org/wiki/Demosaicing
+[gamma]: https://en.wikipedia.org/wiki/Gamma_correction
+[adc]: https://en.wikipedia.org/wiki/Analog-to-digital_converter
 
 ## Publication
 
