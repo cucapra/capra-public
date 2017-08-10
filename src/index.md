@@ -21,6 +21,13 @@ Our research studies abstractions and efficiency through the interaction of prog
 </div>
 {% endfor %}
 
+{% for page in research_ext %}
+<div class="project">
+  <h3><a href="{{ page.link }}">{{ page.longtitle or page.title }}</a></h3>
+  {{ page.summary | markdown | safe }}
+</div>
+{% endfor %}
+
 ## People
 
 * [Adrian Sampson][adrian]

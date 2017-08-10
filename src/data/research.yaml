@@ -1,0 +1,5 @@
+-
+    title: "Braid, a Safe Heterogeneous Language for Real-Time Graphics"
+    summary: |
+        Braid is a programming language for *heterogeneous programming*, where a single source program targets different hardware units. We have applied it to real-time graphics programming on CPU--GPU systems. Braid compiles to WebGL, so you can [try it out in your browser](https://capra.cs.cornell.edu/braid/dingus/#example=phong).
+    link: https://capra.cs.cornell.edu/braid/

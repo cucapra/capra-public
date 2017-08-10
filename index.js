@@ -15,7 +15,7 @@ var serveMode = process.argv.indexOf('--serve') != -1;
 
 // Nunjucks options.
 nunjucks.configure().addFilter('markdown', function (str) {
-  return marked(str);
+  return marked(str, { smartypants: true });
 });
 
 var site = Metalsmith(__dirname)
@@ -61,6 +61,9 @@ var site = Metalsmith(__dirname)
         name: 'Research',
       },
     },
+  }))
+  .use(metadata({
+    research_ext: 'data/research.yaml',
   }))
   .use(inplace({
     engine: "nunjucks",
