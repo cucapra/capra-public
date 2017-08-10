@@ -21,6 +21,25 @@ var site = Metalsmith(__dirname)
     serve: serveMode,
   })
   .use(ignore(['**/.DS_Store']))
+  .use(markdown({
+    smartypants: true,
+  }))
+  .use(sass())
+  .use(filepath({
+    absolute: true
+  }))
+  .use((files, metalsmith, done) => {
+    // Remove unnecessary index.html from links.
+    for (var filepath in files) {
+      if (files.hasOwnProperty(filepath)) {
+        var link = files[filepath].link;
+        if (link && link.endsWith("index.html")) {
+          files[filepath].link = link.slice(0, 0 - "index.html".length);
+        }
+      }
+    }
+    done();
+  })
   .use((files, metalsmith, done) => {
     // Workaround:
     // https://github.com/segmentio/metalsmith-collections/pull/48#issuecomment-246612758
@@ -47,13 +66,6 @@ var site = Metalsmith(__dirname)
   .use(inplace({
     engine: "nunjucks",
     pattern: "*.{html,md}"
-  }))
-  .use(markdown({
-    smartypants: true,
-  }))
-  .use(sass())
-  .use(filepath({
-    absolute: true
   }))
   .use(layouts('nunjucks'));
 
