@@ -8,6 +8,8 @@ Advancements in deep learning have ignited an explosion of research on efficient
 
 TODO: Figures; main findings.
 
+<img src="bars_error_norm-special.svg">
+
 ## Publication
 
 Mark Buckler, Suren Jayasuriya, and Adrian Sampson.
