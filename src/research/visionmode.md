@@ -65,7 +65,9 @@ Thanks to the magic of [Vega-Lite][], you can see in-browser, interactive plots 
 
 ## Contact
 
-You can contact [Mark Buckler][mark], [Suren Jayasuriya][suren], and [Adrian Sampson][adrian] with questions.
+* [Mark Buckler][mark] &lt;<mab598@cornell.edu>&gt;
+* [Suren Jayasuriya][suren] &lt;<sjayasur@andrew.cmu.edu>&gt;
+* [Adrian Sampson][adrian] &lt;<asampson@cs.cornell.edu>&gt;
 
 [mark]: http://www.markbuckler.com
 [suren]: http://www.andrew.cmu.edu/user/sjayasur/website.html
