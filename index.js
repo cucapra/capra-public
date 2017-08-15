@@ -7,6 +7,7 @@ var collections = require('metalsmith-collections');
 var filepath    = require('metalsmith-filepath');
 var inplace     = require('metalsmith-in-place');
 var ignore      = require('metalsmith-ignore');
+var metadataIF  = require('metalsmith-metadata-in-filename');
 
 var marked   = require('marked');
 var nunjucks = require('nunjucks');
@@ -32,6 +33,7 @@ var site = Metalsmith(__dirname)
   .use(filepath({
     absolute: true
   }))
+  .use(metadataIF())
   .use((files, metalsmith, done) => {
     // Remove unnecessary index.html from links.
     for (var filepath in files) {
@@ -60,6 +62,12 @@ var site = Metalsmith(__dirname)
       pattern: 'research/{!index,*/index}.{md,html}',
       metadata: {
         name: 'Research',
+      },
+    },
+    news: {
+      pattern: 'news/*.{md,html}',
+      metadata: {
+        layout: 'news.html',
       },
     },
   }))
