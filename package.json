@@ -9,6 +9,7 @@
     "marked": "^0.3.6",
     "metalsmith": "^2.2.0",
     "metalsmith-collections": "^0.7.0",
+    "metalsmith-filemetadata": "^1.0.0",
     "metalsmith-filepath": "^1.0.1",
     "metalsmith-ignore": "^0.1.2",
     "metalsmith-layouts": "^1.6.5",

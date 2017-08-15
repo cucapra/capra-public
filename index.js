@@ -1,14 +1,15 @@
-var Metalsmith  = require('metalsmith');
-var markdown    = require('metalsmith-markdown');
-var layouts     = require('metalsmith-layouts');
-var sass        = require('metalsmith-sass');
-var metadata    = require('metalsmith-metadata');
-var collections = require('metalsmith-collections');
-var filepath    = require('metalsmith-filepath');
-var inplace     = require('metalsmith-in-place');
-var ignore      = require('metalsmith-ignore');
-var metadataIF  = require('metalsmith-metadata-in-filename');
-var rewrite     = require('metalsmith-rewrite');
+var Metalsmith   = require('metalsmith');
+var markdown     = require('metalsmith-markdown');
+var layouts      = require('metalsmith-layouts');
+var sass         = require('metalsmith-sass');
+var metadata     = require('metalsmith-metadata');
+var collections  = require('metalsmith-collections');
+var filepath     = require('metalsmith-filepath');
+var inplace      = require('metalsmith-in-place');
+var ignore       = require('metalsmith-ignore');
+var metadataIF   = require('metalsmith-metadata-in-filename');
+var rewrite      = require('metalsmith-rewrite');
+var filemetadata = require('metalsmith-filemetadata');
 
 var marked   = require('marked');
 var nunjucks = require('nunjucks');
@@ -76,6 +77,12 @@ var site = Metalsmith(__dirname)
     pattern: 'news/*.html',
     filename: 'news/{slug}.html',
   }))
+  .use(filemetadata([
+    {
+      pattern: 'news/*',
+      metadata: { layout: "news.html" },
+    }
+  ]))
   .use(metadata({
     research_ext: 'data/research.yaml',
   }))
