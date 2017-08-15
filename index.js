@@ -8,6 +8,7 @@ var filepath    = require('metalsmith-filepath');
 var inplace     = require('metalsmith-in-place');
 var ignore      = require('metalsmith-ignore');
 var metadataIF  = require('metalsmith-metadata-in-filename');
+var rewrite     = require('metalsmith-rewrite');
 
 var marked   = require('marked');
 var nunjucks = require('nunjucks');
@@ -70,6 +71,10 @@ var site = Metalsmith(__dirname)
         layout: 'news.html',
       },
     },
+  }))
+  .use(rewrite({
+    pattern: 'news/*.html',
+    filename: 'news/{slug}.html',
   }))
   .use(metadata({
     research_ext: 'data/research.yaml',
