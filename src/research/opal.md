@@ -16,7 +16,16 @@ Engineers [complain][highinterest] of a new category of pitfalls that arise from
 We are building programming language abstractions to help manage the complexity of integrating AI with real-world applications.
 Our interlocking set of abstractions, collectively called Opal, adds new features to mainstream programming languages.
 
-TK: link to tech report
+## Technical Report
+
+TK: Link to paper on arXiv (once it's available).
+
+    @misc{opal-arxiv,
+        author = {Alex Renda and Harrison Goldstein and Sarah Bird and
+                  Chris Quirk and Adrian Sampson},
+        title = {Abstractions for AI-Based User Interfaces and Systems},
+        year = {2017},
+    }
 
 ## Hypothetical Worlds
 
