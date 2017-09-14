@@ -13,6 +13,11 @@ Engineers [complain][highinterest] of a new category of pitfalls that arise from
 
 [highinterest]: https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf
 
+We are building programming language abstractions to help manage the complexity of integrating AI with real-world applications.
+Our interlocking set of abstractions, collectively called Opal, adds new features to mainstream programming languages.
+
+TK: link to tech report
+
 ## Hypothetical Worlds
 
 ## Abstractions for ML Toolkits
