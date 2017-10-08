@@ -111,3 +111,9 @@ View a [main set of plots](https://capra.cs.cornell.edu/vision-plots/), a grid o
 [mark]: http://www.markbuckler.com
 [suren]: http://www.andrew.cmu.edu/user/sjayasur/website.html
 [adrian]: http://www.cs.cornell.edu/~asampson/
+
+## Acknowledgments
+
+<img class="flair" src="/img/google.svg" style="width: 125px">
+
+This work was supported by a [2016 Google Research Award](https://research.googleblog.com/2017/02/google-research-awards-2016.html).

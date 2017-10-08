@@ -3,6 +3,7 @@ $disabled-color: #666;  // Grayed-out color.
 $exception-color: #ccc;  // Highlight color for "different" rows.
 $max-width: 40rem;  // Width of the content.
 $small-width: 450px;  // "Small devices" are smaller than this.
+$tiny-width: 400px;  // Really tiny devices are smaller than this.
 $main-font: "Source Sans Pro", Verdana, Tahoma, Geneva, sans-serif;
 $display-font: "Source Code Pro", "Anonymous Pro", Inconsolata, Consolas,
     Courier, monospace;
@@ -140,6 +141,19 @@ figure {
     float: none;
     margin: $figure-gap 0;
     width: 100%;
+  }
+}
+
+// Floating, inset images.
+.flair {
+  display: block;
+  margin: 0 0 $figure-gap $figure-gap;
+  float: right;
+
+  // On really tiny screens, just inline the image.
+  @media (max-width: $tiny-width) {
+    float: none;
+    margin: $figure-gap auto;
   }
 }
 
