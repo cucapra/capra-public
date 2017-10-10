@@ -19,13 +19,18 @@ Our interlocking set of abstractions, collectively called Opal, adds new feature
 
 ## Technical Report
 
-TK: Link to paper on arXiv (once it's available).
+<ul class="links">
+  <li>
+    <a href="https://arxiv.org/abs/1709.04991" class="pdf">draft on arXiv</a>
+  </li>
+</ul>
 
     @misc{opal-arxiv,
         author = {Alex Renda and Harrison Goldstein and Sarah Bird and
                   Chris Quirk and Adrian Sampson},
         title = {Abstractions for AI-Based User Interfaces and Systems},
         year = {2017},
+        url = {https://arxiv.org/abs/1709.04991},
     }
 
 ## Hypothetical Worlds
