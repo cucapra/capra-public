@@ -182,20 +182,27 @@ pre {
   }
 }
 
-// Links to paper stuff.
-.links {
-  list-style: none;
-  padding: 0;
-
-  a.pdf::before {
+// Adorning some links with icons.
+@mixin adorn($icon) {
+  &::before {
     content: "";
     display: inline-block;
 
-    background: bottom url("/img/octicons/file-text.svg") no-repeat;
+    background: bottom url("/img/octicons/" + $icon + ".svg") no-repeat;
     width: 18px;
     height: 18px;
 
     margin-right: 3px;
     margin-bottom: -3px;
+  }
+}
+
+// Links to paper stuff.
+.links {
+  list-style: none;
+  padding: 0;
+
+  a.pdf {
+    @include adorn("file-text");
   }
 }
