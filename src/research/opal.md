@@ -33,8 +33,36 @@ Our interlocking set of abstractions, collectively called Opal, adds new feature
         url = {https://arxiv.org/abs/1709.04991},
     }
 
-## Hypothetical Worlds
+## The Opal Language
 
-## Abstractions for ML Toolkits
+TK overview
 
-## Distributed Composition
+### Hypothetical Worlds
+
+TK
+
+### Abstractions for ML Toolkits
+
+TK
+
+### Distributed Composition
+
+TK
+
+## Code
+
+TK
+
+## Contact
+
+* [Alex Renda][alex], Cornell
+* [Harrison Goldstein][harry], Cornell
+* [Sarah Bird][sarah], Facebook
+* [Chris Quirk][chris], Microsoft
+* [Adrian Sampson][adrian], Cornell
+
+[adrian]: http://www.cs.cornell.edu/~asampson/
+[sarah]: https://research.fb.com/people/bird-sarah/
+[chris]: https://www.microsoft.com/en-us/research/people/chrisq/
+[harry]: http://harrisongoldste.in
+[alex]: https://alexrenda.com
