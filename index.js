@@ -10,6 +10,7 @@ var ignore       = require('metalsmith-ignore');
 var metadataIF   = require('metalsmith-metadata-in-filename');
 var rewrite      = require('metalsmith-rewrite');
 var filemetadata = require('metalsmith-filemetadata');
+var components   = require('metalsmith-components');
 
 var marked   = require('marked');
 var nunjucks = require('nunjucks');
@@ -96,6 +97,14 @@ var site = Metalsmith(__dirname)
   .use(inplace({
     engine: "nunjucks",
     pattern: "*.{html,md}"
+  }))
+  .use(components({
+    "componentsDirectory": "node_modules",
+    "components": {
+      "octicons": {
+        "build/svg/mark-github.svg": "img/octicons/",
+      },
+    },
   }))
   .use(layouts('nunjucks'));
 
