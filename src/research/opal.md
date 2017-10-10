@@ -51,9 +51,16 @@ TK
 
 ## Code
 
+Some in-progress implementation components are available as open source on GitHub.
+
 <ul class="links">
   <li>
-    <a href="https://github.com/cucapra/opal" class="github">opal</a>
+    <a href="https://github.com/cucapra/opal" class="github">opal</a>:
+    Experimental runtime and language constructs embedded in <a href="https://www.typescriptlang.org">TypeScript</a>.
+  </li>
+  <li>
+    <a href="https://github.com/cucapra/opal-bot" class="github">opal-bot</a>:
+    A chatbot for scheduling meetings.
   </li>
 </ul>
 
