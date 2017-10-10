@@ -51,7 +51,11 @@ TK
 
 ## Code
 
-TK
+<ul class="links">
+  <li>
+    <a href="https://github.com/cucapra/opal" class="github">opal</a>
+  </li>
+</ul>
 
 ## Contact
 
