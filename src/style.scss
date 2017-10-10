@@ -205,4 +205,8 @@ pre {
   a.pdf {
     @include adorn("file-text");
   }
+
+  a.github {
+    @include adorn("mark-github");
+  }
 }
