@@ -14,12 +14,14 @@ Our research studies abstractions and efficiency through the interaction of prog
 
 ## Research
 
-{% for proj in projects %}
+{% for proj in projects -%}
+{%- if not proj.draft -%}
 <div class="project">
   <h3><a href="{{ proj.link }}">{{ proj.longtitle or proj.title }}</a></h3>
   {{ proj.summary | markdown | safe }}
 </div>
-{% endfor %}
+{%- endif -%}
+{%- endfor %}
 
 ## People
 
