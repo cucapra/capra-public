@@ -61,15 +61,26 @@ a {
   color: $main-color;
 }
 
-// Headings are all the same size. Non-top headings leave a gap.
+// Headings.
 h1, h2, h3, h4, h5, h6 {
-  line-height: $line-height;
-  margin-top: 0;
   font-family: $display-font;
+  line-height: $line-height;
+}
+// Top two levels of headings are the same size.
+h1, h2 {
   font-size: $display-font-size;
+}
+// Non-top headings leave a gap.
+h1 {
+  margin-top: 0;
 }
 h2, h3, h4, h5, h6 {
   margin-top: 1.5em;
+}
+// Other headings are smaller.
+h3, h4, h5, h6 {
+  font-size: 100%;
+  margin: 0;
 }
 
 
@@ -167,8 +178,6 @@ pre {
 // Research project listings.
 .project {
   h3 {
-    margin: 0;
-    font-size: 100%;
     a {
       text-decoration: none;
       &:hover {
