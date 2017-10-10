@@ -102,7 +102,7 @@ var site = Metalsmith(__dirname)
     "componentsDirectory": "node_modules",
     "components": {
       "octicons": {
-        "build/svg/mark-github.svg": "img/octicons/",
+        "build/svg/{mark-github,file-text}.svg": "img/octicons/",
       },
     },
   }))
