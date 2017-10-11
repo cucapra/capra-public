@@ -92,6 +92,8 @@ var site = Metalsmith(__dirname)
     metalsmith._metadata.projects =
       metalsmith._metadata.research.concat(
           metalsmith._metadata.research_ext);
+    // Sort by a numeric field.
+    metalsmith._metadata.projects.sort((a, b) => a.order - b.order);
     done();
   })
   .use(inplace({
