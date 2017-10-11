@@ -4,7 +4,7 @@ title: "Abstractions for Intelligent Systems"
 longtitle: "Abstractions for Natural Language & Intelligent Systems"
 draft: true
 summary: |
-    TK
+    Despite rapid progress in machine learning capabilities, integrating ML into full applications remains complex and error prone.
 ---
 # Programming Abstractions for Natural Language &amp; Intelligent Systems
 
