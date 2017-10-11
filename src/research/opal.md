@@ -39,15 +39,17 @@ TK overview
 
 ### Hypothetical Worlds
 
-TK
+Unlike GUIs or command-line interactions, AI-based user interfaces are intrinsically ambiguous. Natural language can have multiple interpretations even when NLU is perfect, and predictive applications need to take action without any explicit guidance from the user. In all cases, the right interpretation depends on the *hypothetical* outcome of taking a given action.
+
+TK statistical effects
 
 ### Abstractions for ML Toolkits
 
-TK
+TK features
 
 ### Distributed Composition
 
-TK
+TK with/at example
 
 ## Code
 
