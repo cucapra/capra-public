@@ -85,6 +85,8 @@ var site = Metalsmith(__dirname)
       },
     },
   }))
+
+  // News section.
   .use(rewrite({
     pattern: 'news/*.html',
     filename: 'news/{slug}.html',
@@ -95,12 +97,21 @@ var site = Metalsmith(__dirname)
       metadata: { layout: "news.html" },
     }
   ]))
+  .use((files, metalsmith, done) => {
+    for (let item of metalsmith._metadata.news) {
+      // News items just get the date as their title.
+      item.title = moment(item.date).format('MMM DD, YYYY');
+    }
+    done();
+  })
   .use(jsonfeed({
     collection: 'news',
   }))
   .use(feed({
     collection: 'news',
   }))
+
+  // Research project listings.
   .use(metadata({
     research_ext: 'data/research.yaml',
   }))
@@ -113,6 +124,7 @@ var site = Metalsmith(__dirname)
     metalsmith._metadata.projects.sort((a, b) => a.order - b.order);
     done();
   })
+
   .use(inplace({
     engine: "nunjucks",
     pattern: "*.{html,md}"
