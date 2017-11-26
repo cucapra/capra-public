@@ -219,6 +219,10 @@ pre {
         width: 16px;
         height: 16px;
         margin-top: 2px;
+
+        // Move the icon down a bit to align with the baseline.
+        position: relative;
+        top: 2px;
       }
     }
   }
