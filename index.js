@@ -12,6 +12,7 @@ var rewrite      = require('metalsmith-rewrite');
 var filemetadata = require('metalsmith-filemetadata');
 var components   = require('metalsmith-components');
 var jsonfeed     = require('metalsmith-json-feed');
+var feed         = require('metalsmith-feed');
 
 var marked   = require('marked');
 var nunjucks = require('nunjucks');
@@ -33,6 +34,7 @@ var site = Metalsmith(__dirname)
     serve: serveMode,
     site: {
       title: 'Cornell Capra',
+      url: 'https://capra.cs.cornell.edu',
     },
   })
   .use(ignore(['**/.DS_Store']))
@@ -94,6 +96,9 @@ var site = Metalsmith(__dirname)
     }
   ]))
   .use(jsonfeed({
+    collection: 'news',
+  }))
+  .use(feed({
     collection: 'news',
   }))
   .use(metadata({
