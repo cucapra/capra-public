@@ -14,12 +14,15 @@ var components   = require('metalsmith-components');
 
 var marked   = require('marked');
 var nunjucks = require('nunjucks');
+var moment = require('moment');
 
 var serveMode = process.argv.indexOf('--serve') != -1;
 
 // Nunjucks options.
 nunjucks.configure().addFilter('markdown', function (str) {
   return marked(str, { smartypants: true });
+}).addFilter('date', function (d, f) {
+  return moment(d).format(f);
 });
 
 var site = Metalsmith(__dirname)

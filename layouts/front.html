@@ -2,10 +2,13 @@
 {% block sidebar %}
 <div class="ephemera">
   <div class="news">
-    <h2>Updates</h2>
+    <h2>News</h2>
     {% for item in news -%}
     <article>
-      {{ item.title }}
+      <time datetime="{{ item.date | date("YYYY-MM-DD") }}">
+        {{ item.date | date("MMM DD, YYYY") }}
+      </time>
+      {{ item.contents | safe | trim }}
     </article>
     {% endfor %}
   </div>
