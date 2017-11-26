@@ -101,6 +101,9 @@ var site = Metalsmith(__dirname)
     for (let item of metalsmith._metadata.news) {
       // News items just get the date as their title.
       item.title = moment(item.date).format('MMM DD, YYYY');
+
+      // For some reason, the JSON feed plugin wants a `path` metadata field.
+      item.path = item.link.slice(1);
     }
     done();
   })
