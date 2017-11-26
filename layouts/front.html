@@ -2,7 +2,12 @@
 {% block sidebar %}
 <div class="ephemera">
   <div class="news">
-    <h2>News</h2>
+    <h2>
+      News
+      <a href="/feed.json" class="feed">
+        <img src="/img/octicons/rss.svg">
+      </a>
+    </h2>
     {% for item in news -%}
     <article>
       <time datetime="{{ item.date | date("YYYY-MM-DD") }}">

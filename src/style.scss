@@ -213,6 +213,14 @@ pre {
 .news {
   h2 {
     margin: 0.5rem 0;
+
+    a.feed {
+      img {
+        width: 16px;
+        height: 16px;
+        margin-top: 2px;
+      }
+    }
   }
 
   article {
