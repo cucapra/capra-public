@@ -13,6 +13,7 @@
     "metalsmith-filemetadata": "^1.0.0",
     "metalsmith-filepath": "^1.0.1",
     "metalsmith-ignore": "^0.1.2",
+    "metalsmith-json-feed": "^1.0.1",
     "metalsmith-layouts": "^1.6.5",
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-metadata": "0.0.4",

@@ -11,6 +11,7 @@ var metadataIF   = require('metalsmith-metadata-in-filename');
 var rewrite      = require('metalsmith-rewrite');
 var filemetadata = require('metalsmith-filemetadata');
 var components   = require('metalsmith-components');
+var jsonfeed     = require('metalsmith-json-feed');
 
 var marked   = require('marked');
 var nunjucks = require('nunjucks');
@@ -30,6 +31,9 @@ var site = Metalsmith(__dirname)
   .destination('./build')
   .metadata({
     serve: serveMode,
+    site: {
+      title: 'Cornell Capra',
+    },
   })
   .use(ignore(['**/.DS_Store']))
   .use(markdown({
@@ -89,6 +93,9 @@ var site = Metalsmith(__dirname)
       metadata: { layout: "news.html" },
     }
   ]))
+  .use(jsonfeed({
+    collection: 'news',
+  }))
   .use(metadata({
     research_ext: 'data/research.yaml',
   }))
