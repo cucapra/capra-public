@@ -1,0 +1,1 @@
+Our paper about [Braid](https://capra.cs.cornell.edu/braid/) appeared at [OOPSLA 2017](https://2017.splashcon.org/track/splash-2017-OOPSLA). There's a [video of the talk](https://youtu.be/N19foutm7vg) on YouTube.
