@@ -72,6 +72,8 @@ var site = Metalsmith(__dirname)
     },
     news: {
       pattern: 'news/*.{md,html}',
+      sortBy: 'date',
+      reverse: true,
       metadata: {
         layout: 'news.html',
       },
