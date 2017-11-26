@@ -4,11 +4,9 @@ var layouts      = require('metalsmith-layouts');
 var sass         = require('metalsmith-sass');
 var metadata     = require('metalsmith-metadata');
 var collections  = require('metalsmith-collections');
-var filepath     = require('metalsmith-filepath');
 var inplace      = require('metalsmith-in-place');
 var ignore       = require('metalsmith-ignore');
 var metadataIF   = require('metalsmith-metadata-in-filename');
-var rewrite      = require('metalsmith-rewrite');
 var filemetadata = require('metalsmith-filemetadata');
 var components   = require('metalsmith-components');
 var jsonfeed     = require('metalsmith-json-feed');
@@ -42,22 +40,7 @@ var site = Metalsmith(__dirname)
     smartypants: true,
   }))
   .use(sass())
-  .use(filepath({
-    absolute: true
-  }))
   .use(metadataIF())
-  .use((files, metalsmith, done) => {
-    // Remove unnecessary index.html from links.
-    for (var filepath in files) {
-      if (files.hasOwnProperty(filepath)) {
-        var link = files[filepath].link;
-        if (link && link.endsWith("index.html")) {
-          files[filepath].link = link.slice(0, 0 - "index.html".length);
-        }
-      }
-    }
-    done();
-  })
   .use((files, metalsmith, done) => {
     // Workaround:
     // https://github.com/segmentio/metalsmith-collections/pull/48#issuecomment-246612758
@@ -87,10 +70,6 @@ var site = Metalsmith(__dirname)
   }))
 
   // News section.
-  .use(rewrite({
-    pattern: 'news/*.html',
-    filename: 'news/{slug}.html',
-  }))
   .use(filemetadata([
     {
       pattern: 'news/*',
@@ -103,18 +82,9 @@ var site = Metalsmith(__dirname)
       if (!item.kind || item.kind === 'news') {
         item.title = moment(item.date).format('MMM DD, YYYY');
       }
-
-      // For some reason, the JSON feed plugin wants a `path` metadata field.
-      item.path = item.link.slice(1);
     }
     done();
   })
-  .use(jsonfeed({
-    collection: 'news',
-  }))
-  .use(feed({
-    collection: 'news',
-  }))
 
   // Research project listings.
   .use(metadata({
@@ -129,6 +99,31 @@ var site = Metalsmith(__dirname)
     metalsmith._metadata.projects.sort((a, b) => a.order - b.order);
     done();
   })
+
+  // Add links to each item in `path` and `link`.
+  .use((files, metalsmith, done) => {
+    for (let filepath in files) {
+      if (files.hasOwnProperty(filepath)) {
+        let obj = files[filepath];
+        if (filepath.endsWith("/index.html")) {
+          filepath = filepath.slice(0, 0 - "index.html".length);
+        }
+        obj.path = filepath;
+        if (!obj.link) {
+          obj.link = metalsmith._metadata.site.url + filepath;
+        }
+      }
+    }
+    done();
+  })
+
+  // News feeds.
+  .use(jsonfeed({
+    collection: 'news',
+  }))
+  .use(feed({
+    collection: 'news',
+  }))
 
   .use(inplace({
     engine: "nunjucks",
