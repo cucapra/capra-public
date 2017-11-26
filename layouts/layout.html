@@ -49,8 +49,13 @@
       {%- endif %}
     </nav>
   </header>
-  <main>
-  {{ contents | safe }}
-  </main>
+  <div id="content">
+    <main>
+    {% block main %}
+    {{ contents | safe }}
+    {% endblock %}
+    </main>
+    {% block sidebar %}{% endblock %}
+  </div>
 </body>
 </html>

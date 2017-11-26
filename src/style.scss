@@ -2,6 +2,7 @@ $main-color: rgb(179, 27, 27);  // Theme color.
 $disabled-color: #666;  // Grayed-out color.
 $exception-color: #ccc;  // Highlight color for "different" rows.
 $max-width: 40rem;  // Width of the content.
+$sidebar-width: 10rem;
 $small-width: 450px;  // "Small devices" are smaller than this.
 $tiny-width: 400px;  // Really tiny devices are smaller than this.
 $main-font: "Source Sans Pro", Verdana, Tahoma, Geneva, sans-serif;
@@ -44,10 +45,27 @@ header {
   }
 }
 
-main {
+#content {
+  // In rows on large screens.
+  @media (min-width: $small-width) {
+    display: flex;
+    flex-direction: row;
+  }
+
   margin: 0 1rem;
   padding: 0 0.5rem;
-  max-width: $max-width;
+
+  main {
+    max-width: $max-width;
+  }
+
+  .ephemera {
+    @media (min-width: $small-width) {
+      margin-left: 1rem;
+      margin-top: 4rem;
+      max-width: $sidebar-width;
+    }
+  }
 }
 
 

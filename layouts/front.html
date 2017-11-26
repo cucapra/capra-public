@@ -1,0 +1,13 @@
+{% extends "layouts/layout.html" %}
+{% block sidebar %}
+<div class="ephemera">
+  <div class="news">
+    <h2>Updates</h2>
+    {% for item in news -%}
+    <article>
+      {{ item.title }}
+    </article>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

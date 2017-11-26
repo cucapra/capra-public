@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: layout.html
+layout: front.html
 order: 0
 ---
 # Computer Architecture and Programming Abstractions
