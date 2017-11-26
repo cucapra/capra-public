@@ -230,7 +230,7 @@ pre {
   article {
     margin: 0.5rem 0;
 
-    time {
+    time, .author {
       font-family: $display-font;
       font-size: 80%;
       color: $disabled-color;
@@ -238,6 +238,14 @@ pre {
 
     p {
       margin: 0;
+    }
+
+    // Links to blog posts.
+    p.post {
+      font-size: 120%;
+      a {
+        text-decoration: none;
+      }
     }
   }
 }

@@ -13,7 +13,16 @@
       <time datetime="{{ item.date | date("YYYY-MM-DD") }}">
         {{ item.date | date("MMM DD, YYYY") }}
       </time>
+      {% if item.kind == 'post' %}
+      <span class="author">by {{ item.author }}</span>
+      <p class="post">
+        <a href="{{ item.url }}">
+          {{ item.title }}
+        </a>
+      </p>
+      {% else %}
       {{ item.contents | safe | trim }}
+      {% endif %}
     </article>
     {% endfor %}
   </div>
