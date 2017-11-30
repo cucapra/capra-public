@@ -13,7 +13,7 @@
     "metalsmith-feed": "^0.5.0",
     "metalsmith-filemetadata": "^1.0.0",
     "metalsmith-ignore": "^0.1.2",
-    "metalsmith-json-feed": "sampsyo/metalsmith-json-feed",
+    "metalsmith-json-feed": "^1.1.0",
     "metalsmith-layouts": "^1.6.5",
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-metadata": "0.0.4",
