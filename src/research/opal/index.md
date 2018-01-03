@@ -99,6 +99,10 @@ Some in-progress implementation components are available as open source on GitHu
     <a href="https://github.com/cucapra/opal-bot" class="github">opal-bot</a>:
     A chatbot for scheduling meetings.
   </li>
+  <li>
+    <a href="https://github.com/hgoldstein95/opal-nlu-hs-tool" class="github">opal-nlu-hs-tool</a>:
+    A type DSL for configuring a language model in <a href="https://wit.ai">Wit.ai</a>.
+  </li>
 </ul>
 
 ## Contact
