@@ -33,6 +33,25 @@ Our interlocking set of abstractions, collectively called Opal, adds new feature
         url = {https://arxiv.org/abs/1709.04991},
     }
 
+## Code
+
+Some in-progress implementation components are available as open source on GitHub.
+
+<ul class="links">
+  <li>
+    <a href="https://github.com/cucapra/opal" class="github">opal</a>:
+    Experimental runtime and language constructs embedded in <a href="https://www.typescriptlang.org">TypeScript</a>.
+  </li>
+  <li>
+    <a href="https://github.com/cucapra/opal-bot" class="github">opal-bot</a>:
+    A chatbot for scheduling meetings.
+  </li>
+  <li>
+    <a href="https://github.com/hgoldstein95/opal-nlu-hs-tool" class="github">opal-nlu-hs-tool</a>:
+    A type DSL for configuring a language model in <a href="https://wit.ai">Wit.ai</a>.
+  </li>
+</ul>
+
 ## The Opal Language
 
 Opal is an in-progress programming language that unifies a suite of new language features. The core constructs are hypothetical worlds, feature types, and distributed disclosure.
@@ -85,25 +104,6 @@ Together, the abstractions enable both centralized and decentralized communicati
     }
 
 When the resulting data flows out of the `with` block, it is *disclosed*. Opal offers hooks to let applications control how to ask the user for permission to disclose data.
-
-## Code
-
-Some in-progress implementation components are available as open source on GitHub.
-
-<ul class="links">
-  <li>
-    <a href="https://github.com/cucapra/opal" class="github">opal</a>:
-    Experimental runtime and language constructs embedded in <a href="https://www.typescriptlang.org">TypeScript</a>.
-  </li>
-  <li>
-    <a href="https://github.com/cucapra/opal-bot" class="github">opal-bot</a>:
-    A chatbot for scheduling meetings.
-  </li>
-  <li>
-    <a href="https://github.com/hgoldstein95/opal-nlu-hs-tool" class="github">opal-nlu-hs-tool</a>:
-    A type DSL for configuring a language model in <a href="https://wit.ai">Wit.ai</a>.
-  </li>
-</ul>
 
 ## Contact
 
