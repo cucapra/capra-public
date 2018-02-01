@@ -50,6 +50,10 @@ Some in-progress implementation components are available as open source on GitHu
     <a href="https://github.com/hgoldstein95/opal-nlu-hs-tool" class="github">opal-nlu-hs-tool</a>:
     A type DSL for configuring a language model in <a href="https://wit.ai">Wit.ai</a>.
   </li>
+  <li>
+    <a href="https://github.com/alexrenda/opal-semantics" class="github">opal-semantics</a>:
+    A technical report describing a model of the Opal semantics, along with an implementation in Coq.
+  </li>
 </ul>
 
 ## The Opal Language
