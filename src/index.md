@@ -5,6 +5,7 @@ order: 0
 roles:
     faculty: Faculty
     phd: PhD Students
+    undergrad: Undergraduates
 ---
 # Computer Architecture and Programming Abstractions
 
