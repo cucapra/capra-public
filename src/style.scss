@@ -289,3 +289,22 @@ pre {
     @include adorn("mark-github");
   }
 }
+
+// Columns for lists of people.
+$colsep: 0.8rem;
+.people {
+  display: flex;
+  margin-left: -$colsep;
+  margin-right: -$colsep;
+  .category {
+    padding: 0 $colsep;
+    h3 {
+      margin: 0;
+    }
+    ul {
+      margin: 0;
+      list-style: none;
+      padding-left: 0;
+    }
+  }
+}
