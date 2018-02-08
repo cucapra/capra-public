@@ -62,11 +62,17 @@ header {
   .ephemera {
     @media (min-width: $small-width) {
       margin-left: 2rem;
-      margin-top: 4rem;
       max-width: $sidebar-width;
 
       h2 {
-        margin: 0.5rem 0;
+        margin: 0 0 0.5rem 0;
+      }
+    }
+
+    section {
+      margin: 0 0 1.5rem 0;
+      ul {
+        margin: 0;
       }
     }
   }

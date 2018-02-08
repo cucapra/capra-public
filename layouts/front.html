@@ -1,7 +1,7 @@
 {% extends "layouts/layout.html" %}
 {% block sidebar %}
 <div class="ephemera">
-  <div class="news">
+  <section class="news">
     <h2>
       News
       <a href="/feed.json" class="feed">
@@ -25,6 +25,13 @@
       {% endif %}
     </article>
     {% endfor %}
-  </div>
+  </section>
+
+  <section class="links">
+    <h2>Links</h2>
+    <ul>
+        <li><a href="/private">internal</a></li>
+    </ul>
+  </section>
 </div>
 {% endblock %}
