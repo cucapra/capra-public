@@ -2,6 +2,9 @@
 title: Home
 layout: front.html
 order: 0
+roles:
+    faculty: Faculty
+    phd: PhD Students
 ---
 # Computer Architecture and Programming Abstractions
 
@@ -27,12 +30,21 @@ Our research studies abstractions and efficiency through the interaction of prog
 
 ## People
 
-<ul class="people">
-  {% for name, person in people -%}
-  <li>
-    {% if person.link %}<a href="{{ person.link }}">{% endif -%}
-    {{ name }}
-    {%- if person.link %}</a>{% endif %}
-  </li>
-  {% endfor -%}
-</ul>
+<div class="people">
+  {% for role, rolename in roles %}
+  <div class="category">
+    <h3>{{ rolename }}</h3>
+    <ul>
+      {%- for name, person in people | dictsort %}
+      {%- if person.role == role -%}
+      <li>
+        {% if person.link %}<a href="{{ person.link }}">{% endif -%}
+        {{ name }}
+        {%- if person.link %}</a>{% endif %}
+      </li>
+      {%- endif -%}
+      {% endfor -%}
+    </ul>
+  </div>
+  {% endfor %}
+</div>
