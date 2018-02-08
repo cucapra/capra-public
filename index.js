@@ -125,6 +125,11 @@ var site = Metalsmith(__dirname)
     collection: 'news',
   }))
 
+  // People.
+  .use(metadata({
+    people: 'data/people.yaml',
+  }))
+
   .use(inplace({
     engine: "nunjucks",
     pattern: "*.{html,md}"

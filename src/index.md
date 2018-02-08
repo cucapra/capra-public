@@ -27,8 +27,12 @@ Our research studies abstractions and efficiency through the interaction of prog
 
 ## People
 
-* [Adrian Sampson][adrian]
-* [Mark Buckler][mark]
-
-[mark]: http://www.markbuckler.com
-[adrian]: http://www.cs.cornell.edu/~asampson
+<ul class="people">
+  {% for name, person in people -%}
+  <li>
+    {% if person.link %}<a href="{{ person.link }}">{% endif -%}
+    {{ name }}
+    {%- if person.link %}</a>{% endif %}
+  </li>
+  {% endfor -%}
+</ul>
