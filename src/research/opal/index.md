@@ -31,14 +31,6 @@ Our interlocking set of abstractions, collectively called Opal, adds new feature
 
 <a href="https://arxiv.org/abs/1709.04991" class="pdf">arXiv draft</a> of a longer paper on these and other features
 
-    @misc{opal-arxiv,
-        author = {Alex Renda and Harrison Goldstein and Sarah Bird and
-                  Chris Quirk and Adrian Sampson},
-        title = {Abstractions for AI-Based User Interfaces and Systems},
-        year = {2017},
-        url = {https://arxiv.org/abs/1709.04991},
-    }
-
 [sysml]: http://www.sysml.cc/#posters
 
 ## Code
