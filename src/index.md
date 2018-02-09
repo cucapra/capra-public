@@ -5,7 +5,8 @@ order: 0
 roles:
     faculty: Faculty
     phd: PhD Students
-    undergrad: Undergraduates
+    undergrad: Undergrad & MEng Students
+    collaborator: Collaborators
 ---
 # Computer Architecture and Programming Abstractions
 
