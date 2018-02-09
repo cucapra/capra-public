@@ -17,13 +17,19 @@ Engineers [complain][highinterest] of a new category of pitfalls that arise from
 We are building programming language abstractions to help manage the complexity of integrating AI with real-world applications.
 Our interlocking set of abstractions, collectively called Opal, adds new features to mainstream programming languages.
 
-## Technical Report
+## Papers
 
-<ul class="links">
-  <li>
-    <a href="https://arxiv.org/abs/1709.04991" class="pdf">draft on arXiv</a>
-  </li>
-</ul>
+<a href="http://www.sysml.cc/doc/56.pdf" class="pdf">a short paper</a> on support for natural language understanding in [SysML 2018][sysml]
+
+    @inproceedings{opal-sysml,
+        author = {Alex Renda and Harrison Goldstein and Sarah Bird and
+                  Chris Quirk and Adrian Sampson},
+        title = {Programming Language Support for Natural Language Interaction},
+        booktitle = {SysML},
+        year = {2018},
+    }
+
+<a href="https://arxiv.org/abs/1709.04991" class="pdf">arXiv draft</a> of a longer paper on these and other features
 
     @misc{opal-arxiv,
         author = {Alex Renda and Harrison Goldstein and Sarah Bird and
@@ -32,6 +38,8 @@ Our interlocking set of abstractions, collectively called Opal, adds new feature
         year = {2017},
         url = {https://arxiv.org/abs/1709.04991},
     }
+
+[sysml]: http://www.sysml.cc/#posters
 
 ## Code
 

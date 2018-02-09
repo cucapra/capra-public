@@ -280,14 +280,12 @@ pre {
 .links {
   list-style: none;
   padding: 0;
-
-  a.pdf {
-    @include adorn("file-text");
-  }
-
-  a.github {
-    @include adorn("mark-github");
-  }
+}
+a.pdf {
+  @include adorn("file-text");
+}
+a.github {
+  @include adorn("mark-github");
 }
 
 // Columns for lists of people.
