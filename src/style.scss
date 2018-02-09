@@ -295,11 +295,12 @@ $colsep: 0.8rem;
 .people {
   display: flex;
   flex-wrap: wrap;
+
   margin-left: -$colsep;
   margin-right: -$colsep;
 
   .category {
-    width: 9rem;
+    width: 8rem;
     padding: 0 $colsep;
     margin-bottom: 1rem;
 
