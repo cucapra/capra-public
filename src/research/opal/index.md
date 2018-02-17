@@ -33,34 +33,19 @@ Our interlocking set of abstractions, collectively called Opal, adds new feature
 
 [sysml]: http://www.sysml.cc/#posters
 
-## Code
-
-Some in-progress implementation components are available as open source on GitHub.
+## Typed Natural Language Understanding
 
 <ul class="links">
-  <li>
-    <a href="https://github.com/cucapra/opal" class="github">opal</a>:
-    Experimental runtime and language constructs embedded in <a href="https://www.typescriptlang.org">TypeScript</a>.
-  </li>
-  <li>
-    <a href="https://github.com/cucapra/opal-bot" class="github">opal-bot</a>:
-    A chatbot for scheduling meetings.
-  </li>
   <li>
     <a href="https://github.com/hgoldstein95/opal-nlu-hs-tool" class="github">opal-nlu-hs-tool</a>:
     A type DSL for configuring a language model in <a href="https://wit.ai">Wit.ai</a>.
   </li>
   <li>
-    <a href="https://github.com/cucapra/opal-semantics" class="github">opal-semantics</a>:
-    A technical report describing a model of the Opal semantics, along with an implementation in Coq.
+    <a href="opal-nlu-types.pdf" class="pdf"><i>Typed Interactions for NLU in Opal:</i></a> A report describing the type DSL's semantics and implementation.
   </li>
 </ul>
 
-## The Opal Language
-
-Opal is an in-progress programming language that unifies a suite of new language features. The core constructs are hypothetical worlds, feature types, and distributed disclosure.
-
-### Hypothetical Worlds
+## Hypothetical Worlds
 
 Unlike GUIs or command-line interactions, AI-based user interfaces are intrinsically ambiguous. Natural language can have multiple interpretations even when NLU is perfect, and predictive applications need to take action without any explicit guidance from the user. In all cases, the right interpretation depends on the hypothetical outcome of taking a given action.
 
@@ -81,33 +66,20 @@ For example, a calendar application might support an ambiguous command to schedu
 
 This example only commits an event addition when adding it would satisfy the user's constraints on the final schedule.
 
-### Abstractions for ML Toolkits
-
-Feature engineering is an often-overlooked but critical ingredient for real-world applications of machine learning, and *ad hoc* interfaces to ML algorithms can complicate this work. Opal's type system for features rules out common pitfalls when managing the translations between internal, domain-specific data structures and features for learning.
-
-The core type is a *feature vector*, which represents a flexible container for feature values. Each feature is either *numeric*, *bounded* (drawn from a fixed dictionary), or *unbounded*. Type-safe tagging for specific features eliminates the need for careful management of strings.
-
-### Distributed Composition
-
-Intelligent user interfaces often involve collaboration between multiple users. Opal offers a set of abstractions for managing the interactions between distributed users while preserving privacy. The two main language features are a *placement* construct, `at`, and an *access* construct, `with`. Programmers use `at` to delegate execution to another machine and `with` to request permission for private data.
-
-Together, the abstractions enable both centralized and decentralized communication between users. In this example, Alice uses a central server node to schedule a meeting using private data from both Alice and Bob:
-
-    world = hyp {
-      at DataCenter {
-        with Bob {
-          time = find_available_time(Alice.calendar, Bob.calendar);
-          Alice.calendar.add(event, time);
-          Bob.calendar.add(event, time);
-          fitness = Alice.fitness() + Bob.fitness();
-        }
-      }
-    };
-    if (world.fitness > threshold) {
-      world.commit();
-    }
-
-When the resulting data flows out of the `with` block, it is *disclosed*. Opal offers hooks to let applications control how to ask the user for permission to disclose data.
+<ul class="links">
+  <li>
+    <a href="https://github.com/cucapra/opal" class="github">opal</a>:
+    Experimental runtime and language constructs embedded in <a href="https://www.typescriptlang.org">TypeScript</a>.
+  </li>
+  <li>
+    <a href="https://github.com/cucapra/opal-bot" class="github">opal-bot</a>:
+    A chatbot for scheduling meetings.
+  </li>
+  <li>
+    <a href="https://github.com/cucapra/opal-semantics" class="github">opal-semantics</a>:
+    A technical report describing a model of the Opal semantics, along with an implementation in Coq.
+  </li>
+</ul>
 
 ## Contact
 
