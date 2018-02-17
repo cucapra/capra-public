@@ -35,6 +35,38 @@ Our interlocking set of abstractions, collectively called Opal, adds new feature
 
 ## Typed Natural Language Understanding
 
+A new category of cloud services for NLU have emerged, including [Wit.ai][], [LUIS][], [Dialogflow][], and [Lex][].
+These tools make it easy to get *started* developing conversational user interfaces, but they introduce their own sources of engineering challenges.
+
+The core problem is that these services require *out-of-band* configuration in a web GUI.
+Developers need to specify a language model by configuring *intents* and *entities* to extract from user utterances.
+Then, developers have to duplicate this same structure in client code: they must write nested conditions to handle different combination of entities found in each utterance.
+Worse, the GUI configuration and the client code can easily get out of sync, leading to subtle correctness bugs or production failures.
+
+We observe that *algebraic types* can capture the natural structure of NLU language models.
+Instead of asking programmers to develop configurations and code separately, we propose a domain-specific type language that puts the code in charge of the end-to-end language system.
+A program in our type DSL looks like this:
+
+    free-text Person;
+    free-text Time;
+    keywords Day = "Sunday" | "Monday" | ... | "Saturday";
+    alias Date = { day: Day, time?: Time };
+    trait Intent =
+      | <Schedule> { who: Person, when: Date }
+      | <Move> { from: Date, to: Date }
+      | <List> {};
+
+Each declaration in our DSL simultaneously declares a data type for client code and an element in the NLU service configuration.
+Together, the composite system guarantees type safety: that handler code agrees with the structure of NLU responses for the application's language model.
+
+Our prototype implementation configures [Wit.ai][] models and generates [TypeScript][] interface declarations.
+
+[TypeScript]: https://www.typescriptlang.org
+[Lex]: https://aws.amazon.com/lex/
+[Dialogflow]: https://dialogflow.com
+[LUIS]: https://www.luis.ai
+[Wit.ai]: https://wit.ai
+
 <ul class="links">
   <li>
     <a href="https://github.com/hgoldstein95/opal-nlu-hs-tool" class="github">opal-nlu-hs-tool</a>:
