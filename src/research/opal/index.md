@@ -29,7 +29,14 @@ Our interlocking set of abstractions, collectively called Opal, adds new feature
         year = {2018},
     }
 
-<a href="https://arxiv.org/abs/1709.04991" class="pdf">arXiv draft</a> of a longer paper on these and other features
+<ul class="links">
+  <li>
+    <a href="opal-sysml-poster.pdf" class="pdf">accompanying poster</a> for the SysML paper
+  </li>
+  <li>
+    <a href="https://arxiv.org/abs/1709.04991" class="pdf">arXiv draft</a> of a longer paper on these and other features
+  </li>
+</ul>
 
 [sysml]: http://www.sysml.cc/#posters
 
