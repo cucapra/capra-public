@@ -191,8 +191,7 @@ img.large {
 
   // By default, we exceed the column width. As the screen gets smaller, fill
   // *only* the column width.
-  @media (max-width: $max-width + $figure-width + $figure-gap + 2rem) and
-         (min-width: $small-width + 1) {
+  @media (max-width: $max-width + $figure-width + $figure-gap + 2rem) {
     width: 100%;
   }
 }
