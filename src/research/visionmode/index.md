@@ -41,12 +41,11 @@ Initial figures suggest that a vision mode may save roughly three quarters of th
 ## Publication
 
 Mark Buckler, Suren Jayasuriya, and Adrian Sampson.
-Reconfiguring the Imaging Pipeline for Computer Vision.
-To appear
-in the IEEE International Conference on Computer Vision (ICCV), 2017.
+"Reconfiguring the Imaging Pipeline for Computer Vision."
+In the IEEE International Conference on Computer Vision (ICCV), 2017.
 
 <ul class="links">
-  <li><a href="/pubs/visionmode-iccv2017.pdf" class="pdf">paper preprint</a></li>
+  <li><a href="/pubs/visionmode-iccv2017.pdf" class="pdf">ICCV paper</a></li>
   <li><a href="/pubs/visionmode-iccv2017-supplemental.pdf" class="pdf">supplemental material</a></li>
 </ul>
 
