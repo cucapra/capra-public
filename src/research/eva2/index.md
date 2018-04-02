@@ -26,9 +26,16 @@ Next, *motion compensation* translates components in a CNN activation based on t
 The overall effect is that the CNN implementation can skip a prefix of CNN layers and predict the input to the remaining layers.
 To control the prediction's impact on vision accuracy, we dynamically adapt the key frame rate based on the magnitude of motion in the input.
 
+<figure>
+  <img src="norm-energy.svg" style="margin-bottom: -20px;">
+  <figcaption>
+    The average energy cost per frame for the original accelerator (orig), predicted EVA² frames (pred), and all frames with EVA² (avg).
+  </figcaption>
+</figure>
+
 We implement activation motion compensation as a small hardware block, called EVA², that augments existing hardware for executing neural network layers.
 We synthesize EVA² itself from RTL and use a [first-order model][fodlam] of hardware accelerators for convolutional layers ([Eyeriss][]) fully-connected layers ([EIE][]).
-Our new hardware occupies less than 4% of the full accelerator's area but saves between 54% and 88% of the average frame processing energy while incurring less than 1 percentage point loss in vision accuracy.
+Our new hardware occupies less than 4% of the full accelerator's area but saves between 54% and 88% of the average frame processing energy on three CNNs while incurring less than 1 percentage point loss in vision accuracy.
 
 [eyeriss]: http://eyeriss.mit.edu
 [eie]: https://dl.acm.org/citation.cfm?id=3001163
