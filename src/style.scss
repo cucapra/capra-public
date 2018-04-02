@@ -185,9 +185,16 @@ figure {
 
 // Inline, full-width images.
 img.large {
-  width: 100%;
+  width: 130%;
   display: block;
-  margin: 0 auto 0.5rem;
+  margin: 0 auto 1rem;
+
+  // By default, we exceed the column width. As the screen gets smaller, fill
+  // *only* the column width.
+  @media (max-width: $max-width + $figure-width + $figure-gap + 2rem) and
+         (min-width: $small-width + 1) {
+    width: 100%;
+  }
 }
 
 // Floating, inset images.
