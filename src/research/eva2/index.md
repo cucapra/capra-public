@@ -34,7 +34,7 @@ To control the prediction's impact on vision accuracy, we dynamically adapt the 
 </figure>
 
 We implement activation motion compensation as a small hardware block, called EVA², that augments existing hardware for executing neural network layers.
-We synthesize EVA² itself from RTL and use a [first-order model][fodlam] of hardware accelerators for convolutional layers ([Eyeriss][]) fully-connected layers ([EIE][]).
+We synthesize EVA² itself from RTL and use a [first-order model][fodlam] of hardware accelerators for convolutional layers ([Eyeriss][]) and fully-connected layers ([EIE][]).
 Our new hardware occupies less than 4% of the full accelerator's area but saves between 54% and 88% of the average frame processing energy on three CNNs while incurring less than 1 percentage point loss in vision accuracy.
 
 [eyeriss]: http://eyeriss.mit.edu
