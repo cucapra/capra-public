@@ -1,15 +1,36 @@
 ---
 layout: layout.html
 title: "Activation Motion Compensation"
-longtitle: "Exploiting Temporal Redundancy for Real-Time Vision"
+longtitle: "Exploiting Temporal Redundancy for Live Computer Vision"
 order: 1
 draft: true
 summary: |
     TK
 ---
-# Exploiting Temporal Redundancy for Real-Time Vision
+# Exploiting Temporal Redundancy for Live Computer Vision
 
-TK
+The architecture world is abuzz with hardware accelerators for deep convolutional neural networks (CNNs).
+Most proposals, however, target general CNNs as a black box.
+We see an opportunity to make CNN accelerators vastly more efficient by exploiting the unique characteristics of a critical domain for CNN hardware: real-time, embedded vision.
+When they process real-time video, vision networks ingest nearly-identical frames at each time step.
+Our technique, *activation motion compensation*, exploits this temporal redundancy.
+It detects changes in the visual input and incrementally updates its previous output.
+
+The technique borrows ideas from video compression, which also works by measuring changes in input frames.
+CNN execution proceeds normally during occasional *key frames* and uses approximate, incremental updates for most frames, called *predicted frames*.
+The first step is *motion estimation*, which computes a vector field representing the visual motion between frames.
+We develop a new, hardware-optimized motion estimation algorithm that can be customized for any CNN structure.
+Next, *motion compensation* translates components in a CNN activation based on the motion in the input frame.
+The overall effect is that the CNN implementation can skip a prefix of CNN layers and predict the input to the remaining layers.
+To control the prediction's impact on vision accuracy, we dynamically adapt the key frame rate based on the magnitude of motion in the input.
+
+We implement activation motion compensation as a small hardware block, called EVA², that augments existing hardware for executing neural network layers.
+We synthesize EVA² itself from RTL and use a [first-order model][fodlam] of hardware accelerators for convolutional layers ([Eyeriss][]) fully-connected layers ([EIE][]).
+Our new hardware occupies less than 4% of the full accelerator's area but saves between 54% and 88% of the average frame processing energy while incurring less than 1 percentage point loss in vision accuracy.
+
+[eyeriss]: http://eyeriss.mit.edu
+[eie]: https://dl.acm.org/citation.cfm?id=3001163
+[fodlam]: https://github.com/cucapra/fodlam
 
 ## Publication
 
