@@ -16,6 +16,8 @@ When they process real-time video, vision networks ingest nearly-identical frame
 Our technique, *activation motion compensation*, exploits this temporal redundancy.
 It detects changes in the visual input and incrementally updates its previous output.
 
+<img src="strategy.svg" class="large">
+
 The technique borrows ideas from video compression, which also works by measuring changes in input frames.
 CNN execution proceeds normally during occasional *key frames* and uses approximate, incremental updates for most frames, called *predicted frames*.
 The first step is *motion estimation*, which computes a vector field representing the visual motion between frames.
