@@ -32,9 +32,11 @@
 <body>
   <header>
     <nav>
+      {%- if not notitle %}
       <h1>
         <a href="/">Capra</a>
       </h1>
+      {%- endif %}
       {%- if collections[collection].metadata.name %}
       <p>
         {%- if collections[collection].metadata.link -%}
