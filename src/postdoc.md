@@ -22,3 +22,5 @@ The [Computer Systems Laboratory][csl] at Cornell seeks a postdoctoral researche
 **The job:** The position starts in the fall semester of 2018 and lasts for one or two years, depending on the candidate’s preference. The postdoc will work with the PIs and students to define the research direction, build the system, release open-source hardware and software, and write papers for top-tier architecture and PL conferences. This is a leadership role; there will be opportunities to mentor students and to give talks at companies and other universities.
 
 **Diversity:** We take diversity and inclusion seriously. Cornell is a recognized employer and educator valuing AA/EEO, Protected Veterans, and Individuals with Disabilities.
+
+**How to apply:** Send your CV via email to <asampson@cs.cornell.edu>.
