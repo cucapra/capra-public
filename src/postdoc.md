@@ -9,11 +9,13 @@ The [Computer Systems Laboratory][csl] at Cornell seeks a postdoctoral researche
 
 [csl]: http://www.csl.cornell.edu
 
-**The team:** The postdoc will work with the research groups of Professors [Christopher Batten][batten], [Adrian Sampson][sampson], and [Zhiru Zhang][zhang] in the departments of Electrical and Computer Engineering and Computer Science. The postdoc will have opportunities to mentor PhD, masters, and undergraduate researchers in these groups. The project also includes research groups at the University of Washington.
+**The team:** The postdoc will work with the research groups of Professors [Christopher Batten][batten], [Adrian Sampson][sampson], and [Zhiru Zhang][zhang] in the departments of [Electrical and Computer Engineering][ece] and [Computer Science][cs]. The postdoc will have opportunities to mentor PhD, masters, and undergraduate researchers in these groups. The project also includes research groups at the University of Washington.
 
 [batten]: http://www.csl.cornell.edu/~cbatten/
 [sampson]: https://www.cs.cornell.edu/~asampson/
 [zhang]: http://www.csl.cornell.edu/~zhiruz/
+[ece]: http://www.ece.cornell.edu
+[cs]: http://www.cs.cornell.edu
 
 **The project:** While one-off ASICs offer leaps in computational efficiency even in face of slowed returns from Moore's law, they sacrifice flexibility and programmability. We are designing a new kind of reconfigurable architecture based on a programmable memory system and configurable spatial compute fabric. The system is designed for high-frequency reconfiguration based on shifting application demands. It includes an HBM2 memory interface and CGRA-like spatial array of RISC-V cores with a reconfigurable interconnect. The project aims to approach ASIC-like efficiency by continuously optimizing the system's organization to specialize the compute datapath and exploit the HBM2 memory's high bandwidth and low latency. We plan to tape out prototype hardware and build a realistic compiler toolchain to target it.
 
