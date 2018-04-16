@@ -82,6 +82,13 @@ var site = Metalsmith(__dirname)
       if (!item.kind || item.kind === 'news') {
         item.title = moment(item.date).format('MMM DD, YYYY');
       }
+
+      // Blog post items get a body containing the title and author.
+      if (item.kind === 'post') {
+        let body = `<p>${item.author} published: <a href="${item.link}">` +
+          `${item.title}</a></p>`;
+        item.contents = new Buffer(body, 'utf8');
+      }
     }
     done();
   })
