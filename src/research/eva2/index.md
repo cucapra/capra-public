@@ -47,7 +47,7 @@ Mark Buckler, Philip Bedoukian, Suren Jayasuriya, and Adrian Sampson.
 To appear in the International Symposium on Computer Architecture (ISCA), 2018.
 
 <ul class="links">
-  <li><a href="https://arxiv.org/abs/1803.06312" class="pdf">arXiv preprint</a></li>
+  <li><a href="/pubs/eva2-isca2018.pdf" class="pdf">ISCA preprint</a></li>
 </ul>
 
     @inproceedings{buckler-isca2018,
