@@ -20,7 +20,7 @@ You can help us build the dataset by installing the app and taking pictures.
 Here's a [video of the installation process][video].
 Roughly, follow these steps:
 
-1. On your device, follow [this Google Drive link][app] and download the app.
+1. On your device, follow [this Google Drive link (https://goo.gl/pWKuvk)][app] and download the app.
 2. Enable the setting to allow installation of unknown apps from Google Drive when prompted.
 3. Leave the settings screen and click "Install."
 
@@ -35,3 +35,9 @@ The app only uploads photos when a Wi-Fi connection is available.
 It uploads photos in a "burst," so you may notice lots of bandwidth use all at once if you queue up many photos.
 
 The app deletes the very large raw image files from your photo album after uploading.
+
+### Source code
+https://github.com/cucapra/CapraRawCamera
+
+### Acknowledgement
+The app is based on OpenCamera https://sourceforge.net/projects/opencamera/. 
