@@ -60,7 +60,7 @@ var site = Metalsmith(__dirname)
       },
     },
     news: {
-      pattern: 'news/*.{md,html}',
+      pattern: 'news/*-*-*-*.{md,html}',
       sortBy: 'date',
       reverse: true,
       metadata: {
@@ -139,7 +139,7 @@ var site = Metalsmith(__dirname)
 
   .use(inplace({
     engine: "nunjucks",
-    pattern: "*.{html,md}"
+    pattern: "**/*.{html,md}"
   }))
   .use(components({
     "componentsDirectory": "node_modules",
