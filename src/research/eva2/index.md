@@ -59,6 +59,17 @@ To appear in the International Symposium on Computer Architecture (ISCA), 2018.
         year = {2018},
     }
 
+## Contact
+
+* [Mark Buckler][mark] &lt;<mab598@cornell.edu>&gt;
+* Philip Bedoukian &lt;<pbb59@cornell.edu>&gt;
+* [Suren Jayasuriya][suren] &lt;<sjayasur@asu.edu>&gt;
+* [Adrian Sampson][adrian] &lt;<asampson@cs.cornell.edu>&gt;
+
+[mark]: http://www.markbuckler.com
+[suren]: http://www.andrew.cmu.edu/user/sjayasur/website.html
+[adrian]: http://www.cs.cornell.edu/~asampson/
+
 ## Acknowledgments
 
 <img class="flair" src="/img/huawei.svg" style="height: 90px">
