@@ -53,7 +53,7 @@ To appear in the International Symposium on Computer Architecture (ISCA), 2018.
     @inproceedings{buckler-isca2018,
         author = {Mark Buckler and Philip Bedoukian and Suren Jayasuriya
                   and Adrian Sampson.},
-        title = {EVA$^2$: Exploiting Temporal Redundancy in
+        title = {{EVA}$^2$: Exploiting Temporal Redundancy in
                  Live Computer Vision},
         booktitle = {International Symposium on Computer Architecture (ISCA)},
         year = {2018},
