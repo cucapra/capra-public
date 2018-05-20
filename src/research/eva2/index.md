@@ -50,6 +50,8 @@ To appear in the International Symposium on Computer Architecture (ISCA), 2018.
   <li><a href="/pubs/eva2-isca2018.pdf" class="pdf">ISCA preprint</a></li>
 </ul>
 
+{% raw %}
+
     @inproceedings{buckler-isca2018,
         author = {Mark Buckler and Philip Bedoukian and Suren Jayasuriya
                   and Adrian Sampson.},
@@ -58,6 +60,8 @@ To appear in the International Symposium on Computer Architecture (ISCA), 2018.
         booktitle = {International Symposium on Computer Architecture (ISCA)},
         year = {2018},
     }
+
+{% endraw %}
 
 ## Contact
 
