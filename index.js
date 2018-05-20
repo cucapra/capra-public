@@ -117,7 +117,7 @@ var site = Metalsmith(__dirname)
         }
         obj.path = filepath;
         if (!obj.link) {
-          obj.link = metalsmith._metadata.site.url + filepath;
+          obj.link = '/' + filepath;
         }
       }
     }
