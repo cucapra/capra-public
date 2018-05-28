@@ -44,6 +44,9 @@ Our research studies abstractions and efficiency through the interaction of prog
         {% if person.link %}<a href="{{ person.link }}">{% endif -%}
         {{ name }}
         {%- if person.link %}</a>{% endif %}
+        {% if person.note -%}
+        <span class="note">{{ person.note }}</span>
+        {%- endif %}
       </li>
       {%- endif -%}
       {% endfor -%}

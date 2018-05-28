@@ -312,6 +312,7 @@ $colsep: 0.8rem;
 .people {
   display: flex;
   flex-wrap: wrap;
+  line-height: 100%;
 
   margin-left: -$colsep;
   margin-right: -$colsep;
@@ -329,6 +330,16 @@ $colsep: 0.8rem;
       margin: 0;
       list-style: none;
       padding-left: 0;
+
+      li {
+        margin: 0.8ex 0;
+      }
     }
+  }
+
+  .note {
+    display: inline-block;
+    color: #ccc;
+    font-size: 80%;
   }
 }
