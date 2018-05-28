@@ -5,7 +5,7 @@ order: 0
 roles:
     faculty: Faculty
     phd: PhD Students
-    undergrad: Undergrad & MEng Students
+    undergrad: Undergrad & MEng
     collaborator: Collaborators
     alum: Alumni
 ---
