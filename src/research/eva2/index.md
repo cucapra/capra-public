@@ -48,6 +48,7 @@ To appear in the International Symposium on Computer Architecture (ISCA), 2018.
 
 <ul class="links">
   <li><a href="/pubs/eva2-isca2018.pdf" class="pdf">ISCA preprint</a></li>
+  <li><a href="https://youtu.be/rhMI5u6Qlv8">lightning talk video</a></li>
 </ul>
 
 {% raw %}
