@@ -23,6 +23,8 @@ nunjucks.configure().addFilter('markdown', function (str) {
   return marked(str, { smartypants: true });
 }).addFilter('date', function (d, f) {
   return moment(d).format(f);
+}).addFilter('limit', function (array, limit) {
+  return array.slice(0, limit);
 });
 
 var site = Metalsmith(__dirname)
