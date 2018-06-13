@@ -64,6 +64,14 @@ To appear in the International Symposium on Computer Architecture (ISCA), 2018.
 
 {% endraw %}
 
+## Talk
+
+Watch the [video of the talk at ISCA 2018][video].
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IX-xfBTcPyo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+[video]: https://youtu.be/IX-xfBTcPyo
+
 ## Contact
 
 * [Mark Buckler][mark] &lt;<mab598@cornell.edu>&gt;
