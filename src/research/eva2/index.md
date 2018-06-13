@@ -48,7 +48,6 @@ To appear in the International Symposium on Computer Architecture (ISCA), 2018.
 
 <ul class="links">
   <li><a href="/pubs/eva2-isca2018.pdf" class="pdf">ISCA preprint</a></li>
-  <li><a href="https://youtu.be/rhMI5u6Qlv8">lightning talk video</a></li>
 </ul>
 
 {% raw %}
@@ -66,11 +65,13 @@ To appear in the International Symposium on Computer Architecture (ISCA), 2018.
 
 ## Talk
 
-Watch the [video of the talk at ISCA 2018][video].
+Watch the [video of the talk at ISCA 2018][talk].
+You can also watch the two-minute [lightning talk video][lightning].
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IX-xfBTcPyo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-[video]: https://youtu.be/IX-xfBTcPyo
+[talk]: https://youtu.be/IX-xfBTcPyo
+[lightning]: https://youtu.be/rhMI5u6Qlv8
 
 ## Contact
 
