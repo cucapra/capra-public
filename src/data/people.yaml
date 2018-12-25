@@ -41,9 +41,6 @@ Daniel Sainati:
     role: alum
     note: "BS & MEng 2018"
 
-Tyler Etzel:
-    role: undergrad
-
 Yiteng Guo:
     role: undergrad
 
@@ -63,3 +60,11 @@ Irene Yoon:
 
 Theodore Bauer:
     role: undergrad
+
+Rachit Nigam:
+    role: phd
+    link: https://rachitnigam.com
+
+Alexa VanHattum:
+    role: phd
+    link: https://www.cs.cornell.edu/~avh/
