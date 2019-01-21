@@ -7,6 +7,7 @@ roles:
     phd: PhD Students
     undergrad: Undergrad & MEng
     collaborator: Collaborators
+    staff: Staff
     alum: Alumni
 ---
 # Computer Architecture and Programming Abstractions
