@@ -31,6 +31,18 @@ Suren Jayasuriya:
     role: collaborator
     link: https://web.asu.edu/imaging-lyceum
 
+Chris De Sa:
+    role: collaborator
+    link: http://www.cs.cornell.edu/~cdesa/
+
+Chris Batten:
+    role: collaborator
+    link: http://www.csl.cornell.edu/~cbatten/
+
+Zhiru Zhang:
+    role: collaborator
+    link: http://www.csl.cornell.edu/~zhiruz/
+
 Dietrich Geisler:
     role: phd
 
@@ -40,9 +52,6 @@ Edwin Peguero:
 Daniel Sainati:
     role: alum
     note: "BS & MEng 2018"
-
-Yiteng Guo:
-    role: undergrad
 
 Shiyu Wang:
     role: alum
@@ -75,3 +84,21 @@ Neil Adit:
 Jenna Edwards:
     role: staff
     note: "Program Manager"
+
+Alex Wong:
+    role: undergrad  # actually MEng
+
+Kenneth Fang:
+    role: undergrad
+
+Jenna Choi:
+    role: undergrad
+
+Aditi Kabra:
+    role: undergrad
+
+Yinnon Sanders:
+    role: undergrad
+
+Horace He:
+    role: undergrad
