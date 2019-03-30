@@ -66,9 +66,11 @@ Sachille Atapattu:
 
 Irene Yoon:
     role: undergrad
+    link: http://euisuny.github.io
 
 Theodore Bauer:
     role: undergrad
+    link: https://tedbauer.github.io
 
 Rachit Nigam:
     role: phd
@@ -106,3 +108,12 @@ Horace He:
 Arthur Wang:
     role: alum
     note: "MEng 2018"
+
+Zhijing Li:
+    role: phd
+
+Samuel Thomas:
+    role: undergrad
+
+Apurva Koti:
+    role: undergrad
