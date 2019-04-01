@@ -51,6 +51,10 @@
       <p>
         {{ section }}
       </p>
+      {%- elseif singleton -%}
+      <p class="title">
+        {{ title }}
+      </p>
       {%- endif %}
     </nav>
   </header>

@@ -10,6 +10,7 @@ $display-font: "Source Code Pro", "Anonymous Pro", Inconsolata, Consolas,
     Courier, monospace;
 $display-font-size: 120%;
 $line-height: 150%;
+$text-color: black;
 
 // Laying out figures.
 $figure-width: 20rem;
@@ -19,6 +20,7 @@ $figure-gap: 1rem;
 // Layout.
 body {
   margin: 0;
+  color: $text-color;
 }
 
 header {
@@ -35,7 +37,11 @@ header {
       display: inline-block;
     }
     p {
-      margin-left: 0.5rem;
+      margin-left: 1em;
+    }
+    p.title {
+      color: $text-color;
+      font-weight: bold;
     }
 
     // Compact layout on small screens.
