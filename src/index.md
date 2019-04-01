@@ -15,9 +15,12 @@ roles:
 **Capra** is a research group at [Cornell][] in the [Computer Science][cs] and [Electrical and Computer Engineering][ece] departments.
 Our research studies abstractions and efficiency through the interaction of programming languages and computer architecture.
 
+If you are a Cornell Undegraduate student interested in doing research with us, please fill out [this github issue][ugresearch]. Due to the high volume of emails, we will ignore or redirect all queries about research to this form.
+
 [ece]: http://www.ece.cornell.edu
 [cs]: http://www.cs.cornell.edu
 [cornell]: http://www.cornell.edu
+[ugresearch]: https://github.com/cucapra/undergrad-research/issues/new?assignees=&labels=&template=undergrad-research.md&title=%5BFull+name%5D
 
 ## Research
 
