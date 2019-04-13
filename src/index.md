@@ -13,11 +13,12 @@ roles:
 # Computer Architecture and Programming Abstractions
 
 **Capra** is a research group at [Cornell][] in the [Computer Science][cs] and [Electrical and Computer Engineering][ece] departments.
-Our research studies abstractions and efficiency through the interaction of programming languages and computer architecture.
+Our research studies abstractions and efficiency through the interaction of [programming languages][cupl] and computer architecture.
 
 [ece]: http://www.ece.cornell.edu
 [cs]: http://www.cs.cornell.edu
 [cornell]: http://www.cornell.edu
+[cupl]: http://pl.cs.cornell.edu
 
 ## Research
 
