@@ -228,6 +228,19 @@ pre {
   overflow-x: auto;
 }
 
+// Tables.
+table {
+  border-collapse: collapse;
+  th {
+    font-weight: bold;
+    color: $main-color;
+    text-align: left;
+  }
+  td, th {
+    padding: 0 0.5rem;
+  }
+}
+
 // Research project listings.
 .project {
   h3 {

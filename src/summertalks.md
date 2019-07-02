@@ -12,9 +12,9 @@ There are snacks and coffee.
 <table>
     <thead>
         <tr>
-            <td>Date</td>
-            <td>Speaker</td>
-            <td>Topic</td>
+            <th>Date</th>
+            <th>Speaker</th>
+            <th>Topic</th>
         </tr>
     </thead>
     <tbody>
@@ -41,3 +41,5 @@ There are snacks and coffee.
         </tr>
     </tbody>
 </table>
+
+You can [edit this page on GitHub](https://github.com/cucapra/capra-public/edit/master/src/summertalks.md).
