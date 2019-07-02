@@ -23,6 +23,8 @@ There are snacks and coffee.
         </tr>
         <tr>
             <td>July 16</td>
+            <td><a href="http://www.cs.cornell.edu/~xanda/">Xanda Schofield</a></td>
+            <td>TBA</td>
         </tr>
         <tr>
             <td>July 23</td>
