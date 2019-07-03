@@ -30,6 +30,8 @@ There are snacks and coffee.
         </tr>
         <tr>
             <td>July 23</td>
+            <td><a href="http://www.cs.cornell.edu/~milano/">Matthew Milano</a></td>
+            <td>Fun with C++ Templates</td>
         </tr>
         <tr>
             <td>July 30</td>
