@@ -20,6 +20,8 @@ There are snacks and coffee.
     <tbody>
         <tr>
             <td>July 9</td>
+            <td><a href="https://www.cs.cornell.edu/~asampson/">Adrian Sampson</a></td>
+            <td>Spectre</td>
         </tr>
         <tr>
             <td>July 16</td>
@@ -31,12 +33,16 @@ There are snacks and coffee.
         </tr>
         <tr>
             <td>July 30</td>
+            <td><a href="https://www.cs.cornell.edu/~asampson/">Adrian Sampson</a></td>
+            <td>Probabilistic Programming</td>
         </tr>
         <tr>
             <td>August 6</td>
         </tr>
         <tr>
             <td>August 13</td>
+            <td>TBA</td>
+            <td>Applying to Grad School</td>
         </tr>
         <tr>
             <td>August 20</td>
