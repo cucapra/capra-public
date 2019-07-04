@@ -43,7 +43,7 @@ There are snacks and coffee.
         </tr>
         <tr>
             <td>August 13</td>
-            <td>TBA</td>
+            <td><a href="http://www.cs.cornell.edu/~rdk/">Bobby Kleinberg</a></td>
             <td>Applying to Grad School</td>
         </tr>
         <tr>
