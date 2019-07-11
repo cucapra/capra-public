@@ -41,7 +41,7 @@ There are snacks and coffee.
         <tr>
             <td>August 6</td>
             <td><a href="https://www.cs.cornell.edu/~eshan/">Eshan Chattopadhyay</a></td>
-            <td>TBA</td>
+            <td>The Sensitivity Conjecture</td>
         </tr>
         <tr>
             <td>August 13</td>
