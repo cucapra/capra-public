@@ -65,12 +65,14 @@ Sachille Atapattu:
     role: phd
 
 Irene Yoon:
-    role: undergrad
+    role: alum
     link: http://euisuny.github.io
+    note: "BS 2019"
 
 Theodore Bauer:
-    role: undergrad
+    role: alum
     link: https://tedbauer.github.io
+    note: "BS 2019"
 
 Rachit Nigam:
     role: phd
@@ -89,19 +91,18 @@ Jenna Edwards:
     note: "Program Manager"
 
 Alex Wong:
-    role: undergrad  # actually MEng
+    role: alum
+    note: "MEng 2019"
 
 Kenneth Fang:
-    role: undergrad
-
-Jenna Choi:
     role: undergrad
 
 Aditi Kabra:
     role: undergrad
 
 Yinnon Sanders:
-    role: undergrad
+    role: alum
+    note: "BS 2019"
 
 Horace He:
     role: undergrad
@@ -117,4 +118,13 @@ Samuel Thomas:
     role: undergrad
 
 Apurva Koti:
+    role: undergrad
+
+Ben Gillott:
+    role: undergrad
+
+Vivi Ye:
+    role: undergrad
+
+Edan Mobed:
     role: undergrad
