@@ -48,9 +48,6 @@ There are snacks and coffee.
             <td><a href="http://www.cs.cornell.edu/~rdk/">Bobby Kleinberg</a></td>
             <td>Applying to Grad School</td>
         </tr>
-        <tr>
-            <td>August 20</td>
-        </tr>
     </tbody>
 </table>
 
