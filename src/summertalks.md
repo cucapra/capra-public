@@ -6,7 +6,7 @@ notitle: true
 # CIS Summer Talk Series for Undergraduate Researchers
 
 We're running a series of enrichment talks for undergraduate researchers who are on campus in Gates this summer.
-Talks are on Tuesdays at 2:00pm in Gates 301.
+Talks are on Tuesdays at 2:00pm in Gates 310.
 There are snacks and coffee.
 
 <table>
