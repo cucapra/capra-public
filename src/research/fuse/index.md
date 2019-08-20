@@ -4,7 +4,7 @@ title: "High-level Synthesis for Predictable Accelerator Design"
 longtitle: "High-level Synthesis for Predictable Accelerator Design"
 order: 1
 summary: |
-  Specialized hardware accelerators provide a way out of the stalling efficieny
+  Specialized hardware accelerators provide a way out of the stalling efficiency
   gains from Moore's law. However, mainstream Register Transfer Level languages
   offer ill-fitting, low level abstractions to program them.
   High-level synthesis promises to deliver high productivity, but
