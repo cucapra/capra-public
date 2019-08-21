@@ -1,4 +1,18 @@
 -
+    title: "High-level Synthesis for Predictable Accelerator Design"
+    summary: |
+      Specialized hardware accelerators provide a way out of the stalling efficiency
+      gains from Moore's law. However, mainstream Register Transfer Level languages
+      offer ill-fitting, low level abstractions to program them.
+      High-level synthesis promises to deliver high productivity, but
+      does so by retooling legacy languages (C/C++). The resulting hardware
+      designs are often unpredictable, containing additional to implement the
+      sequential semantics of C in concurrent hardware. This project aims to remedy
+      this applying affine types to model hardware resources and building an
+      end-to-end compiler toolchain for an new typed imperative language.
+    link: https://capra.cs.cornell.edu/fuse
+    order: 1
+-
     title: "Braid, a Safe Heterogeneous Language for Real-Time Graphics"
     summary: |
         Braid is a programming language for *heterogeneous programming*, where a single source program targets different hardware units. We have applied it to real-time graphics programming on CPU--GPU systems. Braid compiles to WebGL, so you can [try it out in your browser](https://capra.cs.cornell.edu/braid/dingus/#example=phong).
