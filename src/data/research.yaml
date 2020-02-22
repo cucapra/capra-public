@@ -10,7 +10,7 @@
       sequential semantics of C in concurrent hardware. This project aims to remedy
       this applying affine types to model hardware resources and building an
       end-to-end compiler toolchain for a new typed imperative language.
-    link: https://capra.cs.cornell.edu/fuse
+    link: https://capra.cs.cornell.edu/dahlia
     order: 1
 -
     title: "Braid, a Safe Heterogeneous Language for Real-Time Graphics"
