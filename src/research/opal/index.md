@@ -19,7 +19,7 @@ Our interlocking set of abstractions, collectively called Opal, adds new feature
 
 ## Papers
 
-<a href="http://www.sysml.cc/doc/56.pdf" class="pdf">a short paper</a> on support for natural language understanding in [SysML 2018][sysml]
+<a href="https://mlsys.org/Conferences/2019/doc/2018/56.pdf" class="pdf">a short paper</a> on support for natural language understanding in [SysML 2018][sysml]
 
     @inproceedings{opal-sysml,
         author = {Alex Renda and Harrison Goldstein and Sarah Bird and
@@ -38,7 +38,7 @@ Our interlocking set of abstractions, collectively called Opal, adds new feature
   </li>
 </ul>
 
-[sysml]: http://www.sysml.cc/#posters
+[sysml]: https://mlsys.org/Conferences/2018/index.html#posters
 
 ## Typed Natural Language Understanding
 
