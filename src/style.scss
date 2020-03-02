@@ -320,7 +320,7 @@ table {
   padding: 0;
 }
 a.pdf {
-  @include adorn("file-text");
+  @include adorn("file-pdf");
 }
 a.github {
   @include adorn("mark-github");
