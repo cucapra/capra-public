@@ -1,15 +1,12 @@
 -
-    title: "High-level Synthesis for Predictable Accelerator Design"
+    title: "Dahlia, a Langauge for Predictable Accelerator Design"
     summary: |
-      Specialized hardware accelerators provide a way out of the stalling efficiency
-      gains from Moore's law. However, mainstream Register Transfer Level languages
-      offer ill-fitting, low level abstractions to program them.
-      High-level synthesis promises to deliver high productivity, but
-      does so by retooling legacy languages (C/C++). The resulting hardware
-      designs are often unpredictable, containing additional hardware to implement the
-      sequential semantics of C in concurrent hardware. This project aims to remedy
-      this applying affine types to model hardware resources and building an
-      end-to-end compiler toolchain for a new typed imperative language.
+      High-level synthesis (HLS) offers a productive way to design specialized
+      hardware accelerators by compiling high-level descriptions to register
+      transfer level languages. Our language, Dahlia, uses a *substructural
+      type system* to model hardware resources and their constraints to statically
+      reject HLS designs that make unpredictable area-latency trade-offs. You
+      can [try Dahlia in your browser](https://capra.cs.cornell.edu/dahlia).
     link: https://capra.cs.cornell.edu/dahlia
     order: 1
 -
