@@ -44,6 +44,10 @@ Zhiru Zhang:
     role: collaborator
     link: http://www.csl.cornell.edu/~zhiruz/
 
+James Bornholt:
+    role: collaborator
+    link: https://www.cs.utexas.edu/~bornholt/
+
 Dietrich Geisler:
     role: phd
     link: http://www.cs.cornell.edu/~dgeisler/
@@ -97,7 +101,8 @@ Alex Wong:
     note: "MEng 2019"
 
 Kenneth Fang:
-    role: undergrad
+    role: alum
+    note: "BS 2020"
 
 Aditi Kabra:
     role: alum
@@ -109,7 +114,9 @@ Yinnon Sanders:
     note: "BS 2019"
 
 Horace He:
-    role: undergrad
+    role: alum
+    note: "BS 2020"
+    link: http://horace.io
 
 Arthur Wang:
     role: alum
@@ -120,11 +127,13 @@ Zhijing Li:
     link: https://tissue3.github.io/
 
 Samuel Thomas:
-    role: undergrad
+    role: staff
+    note: "Research Associate"
     link: https://sgtpeacock.com/
 
 Apurva Koti:
-    role: undergrad
+    role: alum
+    note: "BS 2020"
 
 Ben Gillott:
     role: undergrad
@@ -133,7 +142,23 @@ Vivi Ye:
     role: undergrad
 
 Katy Voor:
-    role: undergrad
+    role: alum
+    note: "BS 2020"
 
 Palini Ramnarayan:
     role: undergrad
+
+Henry Liu:
+    role: alum
+    note: "BS & MEng 2020"
+
+Patrick LaFontaine:
+    role: undergrad
+
+Maya Ifekauche:
+    role: undergrad
+    note: Auburn University
+
+Jacob Delgado-López:
+    role: undergrad
+    note: University of Puerto Rico
