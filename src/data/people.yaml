@@ -20,14 +20,6 @@ Alex Renda:
     link: http://alexrenda.com
     note: "BS 2018"
 
-Sarah Bird:
-    role: collaborator
-    link: https://research.fb.com/people/bird-sarah/
-
-Chris Quirk:
-    role: collaborator
-    link: https://www.microsoft.com/en-us/research/people/chrisq/
-
 Suren Jayasuriya:
     role: collaborator
     link: https://web.asu.edu/imaging-lyceum
@@ -47,6 +39,10 @@ Zhiru Zhang:
 James Bornholt:
     role: collaborator
     link: https://www.cs.utexas.edu/~bornholt/
+
+Nate Foster:
+    role: collaborator
+    link: https://www.cs.cornell.edu/~jnfoster/
 
 Dietrich Geisler:
     role: phd
