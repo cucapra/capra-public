@@ -1,5 +1,5 @@
 -
-    title: "Dahlia, a Langauge for Predictable Accelerator Design"
+    title: "Dahlia, a Language for Predictable Accelerator Design"
     summary: |
       High-level synthesis (HLS) offers a productive way to design specialized
       hardware accelerators by compiling high-level descriptions to register
