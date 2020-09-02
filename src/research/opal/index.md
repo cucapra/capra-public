@@ -2,7 +2,9 @@
 layout: layout.html
 title: "Abstractions for Intelligent Systems"
 longtitle: "Abstractions for Natural Language & Intelligent Systems"
-order: 3
+archived: true
+draft: true
+order: 200
 summary: |
     Despite rapid progress in machine learning capabilities, integrating ML into full applications remains complex and error prone. Opal is a new set of language features that help make it easier to build correct software that relies on AI, especially on natural language understanding.
 ---

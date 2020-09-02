@@ -20,13 +20,18 @@ Our research studies abstractions and efficiency through the interaction of [pro
 [cornell]: http://www.cornell.edu
 [cupl]: http://pl.cs.cornell.edu
 
-## Research
+## Research Themes
 
 <div class="projects">
   {% for proj in projects -%}
   {%- if not proj.draft -%}
   <div class="project">
-    <h3><a href="{{ proj.link }}">{{ proj.longtitle or proj.title }}</a></h3>
+    <h3>
+    <a href="{{ proj.link }}"
+       {%- if proj.archived -%} class="archived" {% endif -%}>
+    {{ proj.longtitle or proj.title }}
+    </a>
+    </h3>
     {{ proj.summary | markdown | safe | trim }}
   </div>
   {% endif -%}

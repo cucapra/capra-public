@@ -1,17 +1,40 @@
 -
-    title: "Dahlia, a Language for Predictable Accelerator Design"
+    title: "Hardware Accelerator Generation"
     summary: |
-      High-level synthesis (HLS) offers a productive way to design specialized
-      hardware accelerators by compiling high-level descriptions to register
-      transfer level languages. Our language, Dahlia, uses a *substructural
-      type system* to model hardware resources and their constraints to statically
-      reject HLS designs that make unpredictable area-latency trade-offs. You
-      can [try Dahlia in your browser](https://capra.cs.cornell.edu/dahlia).
-    link: https://capra.cs.cornell.edu/dahlia
+      Tools and languages to building hardware accelerators.
+      - [Dahlia](https://capra.cs.cornell.edu/dahlia): Type system to reject unpredictable accelerator designs at compile time.
+      - [FuTIL](https://github.com/cucapra/futil/): An intermediary language (IL) for accelerator generators.
+    link:
     order: 1
 -
-    title: "Braid, a Safe Heterogeneous Language for Real-Time Graphics"
+    title: "Graphics Programming"
     summary: |
-        Braid is a programming language for *heterogeneous programming*, where a single source program targets different hardware units. We have applied it to real-time graphics programming on CPU--GPU systems. Braid compiles to WebGL, so you can [try it out in your browser](https://capra.cs.cornell.edu/braid/dingus/#example=phong).
-    link: https://capra.cs.cornell.edu/braid/
+      Abstractions for productive graphics programming.
+      - [Gator](https://github.com/cucapra/linguine/): Geometry types for graphics programming.
+      - [Braid](https://capra.cs.cornell.edu/braid/): A staged programing language for graphics programming.
     order: 2
+-
+    title: "Search-based Compilers"
+    summary: |
+      TODO
+    order: 3
+-
+    title: "New Reconfigurable Architectures"
+    summary: |
+      TODO
+    order: 4
+-
+    title: Vision/System Co-design [Archived]
+    summary: |
+      TODO
+      - [EVA2](/research/eva2)
+      - [VisionMode](/research/visionmode)
+    order: 5
+    archived: true
+-
+    title: Intelligent Systems & NLU [Archived]
+    summary: |
+      TODO
+      - [Opal](/research/opal)
+    order: 6
+    archived: true
