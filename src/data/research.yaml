@@ -16,7 +16,8 @@
 -
     title: "Search-based Compilers"
     summary: |
-      TODO
+      Search-based techniques use increasingly powerful solvers to compile software to heterogenous targets, without the need to hand craft custom heuristics.
+      - [Diospyros](https://github.com/cucapra/diospyros): A solver-aided compiler for vectorization on digital signal processors.
     order: 3
 -
     title: "New Reconfigurable Architectures"
