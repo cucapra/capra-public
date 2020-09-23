@@ -43,7 +43,8 @@ can [try Dahlia in your browser](https://capra.cs.cornell.edu/dahlia).
 
 ### Infrastructure for Hardware Accelerator Compilers
 
-TK [FuTIL](https://github.com/cucapra/futil/): An intermediary language (IL) for accelerator generators.
+We're designing [FuTIL](https://github.com/cucapra/futil/), an intermediate language (IL) and infrastructure for building compilers that generate hardware accelerators.
+FuTIL works by representing both hardware-like *structure* and software-like *control* together.
 
 
 ## Graphics Programming
