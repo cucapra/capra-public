@@ -59,11 +59,11 @@ TK [Gator][gator]: Geometry types for graphics programming.
 [Braid](https://capra.cs.cornell.edu/braid/) is a programming language for *heterogeneous programming*, where a single source program targets different hardware units. We have applied it to real-time graphics programming on CPU--GPU systems. Braid compiles to WebGL, so you can [try it out in your browser](https://capra.cs.cornell.edu/braid/dingus/#example=phong).
 
 
-## Compilers for Unconventional Hardware
+## Search-Based Compilation for Digital Signal Processing
 
-TK Search-based techniques use increasingly powerful solvers to compile software to heterogenous targets, without the need to hand craft custom heuristics.
+Digital signal processors (DSPs) are ubiquitous and energy efficient, but making them fast requires an expert programmer. The difficulty stems from their complex vector instruction sets and simple, in-order pipelines. To get the best results, programmers must carefully pack and move data in vector registers to enable compact execution. [Diospyros][diospyros] uses sketch-based program synthesis to automatically discover efficient vector packing schemes.
 
-TK [Diospyros](https://github.com/cucapra/diospyros): A solver-aided compiler for vectorization on digital signal processors.
+[diospyros]: https://github.com/cucapra/diospyros
 
 
 ## Vision/System Co-Design
