@@ -29,15 +29,14 @@ header {
     padding: 0.5rem 0.5rem;
     display: block;
     margin: 0 1rem 0;
-    max-width: $max-width;
 
     p, h1 {
       margin: 0;
       padding: 0.5rem 0;
       display: inline-block;
     }
-    p {
-      margin-left: 1em;
+    h1 {
+      margin-right: 1em;
     }
     p.title {
       color: $text-color;
@@ -63,6 +62,9 @@ header {
 
   main {
     max-width: $max-width;
+    p:first-child {
+      margin-top: 0.2rem;
+    }
   }
 
   .ephemera {

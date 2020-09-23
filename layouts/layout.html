@@ -51,6 +51,10 @@
       <p>
         {{ section }}
       </p>
+      {%- elseif longtitle -%}
+      <p class="title">
+        {{ longtitle }}
+      </p>
       {%- elseif singleton -%}
       <p class="title">
         {{ title }}
