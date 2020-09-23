@@ -62,6 +62,13 @@ TK [Diospyros](https://github.com/cucapra/diospyros): A solver-aided compiler fo
 
 ## Vision/System Co-Design
 
+### [Customizing JPEG Compression for Computer Vision][deepjpeg]
+
+Image compression formats like JPEG are ubiquitous in computer vision, but they were designed for human perception—not for modern vision algorithms.
+We examine the potential for [customizing JPEG compression for specific vision tasks][deepjpeg], simultaneously improving compression the ratio and the accuracy.
+
+[deepjpeg]: https://www.cs.cornell.edu/~asampson/media/papers/deepjpeg-recoml2020.pdf
+
 ### [Exploiting Temporal Redundancy for Live Computer Vision][eva2]
 
 Vision accelerators that run on real-time video process nearly identical frames at every time step. [This project][eva2] introduces *activation motion compensation*, a technique for approximately incremental acceleration of computer vision. It works by measuring motion in the input video and translating it to motion in the intermediate results of convolutional neural networks.
