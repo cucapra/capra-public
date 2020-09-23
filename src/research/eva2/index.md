@@ -4,8 +4,6 @@ title: "Activation Motion Compensation"
 longtitle: "Exploiting Temporal Redundancy for Live Computer Vision"
 order: 2
 ---
-# Exploiting Temporal Redundancy for Live Computer Vision
-
 The architecture world is abuzz with hardware accelerators for deep convolutional neural networks (CNNs).
 Most proposals, however, target general CNNs as a black box.
 We see an opportunity to make CNN accelerators vastly more efficient by exploiting the unique characteristics of a critical domain for CNN hardware: real-time, embedded vision.

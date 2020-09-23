@@ -1,11 +1,9 @@
 ---
 layout: layout.html
 title: "Vision Mode"
-longtitle: "A Vision Mode for Efficient Image Capture"
+longtitle: "Reconfiguring the Imaging Pipeline for Computer Vision"
 order: 3
 ---
-# Reconfiguring the Imaging Pipeline for Computer Vision
-
 Most camera systems today are optimized for photography.
 They expend time and energy to produce high-quality images that humans will enjoy.
 This pristine quality is wasted, however, when the goal is computer vision instead of human consumption.
