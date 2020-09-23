@@ -16,7 +16,7 @@ roles:
 Our research studies abstractions and efficiency through the interaction of [programming languages][cupl] and computer architecture.
 
 Check out our ongoing research below or read [news about the group][news].
-If you're a Cornell student and want to get involved, see our [instructions for undergrad research][ugrad].
+If you're a Cornell undergraduate student, consider [working with us][ugrad]!
 
 [ece]: http://www.ece.cornell.edu
 [cs]: http://www.cs.cornell.edu
