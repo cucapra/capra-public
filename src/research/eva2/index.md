@@ -2,11 +2,7 @@
 layout: layout.html
 title: "Activation Motion Compensation"
 longtitle: "Exploiting Temporal Redundancy for Live Computer Vision"
-order: 100
-draft: true
-archived: true
-summary: |
-    Vision accelerators that run on real-time video process nearly identical frames at every time step. This project introduces *activation motion compensation*, a technique for approximately incremental acceleration of computer vision. It works by measuring motion in the input video and translating it to motion in the intermediate results of convolutional neural networks.
+order: 2
 ---
 # Exploiting Temporal Redundancy for Live Computer Vision
 

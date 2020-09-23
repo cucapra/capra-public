@@ -20,34 +20,67 @@ Our research studies abstractions and efficiency through the interaction of [pro
 [cornell]: http://www.cornell.edu
 [cupl]: http://pl.cs.cornell.edu
 
+
 ## Hardware Accelerator Generation
 
-Tools and languages to building hardware accelerators.
+### [Dahlia, a Language for Predictable Accelerator Design][dahlia]
 
-- [Dahlia](https://capra.cs.cornell.edu/dahlia): Type system to reject unpredictable accelerator designs at compile time.
-- [FuTIL](https://github.com/cucapra/futil/): An intermediary language (IL) for accelerator generators.
+High-level synthesis (HLS) offers a productive way to design specialized
+hardware accelerators by compiling high-level descriptions to register
+transfer level languages. Our language, [Dahlia][dahlia], uses a *substructural
+type system* to model hardware resources and their constraints to statically
+reject HLS designs that make unpredictable area-latency trade-offs. You
+can [try Dahlia in your browser](https://capra.cs.cornell.edu/dahlia).
+
+[dahlia]: https://capra.cs.cornell.edu/dahlia
+
+### Infrastructure for Hardware Accelerator Compilers
+
+XXX [FuTIL](https://github.com/cucapra/futil/): An intermediary language (IL) for accelerator generators.
+
 
 ## Graphics Programming
 
-Abstractions for productive graphics programming.
+### [Gator: Geometry Types][gator]
 
-- [Gator](https://github.com/cucapra/linguine/): Geometry types for graphics programming.
-- [Braid](https://capra.cs.cornell.edu/braid/): A staged programing language for graphics programming.
+[Gator][gator]: Geometry types for graphics programming.
+
+[gator]: https://github.com/cucapra/linguine/
+
+### [Braid, a Safe Heterogeneous Language for Real-Time Graphics](https://capra.cs.cornell.edu/braid/)
+
+[Braid](https://capra.cs.cornell.edu/braid/) is a programming language for *heterogeneous programming*, where a single source program targets different hardware units. We have applied it to real-time graphics programming on CPU--GPU systems. Braid compiles to WebGL, so you can [try it out in your browser](https://capra.cs.cornell.edu/braid/dingus/#example=phong).
+
 
 ## Compilers for Unconventional Hardware
 
 Search-based techniques use increasingly powerful solvers to compile software to heterogenous targets, without the need to hand craft custom heuristics.
 
-- [Diospyros](https://github.com/cucapra/diospyros): A solver-aided compiler for vectorization on digital signal processors.
+XXX [Diospyros](https://github.com/cucapra/diospyros): A solver-aided compiler for vectorization on digital signal processors.
+
 
 ## Vision/System Co-Design
 
-- [EVA2](/research/eva2)
-- [VisionMode](/research/visionmode)
+### [Exploiting Temporal Redundancy for Live Computer Vision][eva2]
 
-## Programming Abstractions for Natural Language &amp; Intelligent Systems
+Vision accelerators that run on real-time video process nearly identical frames at every time step. [This project][eva2] introduces *activation motion compensation*, a technique for approximately incremental acceleration of computer vision. It works by measuring motion in the input video and translating it to motion in the intermediate results of convolutional neural networks.
 
-Despite rapid progress in machine learning capabilities, integrating ML into full applications remains complex and error prone. [Opal](/research/opal) is a new set of language features that help make it easier to build correct software that relies on AI, especially on natural language understanding.
+[eva2]: /research/eva2
+
+### [A Vision Mode for Efficient Image Capture][visionmode]
+
+Most camera systems are optimized for photography, so they waste time and energy when they capture images for computer vision. This project designs a [*vision mode*][visionmode] for cameras and their associated signal processing logic that saves energy by producing lower-quality, less-processed image data.
+
+[visionmode]: /research/visionmode
+
+
+## Archived Research
+
+* [Programming Abstractions for Natural Language &amp; Intelligent Systems][opal]  
+  Despite rapid progress in machine learning capabilities, integrating ML into full applications remains complex and error prone. [Opal][] is a new set of language features that help make it easier to build correct software that relies on AI, especially on natural language understanding.
+
+[opal]: /research/opal
+
 
 ## People
 
