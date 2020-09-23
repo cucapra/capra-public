@@ -20,23 +20,34 @@ Our research studies abstractions and efficiency through the interaction of [pro
 [cornell]: http://www.cornell.edu
 [cupl]: http://pl.cs.cornell.edu
 
-## Research Themes
+## Hardware Accelerator Generation
 
-<div class="projects">
-  {% for proj in projects -%}
-  {%- if not proj.draft -%}
-  <div class="project">
-    <h3>
-    <a href="{{ proj.link }}"
-       {%- if proj.archived -%} class="archived" {% endif -%}>
-    {{ proj.longtitle or proj.title }}
-    </a>
-    </h3>
-    {{ proj.summary | markdown | safe | trim }}
-  </div>
-  {% endif -%}
-  {% endfor -%}
-</div>
+Tools and languages to building hardware accelerators.
+
+- [Dahlia](https://capra.cs.cornell.edu/dahlia): Type system to reject unpredictable accelerator designs at compile time.
+- [FuTIL](https://github.com/cucapra/futil/): An intermediary language (IL) for accelerator generators.
+
+## Graphics Programming
+
+Abstractions for productive graphics programming.
+
+- [Gator](https://github.com/cucapra/linguine/): Geometry types for graphics programming.
+- [Braid](https://capra.cs.cornell.edu/braid/): A staged programing language for graphics programming.
+
+## Compilers for Unconventional Hardware
+
+Search-based techniques use increasingly powerful solvers to compile software to heterogenous targets, without the need to hand craft custom heuristics.
+
+- [Diospyros](https://github.com/cucapra/diospyros): A solver-aided compiler for vectorization on digital signal processors.
+
+## Vision/System Co-Design
+
+- [EVA2](/research/eva2)
+- [VisionMode](/research/visionmode)
+
+## Programming Abstractions for Natural Language &amp; Intelligent Systems
+
+Despite rapid progress in machine learning capabilities, integrating ML into full applications remains complex and error prone. [Opal](/research/opal) is a new set of language features that help make it easier to build correct software that relies on AI, especially on natural language understanding.
 
 ## People
 

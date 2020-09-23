@@ -89,16 +89,6 @@ var site = Metalsmith(__dirname)
     done();
   })
 
-  // Research project listings.
-  .use(metadata({
-    projects: 'data/research.yaml',
-  }))
-  .use((files, metalsmith, done) => {
-    // Sort by a numeric field.
-    metalsmith._metadata.projects.sort((a, b) => a.order - b.order);
-    done();
-  })
-
   // Add links to each item in `path` and `link`.
   .use((files, metalsmith, done) => {
     for (let filepath in files) {
