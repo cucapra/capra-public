@@ -32,9 +32,8 @@ If you're a Cornell student and want to get involved, see our [instructions for 
 
 ### [Dahlia, a Language for Predictable Accelerator Design][dahlia]
 
-High-level synthesis (HLS) offers a productive way to design specialized
-hardware accelerators by compiling high-level descriptions to register
-transfer level languages. Our language, [Dahlia][dahlia], uses a *substructural
+High-level synthesis (HLS) tools can translate C-like languages to hardware accelerators, but the semantic gap between software and hardware can yield unpredictable performance and semantics.
+[Dahlia][dahlia] adds a *substructural
 type system* to model hardware resources and their constraints to statically
 reject HLS designs that make unpredictable area-latency trade-offs. You
 can [try Dahlia in your browser](https://capra.cs.cornell.edu/dahlia).
