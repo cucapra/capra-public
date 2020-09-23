@@ -246,8 +246,8 @@ table {
 }
 
 // Research project listings.
-.project {
-  h3 {
+.projects {
+  h1, h2, h3, h4, h5 {
     a {
       text-decoration: none;
       &:hover {
@@ -256,8 +256,13 @@ table {
     }
   }
 
+  h2 {
+    margin-bottom: 0.5rem;
+  }
+
   p {
     margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
   }
 }
 
