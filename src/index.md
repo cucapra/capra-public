@@ -39,10 +39,12 @@ can [try Dahlia in your browser](https://capra.cs.cornell.edu/dahlia).
 
 [dahlia]: https://capra.cs.cornell.edu/dahlia
 
-### Infrastructure for Hardware Accelerator Compilers
+### [Infrastructure for Hardware Accelerator Compilers][futil]
 
-We're designing [FuTIL](https://github.com/cucapra/futil/), an intermediate language (IL) and infrastructure for building compilers that generate hardware accelerators.
+We're designing [FuTIL][], an intermediate language (IL) and infrastructure for building compilers that generate hardware accelerators.
 FuTIL works by representing both hardware-like *structure* and software-like *control* together.
+
+[futil]: https://github.com/cucapra/futil/
 
 
 ## Graphics Programming
