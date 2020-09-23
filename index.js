@@ -55,12 +55,6 @@ var site = Metalsmith(__dirname)
       pattern: '{*,*/index}.{md,html}',
       sortBy: 'order',
     },
-    research: {
-      pattern: 'research/*/index.{md,html}',
-      metadata: {
-        name: 'Research',
-      },
-    },
     news: {
       pattern: 'news/*-*-*-*.{md,html}',
       sortBy: 'date',
@@ -92,20 +86,6 @@ var site = Metalsmith(__dirname)
         item.contents = new Buffer(body, 'utf8');
       }
     }
-    done();
-  })
-
-  // Research project listings.
-  .use(metadata({
-    research_ext: 'data/research.yaml',
-  }))
-  .use((files, metalsmith, done) => {
-    // Merge internal and external research.
-    metalsmith._metadata.projects =
-      metalsmith._metadata.research.concat(
-          metalsmith._metadata.research_ext);
-    // Sort by a numeric field.
-    metalsmith._metadata.projects.sort((a, b) => a.order - b.order);
     done();
   })
 

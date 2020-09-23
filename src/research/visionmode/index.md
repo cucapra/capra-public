@@ -3,8 +3,6 @@ layout: layout.html
 title: "Vision Mode"
 longtitle: "A Vision Mode for Efficient Image Capture"
 order: 3
-summary: |
-    Most camera systems are optimized for photography, so they waste time and energy when they capture images for computer vision. This project designs a *vision mode* for cameras and their associated signal processing logic that saves energy by producing lower-quality, less-processed image data.
 ---
 # Reconfiguring the Imaging Pipeline for Computer Vision
 
