@@ -4,7 +4,7 @@ layout: front.html
 order: 0
 roles:
     faculty: Faculty
-    phd: PhD Students
+    phd: PhD & MS Students
     undergrad: Undergrad & MEng
     collaborator: Collaborators
     staff: Staff

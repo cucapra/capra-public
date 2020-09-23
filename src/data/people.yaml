@@ -72,9 +72,9 @@ Irene Yoon:
     note: "BS 2019"
 
 Theodore Bauer:
-    role: alum
+    role: phd
     link: https://tedbauer.github.io
-    note: "BS 2019"
+    # note: "BS 2019"
 
 Rachit Nigam:
     role: phd
@@ -136,6 +136,7 @@ Ben Gillott:
 
 Vivi Ye:
     role: undergrad
+    link: 'https://www.viviyye.com'
 
 Katy Voor:
     role: alum
@@ -152,9 +153,20 @@ Patrick LaFontaine:
     role: undergrad
 
 Maya Ifekauche:
-    role: undergrad
-    note: Auburn University
+    role: alum
+    note: "visitor, Auburn University"
 
 Jacob Delgado-López:
+    role: alum
+    note: "visitor, University of Puerto Rico"
+
+YooNa Chang:
     role: undergrad
-    note: University of Puerto Rico
+
+Kevin Negy:
+    role: phd
+    link: https://www.cs.cornell.edu/~kevinnegy/
+
+Ross Tate:
+    role: collaborator
+    link: https://www.cs.cornell.edu/~ross/
