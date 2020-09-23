@@ -50,7 +50,9 @@ TK [FuTIL](https://github.com/cucapra/futil/): An intermediary language (IL) for
 
 ### [Gator: Geometry Types][gator]
 
-TK [Gator][gator]: Geometry types for graphics programming.
+We have identified a new category of *geometry bugs* that arise in graphics programming and other domains that have to deal with matrices and vectors.
+They arise when programmers lose track of the coordinate systems and reference frames that underpin the computation.
+[Gator][] is a language for GPU shading with a type system that can eliminate geometry bugs and rule them out by generating correct-by-construction transformation code.
 
 [gator]: https://github.com/cucapra/linguine/
 
@@ -61,7 +63,7 @@ TK [Gator][gator]: Geometry types for graphics programming.
 
 ## Search-Based Compilation for Digital Signal Processing
 
-Digital signal processors (DSPs) are ubiquitous and energy efficient, but making them fast requires an expert programmer. The difficulty stems from their complex vector instruction sets and simple, in-order pipelines. To get the best results, programmers must carefully pack and move data in vector registers to enable compact execution. [Diospyros][diospyros] uses sketch-based program synthesis to automatically discover efficient vector packing schemes.
+Digital signal processors (DSPs) are ubiquitous and energy efficient, but making them fast requires an expert programmer. The difficulty stems from their complex vector instruction sets and simple, in-order pipelines. To get the best results, programmers must carefully pack and move data in vector registers to enable compact execution. [Diospyros][diospyros] uses equality saturation to automatically discover efficient vector packing schemes.
 
 [diospyros]: https://github.com/cucapra/diospyros
 
