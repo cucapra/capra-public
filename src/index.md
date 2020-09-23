@@ -37,14 +37,14 @@ can [try Dahlia in your browser](https://capra.cs.cornell.edu/dahlia).
 
 ### Infrastructure for Hardware Accelerator Compilers
 
-XXX [FuTIL](https://github.com/cucapra/futil/): An intermediary language (IL) for accelerator generators.
+TK [FuTIL](https://github.com/cucapra/futil/): An intermediary language (IL) for accelerator generators.
 
 
 ## Graphics Programming
 
 ### [Gator: Geometry Types][gator]
 
-[Gator][gator]: Geometry types for graphics programming.
+TK [Gator][gator]: Geometry types for graphics programming.
 
 [gator]: https://github.com/cucapra/linguine/
 
@@ -55,9 +55,9 @@ XXX [FuTIL](https://github.com/cucapra/futil/): An intermediary language (IL) fo
 
 ## Compilers for Unconventional Hardware
 
-Search-based techniques use increasingly powerful solvers to compile software to heterogenous targets, without the need to hand craft custom heuristics.
+TK Search-based techniques use increasingly powerful solvers to compile software to heterogenous targets, without the need to hand craft custom heuristics.
 
-XXX [Diospyros](https://github.com/cucapra/diospyros): A solver-aided compiler for vectorization on digital signal processors.
+TK [Diospyros](https://github.com/cucapra/diospyros): A solver-aided compiler for vectorization on digital signal processors.
 
 
 ## Vision/System Co-Design
