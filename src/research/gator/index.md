@@ -16,11 +16,22 @@ In OOPSLA 2020.
   <li><a href="https://www.cs.cornell.edu/~asampson/media/papers/gator-oopsla2020-preprint.pdf" class="pdf">OOPSLA paper preprint</a></li>
 </ul>
 
-    @inproceedings{buckler-iccv2017,
+    @inproceedings{geisler-splash2020,
         author = {Dietrich Geisler and Irene Yoon and Aditi Kabra and
             Horace He and Yinnon Sanders and Adrian Sampson},
         title = {Geometry Types for Graphics Programming},
         booktitle = {OOPSLA},
+        year = {2020},
+    }
+
+Aditi Kabra, Dietrch Geisler, and Adrian Sampson.
+"Online Verification of Commutativity."
+In TAPAS 2020.
+
+    @inproceedings{kabra-tapas2020,
+        author = {Aditi Kabra and Dietrch Geisler and Adrian Sampson},
+        title = {Online Verification of Commutativity},
+        booktitle = {Workshop on Tools for Automatic Program Analysis (TAPAS)},
         year = {2020},
     }
 
