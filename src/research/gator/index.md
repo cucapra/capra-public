@@ -2,9 +2,16 @@
 layout: layout.html
 title: "Gator: Geometry Types"
 longtitle: "Geometry Types for Graphics Programming in Gator"
-order: 3
 ---
 Overview TK.
+
+<figure>
+  <img src="bunnies.png" style="width: 250px;">
+  <figcaption>
+    Geometry bugs can yield subtly incorrect visual output and can be hard to catch in testing.
+    The right-hand output depicts a geometry bug that is only visible from some angles on the model.
+  </figcaption>
+</figure>
 
 ## Publications
 
@@ -36,6 +43,13 @@ In TAPAS 2020.
     }
 
 ## Code
+
+<figure>
+  <img src="shadowmap.png" style="width: 250px;">
+  <figcaption>
+    The Gator compiler includes examples of several common rendering effects, including shadow mapping.
+  </figcaption>
+</figure>
 
 Check out the [open-source OCaml implementation][gh] of the Gator compiler.
 The compiler type-checks Gator programs and emits them as either GLSL or TypeScript.
