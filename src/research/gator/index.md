@@ -3,11 +3,10 @@ layout: layout.html
 title: "Gator: Geometry Types"
 longtitle: "Geometry Types for Graphics Programming in Gator"
 ---
-Gator is a language project to explore the effects of introducing *geometry types* into graphics programming.  Geometry types are a novel system of types that help catch geometry bugs by encoding the reference frame and coordinate scheme of a geometric object into the types of variables.  Using this encoding, we have found it possible to reason about the various "coordinate spaces" introduced in most graphics programs and to keep track of which representation is being used for a given object.  Additionally, we have found that geometry types are convenient for introducing automatic transformations, or 'in' expressions, into code.  These automatic transformations allow for easy and clear transformations between geometric representations.
-
-The Gator project includes work on the semantics of geometry types and associated automatic transformations and includes work on creating a compiler from the Gator language to GLSL and TypeScript.  This compiler is [publically available on GitHub][gh] and allows for creation of custom user types and for defining internally necessary functions, such as GLSL-style vector operations.  Work on Gator is ongoing, and we appreciate contributions and suggestions.
-
-[gh]: https://github.com/cucapra/gator
+This work identifies a new category of bugs in graphics software and other geometry-heavy code:
+*geometry bugs* arise when confusing the many different coordinate systems that underpin a computation.
+In the GPU shading language [GLSL][], for example, two different values with the same type, `vec3`, can represent different kinds of geometric objects (positions, directions…), coordinate representation schemes (Cartesian, polar…), or reference frames (object-relative, world-relative, …).
+Mixing up these different kinds of values can lead to geometrically meaningless results and subtle, hard-to-test-for visual defects.
 
 <figure>
   <img src="bunnies.png" style="width: 250px;">
@@ -16,6 +15,22 @@ The Gator project includes work on the semantics of geometry types and associate
     The right-hand output depicts a geometry bug that is only visible from some angles on the model.
   </figcaption>
 </figure>
+
+Gator is a programming language that adds *geometry types* to catch this category of bug.
+Geometry types encode the reference frame and coordinate scheme of each kind of geometric object.
+Geometry types can be "compiled away" to plain computational types like `vec3`, but type-checking them rules out subtle confusions at compile time.
+
+Gator's type system lets it support *automatic generation* of correct-by-construction transformation.
+Instead of writing a matrix–vector multiplication like `modelToWorld * modelVtx` to convert a vector from model to world coordinates, programmers can write `modelVtx in world` to automatically generate the right transformation code.
+Gator searches the graph of available type conversions to find a path between any two types.
+
+The Gator project includes work on the semantics of geometry types and associated automatic transformations and includes work on creating a compiler from the Gator language to [GLSL][] and [TypeScript][].
+This compiler is [publicly available on GitHub][gh] and allows for creation of custom user types and for defining internally necessary functions, such as GLSL-style vector operations.
+Work on Gator is ongoing, and we appreciate contributions and suggestions.
+
+[gh]: https://github.com/cucapra/gator
+[glsl]: https://www.khronos.org/opengl/wiki/Core_Language_(GLSL)
+[typescript]: https://www.typescriptlang.org
 
 ## Publications
 
