@@ -5,7 +5,7 @@ longtitle: "Geometry Types for Graphics Programming in Gator"
 ---
 This work identifies a new category of bugs in graphics software and other geometry-heavy code:
 *geometry bugs* arise when confusing the many different coordinate systems that underpin a computation.
-In the GPU shading language [GLSL][], for example, two different values with the same type, `vec3`, can represent different kinds of geometric objects (positions, directions…), coordinate representation schemes (Cartesian, polar…), or reference frames (object-relative, world-relative, …).
+In the GPU shading language [GLSL][], for example, two different values with the same type, `vec3`, can represent different kinds of geometric objects (positions, directions…), coordinate representation schemes (Cartesian, polar…), or reference frames (object-relative, world-relative…).
 Mixing up these different kinds of values can lead to geometrically meaningless results and subtle, hard-to-test-for visual defects.
 
 <figure>
