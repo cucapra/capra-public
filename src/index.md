@@ -55,7 +55,7 @@ We have identified a new category of *geometry bugs* that arise in graphics prog
 They arise when programmers lose track of the coordinate systems and reference frames that underpin the computation.
 [Gator][] is a language for GPU shading with a type system that can eliminate geometry bugs and rule them out by generating correct-by-construction transformation code.
 
-[gator]: https://github.com/cucapra/linguine/
+[gator]: /research/gator
 
 ### [Braid, a Safe Heterogeneous Language for Real-Time Graphics](https://capra.cs.cornell.edu/braid/)
 
