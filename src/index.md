@@ -39,12 +39,12 @@ can [try Dahlia in your browser](https://capra.cs.cornell.edu/dahlia).
 
 [dahlia]: https://capra.cs.cornell.edu/dahlia
 
-### [Infrastructure for Hardware Accelerator Compilers][futil]
+### [Calyx, an Infrastructure for Hardware Accelerator Compilers][calyx]
 
-We're designing [FuTIL][], an intermediate language (IL) and infrastructure for building compilers that generate hardware accelerators.
-FuTIL works by representing both hardware-like *structure* and software-like *control* together.
+We're designing [Calyx][], an intermediate language (IL) and infrastructure for building compilers that generate hardware accelerators.
+Calyx works by representing both hardware-like *structure* and software-like *control* together.
 
-[futil]: https://github.com/cucapra/futil/
+[calyx]: https://github.com/cucapra/calyx/
 
 
 ## Graphics Programming
@@ -95,7 +95,7 @@ Most camera systems are optimized for photography, so they waste time and energy
 
 ## Archived Research
 
-* [Programming Abstractions for Natural Language &amp; Intelligent Systems][opal]  
+* [Programming Abstractions for Natural Language &amp; Intelligent Systems][opal]
   Despite rapid progress in machine learning capabilities, integrating ML into full applications remains complex and error prone. [Opal][] is a new set of language features that help make it easier to build correct software that relies on AI, especially on natural language understanding.
 
 [opal]: /research/opal
