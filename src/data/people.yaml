@@ -72,9 +72,9 @@ Irene Yoon:
     note: "BS 2019"
 
 Theodore Bauer:
-    role: phd
+    role: alum
     link: https://tedbauer.github.io
-    # note: "BS 2019"
+    note: "BS 2019"
 
 Rachit Nigam:
     role: phd
@@ -131,8 +131,8 @@ Apurva Koti:
     role: alum
     note: "BS 2020"
 
-Ben Gillott:
-    role: undergrad
+# Ben Gillott:
+#     role: undergrad
 
 Vivi Ye:
     role: undergrad
@@ -142,8 +142,8 @@ Katy Voor:
     role: alum
     note: "BS 2020"
 
-Palini Ramnarayan:
-    role: undergrad
+# Palini Ramnarayan:
+#     role: undergrad
 
 Henry Liu:
     role: alum
@@ -172,10 +172,20 @@ Ross Tate:
     link: https://www.cs.cornell.edu/~ross/
 
 Kimberly Baum:
-    role: undergrad
+    role: alum
+    note: "BS 2020"
 
 Chris Gyurgyik:
     role: undergrad
 
 Karen Zhang:
+    role: undergrad
+
+Andrei Shpilenok:
+    role: undergrad
+
+Iain Pile:
+    role: undergrad
+
+Paul Joo:
     role: undergrad
