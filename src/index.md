@@ -44,7 +44,7 @@ can [try Dahlia in your browser](https://capra.cs.cornell.edu/dahlia).
 We're designing [Calyx][], an intermediate language (IL) and infrastructure for building compilers that generate hardware accelerators.
 Calyx works by representing both hardware-like *structure* and software-like *control* together.
 
-[calyx]: https://github.com/cucapra/calyx/
+[calyx]: https://capra.cs.cornell.edu/calyx
 
 
 ## Graphics Programming
