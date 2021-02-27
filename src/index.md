@@ -29,6 +29,13 @@ If you're a Cornell undergraduate student, consider [working with us][ugrad]!
 
 ## Hardware Accelerator Generation
 
+### [Calyx, an Infrastructure for Hardware Accelerator Compilers][calyx]
+
+We're designing [Calyx][], an intermediate language (IL) and infrastructure for building compilers that generate hardware accelerators.
+Calyx works by representing both hardware-like *structure* and software-like *control* together.
+
+[calyx]: https://capra.cs.cornell.edu/calyx
+
 ### [Dahlia, a Language for Predictable Accelerator Design][dahlia]
 
 High-level synthesis (HLS) tools can translate C-like languages to hardware accelerators, but the semantic gap between software and hardware can yield unpredictable performance and semantics.
@@ -38,14 +45,6 @@ reject HLS designs that make unpredictable area-latency trade-offs. You
 can [try Dahlia in your browser](https://capra.cs.cornell.edu/dahlia).
 
 [dahlia]: https://capra.cs.cornell.edu/dahlia
-
-### [Calyx, an Infrastructure for Hardware Accelerator Compilers][calyx]
-
-We're designing [Calyx][], an intermediate language (IL) and infrastructure for building compilers that generate hardware accelerators.
-Calyx works by representing both hardware-like *structure* and software-like *control* together.
-
-[calyx]: https://capra.cs.cornell.edu/calyx
-
 
 ## Graphics Programming
 
