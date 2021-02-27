@@ -347,6 +347,10 @@ $colsep: 0.8rem;
   margin-left: -$colsep;
   margin-right: -$colsep;
 
+  div.full-width {
+    width: 100% !important;
+  }
+
   .category {
     width: 11rem;
     padding: 0 $colsep;
@@ -372,6 +376,13 @@ $colsep: 0.8rem;
     color: #ccc;
     font-size: 80%;
   }
+
+}
+
+ul.multi-col {
+  //column-count: 2;
+  column-fill: balance;
+  column-width: 11em;
 }
 
 // Responsive video embed.
