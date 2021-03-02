@@ -9,7 +9,6 @@ roles:
     undergrad: Undergrad & MEng
     collaborator: Collaborators
     staff: Staff
-    alum: Alumni
 ---
 **Capra** is a research group at [Cornell][] in the [Computer Science][cs] and [Electrical and Computer Engineering][ece] departments.
 Our research studies abstractions and efficiency through the interaction of [programming languages][cupl] and computer architecture.
@@ -122,4 +121,24 @@ Most camera systems are optimized for photography, so they waste time and energy
     </ul>
   </div>
   {% endfor %}
+</div>
+
+<div class="people alumni">
+<div class="category full-width">
+<h3>Alumni</h3>
+    <ul class="multi-col">
+      {%- for name, person in people | dictsort %}
+      {%- if person.role == "alum" -%}
+      <li>
+        {% if person.link %}<a href="{{ person.link }}">{% endif -%}
+        {{ name }}
+        {%- if person.link %}</a>{% endif %}
+        {% if person.note -%}
+        <span class="note">{{ person.note }}</span>
+        {%- endif %}
+      </li>
+      {%- endif -%}
+      {% endfor -%}
+    </ul>
+</div>
 </div>

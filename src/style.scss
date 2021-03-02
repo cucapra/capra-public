@@ -347,6 +347,10 @@ $colsep: 0.8rem;
   margin-left: -$colsep;
   margin-right: -$colsep;
 
+  div.full-width {
+    width: 100% !important;
+  }
+
   .category {
     width: 11rem;
     padding: 0 $colsep;
@@ -363,8 +367,12 @@ $colsep: 0.8rem;
 
       li {
         margin: 0.8ex 0;
+        -webkit-column-break-inside: avoid;
+        column-break-inside: avoid;
+        page-break-inside: avoid;
       }
     }
+
   }
 
   .note {
@@ -372,7 +380,18 @@ $colsep: 0.8rem;
     color: #ccc;
     font-size: 80%;
   }
+
 }
+
+div.alumni {
+  max-width: 38rem;
+}
+
+ul.multi-col {
+  column-fill: balance;
+  column-width: 11rem;
+}
+
 
 // Responsive video embed.
 // http://amobil.se/2011/11/responsive-embeds/
