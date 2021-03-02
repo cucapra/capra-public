@@ -123,7 +123,7 @@ Most camera systems are optimized for photography, so they waste time and energy
   {% endfor %}
 </div>
 
-<div class="people">
+<div class="people alumni">
 <div class="category full-width">
 <h3>Alumni</h3>
     <ul class="multi-col">
