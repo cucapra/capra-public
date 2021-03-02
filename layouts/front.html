@@ -8,7 +8,7 @@
         <img src="/img/octicons/rss.svg">
       </a>
     </h2>
-    {% for item in news | limit(22) -%}
+    {% for item in news | limit(19) -%}
     <article>
       <time datetime="{{ item.date | date("YYYY-MM-DD") }}">
         {{ item.date | date("MMM DD, YYYY") }}
