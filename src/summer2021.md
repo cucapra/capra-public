@@ -6,7 +6,7 @@ notitle: true
 # CSURP Talk Series
 
 We're running a series of enrichment talks for undergraduate researchers who are doing research in Bowers CIS this summer.
-Location and remote participation details TBD.
+Time, location, and remote participation details TBD.
 
 <table>
     <thead>
