@@ -5,8 +5,9 @@ notitle: true
 ---
 # CSURP Talk Series
 
-We're running a series of enrichment talks for undergraduate researchers who are doing research in Bowers CIS this summer.
-Time, location, and remote participation details TBD.
+We're running a series of enrichment talks for undergraduate researchers who are doing research in the Bowers College this summer.
+The tentative time is Wednesdays at 3pm.
+Location and remote participation details TBD.
 
 <table>
     <thead>
@@ -18,9 +19,54 @@ Time, location, and remote participation details TBD.
     </thead>
     <tbody>
         <tr>
-            <td>June 4</td>
+            <td>June 9</td>
             <td><a href="https://www.cs.cornell.edu/~asampson/">Adrian Sampson</a></td>
             <td>Spectre</td>
+        </tr>
+        <tr>
+            <td>June 16</td>
+            <td>TK</td>
+            <td>TK</td>
+        </tr>
+        <tr>
+            <td>June 23</td>
+            <td>TK</td>
+            <td>TK</td>
+        </tr>
+        <tr>
+            <td>June 30</td>
+            <td>TK</td>
+            <td>TK</td>
+        </tr>
+        <tr>
+            <td>July 7</td>
+            <td>TK</td>
+            <td>TK</td>
+        </tr>
+        <tr>
+            <td>July 14</td>
+            <td>TK</td>
+            <td>TK</td>
+        </tr>
+        <tr>
+            <td>July 21</td>
+            <td>TK</td>
+            <td>TK</td>
+        </tr>
+        <tr>
+            <td>July 28</td>
+            <td>TK</td>
+            <td>TK</td>
+        </tr>
+        <tr>
+            <td>August 4</td>
+            <td>TK</td>
+            <td>TK</td>
+        </tr>
+        <tr>
+            <td>August 11</td>
+            <td></td>
+            <td>Summer Research Symposium</td>
         </tr>
     </tbody>
 </table>
