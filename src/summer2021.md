@@ -60,11 +60,6 @@ Location and remote participation details TBD.
         </tr>
         <tr>
             <td>August 4</td>
-            <td>TK</td>
-            <td>TK</td>
-        </tr>
-        <tr>
-            <td>August 11</td>
             <td></td>
             <td>Summer Research Symposium</td>
         </tr>
