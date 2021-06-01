@@ -30,8 +30,8 @@ Location and remote participation details TBD.
         </tr>
         <tr>
             <td>June 23</td>
-            <td>TK</td>
-            <td>TK</td>
+            <td><a href="https://www.cs.cornell.edu/~jnfoster/">Nate Foster</a></td>
+            <td>Research in Academia vs. Industry</td>
         </tr>
         <tr>
             <td>June 30</td>
