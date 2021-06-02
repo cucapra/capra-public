@@ -45,8 +45,8 @@ Location and remote participation details TBD.
         </tr>
         <tr>
             <td>July 14</td>
-            <td>TK</td>
-            <td>TK</td>
+            <td><a href="https://yangqian.myportfolio.com">Qian Yang</a></td>
+            <td>Human-Centered AI/ML</td>
         </tr>
         <tr>
             <td>July 21</td>
