@@ -40,8 +40,8 @@ Location and remote participation details TBD.
         </tr>
         <tr>
             <td>July 7</td>
-            <td>TK</td>
-            <td>TK</td>
+            <td><a href="http://www.noahsd.com">Noah Stephens-Davidowitz</a></td>
+            <td>Post-Quantum Crypto</td>
         </tr>
         <tr>
             <td>July 14</td>
