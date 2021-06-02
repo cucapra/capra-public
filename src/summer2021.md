@@ -25,8 +25,8 @@ Location and remote participation details TBD.
         </tr>
         <tr>
             <td>June 16</td>
-            <td>TK</td>
-            <td>TK</td>
+            <td><a href="https://www.cs.cornell.edu/~rdk/">Bobby Kleinberg</a></td>
+            <td>Sequential Prediction Algorithms</td>
         </tr>
         <tr>
             <td>June 23</td>
@@ -51,7 +51,7 @@ Location and remote participation details TBD.
         <tr>
             <td>July 21</td>
             <td>TK</td>
-            <td>TK</td>
+            <td>Applying to PhD Programs in Computer Science</td>
         </tr>
         <tr>
             <td>July 28</td>
