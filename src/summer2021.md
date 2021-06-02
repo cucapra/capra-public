@@ -19,47 +19,47 @@ Location and remote participation details TBD.
     </thead>
     <tbody>
         <tr>
-            <td>June 9</td>
+            <td class="date">June 9</td>
             <td><a href="https://www.cs.cornell.edu/~asampson/">Adrian Sampson</a></td>
             <td>Spectre</td>
         </tr>
         <tr>
-            <td>June 16</td>
+            <td class="date">June 16</td>
             <td><a href="https://www.cs.cornell.edu/~rdk/">Bobby Kleinberg</a></td>
             <td>Sequential Prediction Algorithms</td>
         </tr>
         <tr>
-            <td>June 23</td>
+            <td class="date">June 23</td>
             <td><a href="https://www.cs.cornell.edu/~jnfoster/">Nate Foster</a></td>
             <td>Research in Academia vs. Industry</td>
         </tr>
         <tr>
-            <td>June 30</td>
+            <td class="date">June 30</td>
             <td><a href="http://abedavis.com">Abe Davis</a></td>
             <td>Graphics/Vision/HCI Stuff</td>
         </tr>
         <tr>
-            <td>July 7</td>
+            <td class="date">July 7</td>
             <td><a href="http://www.noahsd.com">Noah Stephens-Davidowitz</a></td>
             <td>Post-Quantum Crypto</td>
         </tr>
         <tr>
-            <td>July 14</td>
+            <td class="date">July 14</td>
             <td><a href="https://yangqian.myportfolio.com">Qian Yang</a></td>
             <td>Human-Centered AI/ML</td>
         </tr>
         <tr>
-            <td>July 21</td>
+            <td class="date">July 21</td>
             <td><a href="https://www.cs.cornell.edu/home/cardie/">Claire Cardie</a></td>
             <td>TBD</td>
         </tr>
         <tr>
-            <td>July 28</td>
+            <td class="date">July 28</td>
             <td><a href="http://www.cs.cornell.edu/ken">Ken Birman</a></td>
             <td>Cascade: Ultra-fast Edge Computing for Intelligent ML</td>
         </tr>
         <tr>
-            <td>August 4</td>
+            <td class="date">August 4</td>
             <td></td>
             <td>Summer Research Symposium</td>
         </tr>

@@ -245,6 +245,9 @@ table {
   td, th {
     padding: 0 0.5rem;
   }
+  th.date, td.date {
+    width: 5em;
+  }
 }
 
 // Research project listings.
