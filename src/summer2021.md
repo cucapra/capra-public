@@ -55,8 +55,8 @@ Location and remote participation details TBD.
         </tr>
         <tr>
             <td>July 28</td>
-            <td>TK</td>
-            <td>TK</td>
+            <td><a href="http://www.cs.cornell.edu/ken">Ken Birman</a></td>
+            <td>Cascade: Ultra-fast Edge Computing for Intelligent ML</td>
         </tr>
         <tr>
             <td>August 4</td>
