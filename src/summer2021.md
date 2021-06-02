@@ -35,8 +35,8 @@ Location and remote participation details TBD.
         </tr>
         <tr>
             <td>June 30</td>
-            <td>TK</td>
-            <td>TK</td>
+            <td><a href="http://abedavis.com">Abe Davis</a></td>
+            <td>Graphics/Vision/HCI Stuff</td>
         </tr>
         <tr>
             <td>July 7</td>
