@@ -7,7 +7,8 @@ notitle: true
 
 We're running a series of enrichment talks for undergraduate researchers who are doing research in the Bowers College this summer.
 The tentative time is Wednesdays at 3pm.
-Location and remote participation details TBD.
+Location in Gates Hall TBD.
+You can also join via Zoom—look in your email or ask [Adrian](mailto:asampson@cs.cornell.edu) for a link.
 
 <table>
     <thead>
