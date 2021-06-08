@@ -6,8 +6,7 @@ notitle: true
 # CSURP Talk Series
 
 We're running a series of enrichment talks for undergraduate researchers who are doing research in the Bowers College this summer.
-The tentative time is Wednesdays at 3pm.
-Location in Gates Hall TBD.
+It happens on **Wednesdays at 3pm** in **Gates 310**.
 You can also join via Zoom—look in your email or ask [Adrian](mailto:asampson@cs.cornell.edu) for a link.
 
 <table>
