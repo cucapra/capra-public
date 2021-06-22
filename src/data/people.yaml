@@ -150,7 +150,8 @@ Henry Liu:
     note: "BS & MEng 2020"
 
 Patrick LaFontaine:
-    role: undergrad
+    role: alum
+    note: 'BS 2021'
 
 Maya Ifekauche:
     role: alum
@@ -186,12 +187,25 @@ Karen Zhang:
 Andrei Shpilenok:
     role: undergrad
 
-Iain Pile:
-    role: undergrad
-
 Paul Joo:
     role: undergrad
+    note: 'BS 2021'
 
 Griffin Berlstein:
     role: phd
     link: https://griffinberlste.in
+
+Alma Thaler:
+    role: undergrad
+
+Andrii Iermolaiev:
+    role: undergrad
+
+'YoungSeok (Alex) Na':
+    role: undergrad
+
+Jasper Liang:
+    role: undergrad
+
+Jonathan Tran:
+    role: phd
