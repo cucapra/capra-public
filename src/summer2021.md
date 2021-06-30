@@ -51,7 +51,7 @@ You can also join via Zoom—look in your email or ask [Adrian](mailto:asampson@
         <tr>
             <td class="date">July 21</td>
             <td><a href="https://www.cs.cornell.edu/home/cardie/">Claire Cardie</a></td>
-            <td>TBD</td>
+            <td>Information Extraction in NLP --- Then and Now</td>
         </tr>
         <tr>
             <td class="date">July 28</td>
