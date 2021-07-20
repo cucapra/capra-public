@@ -59,8 +59,21 @@ You can also join via Zoom—look in your email or ask [Adrian](mailto:asampson@
             <td>Cascade: Ultra-fast Edge Computing for Intelligent ML</td>
         </tr>
         <tr>
-            <td class="date">August 4</td>
-            <td></td>
+            <td class="date">August 10</td>
+            <td>
+                <a href="https://sites.google.com/site/tapomayukh">Tapomayukh Bhattacharjee</a><br>
+                <a href="https://cacioepe.pe">A.F. Cooper</a><br>
+                <a href="https://michela-meister.github.io">Michela Meister</a><br>
+                <a href="https://www.cs.cornell.edu/~asampson/">Adrian Sampson</a><br>
+                <a href="https://www.guandaoyang.com">Guandao Yang</a><br>
+                <a href="https://www.cs.cornell.edu/~dzag/">Drew Zagieboylo</a><br>
+                <a href="https://dolobyte.net">Yunhao Zhang</a>
+            </td>
+            <td>A Panel About Grad School</td>
+        </tr>
+        <tr>
+            <td class="date">August 11</td>
+            <td>you!</td>
             <td>Summer Research Symposium</td>
         </tr>
     </tbody>
