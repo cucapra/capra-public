@@ -60,7 +60,7 @@ var site = Metalsmith(__dirname)
       sortBy: 'date',
       reverse: true,
       metadata: {
-        layout: 'news.html',
+        layout: 'news.html.njk',
       },
     },
   }))
@@ -69,7 +69,7 @@ var site = Metalsmith(__dirname)
   .use(filemetadata([
     {
       pattern: 'news/*',
-      metadata: { layout: "news.html" },
+      metadata: { layout: "news.html.njk" },
     }
   ]))
   .use((files, metalsmith, done) => {
