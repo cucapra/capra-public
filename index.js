@@ -93,6 +93,19 @@ var site = Metalsmith(__dirname)
     done();
   })
 
+  // People.
+  .use(metadata({
+    people: 'data/people.yaml',
+  }))
+
+  // Format in-place Nunjucks markup and Markdown.
+  .use(inplace({
+    "engineOptions": { "filters": myFilters },
+  }))
+  .use(markdown({
+    smartypants: true,
+  }))
+
   // Add links to each item in `path` and `link`.
   .use((files, metalsmith, done) => {
     for (let filepath in files) {
@@ -109,19 +122,6 @@ var site = Metalsmith(__dirname)
     }
     done();
   })
-
-  // People.
-  .use(metadata({
-    people: 'data/people.yaml',
-  }))
-
-  // Format in-place Nunjucks markup and Markdown.
-  .use(inplace({
-    "engineOptions": { "filters": myFilters },
-  }))
-  .use(markdown({
-    smartypants: true,
-  }))
 
   // News feeds.
   .use(jsonfeed({
