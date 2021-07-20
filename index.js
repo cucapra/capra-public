@@ -79,11 +79,15 @@ var site = Metalsmith(__dirname)
         item.title = moment(item.date).format('MMM DD, YYYY');
       }
 
+      // Super hacky: save the original Markdown source for use after the
+      // "main" `metalsmith-markdown` phase.
+      item.mdsource = Buffer.from(item.contents);
+
       // Blog post items get a body containing the title and author.
       if (item.kind === 'post') {
         let body = `<p>${item.author} published: <a href="${item.link}">` +
           `${item.title}</a></p>`;
-        item.contents = new Buffer(body, 'utf8');
+        item.contents = Buffer.from(body, 'utf8');
       }
     }
     done();

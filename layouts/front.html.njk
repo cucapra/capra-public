@@ -21,7 +21,7 @@
         </a>
       </p>
       {% else %}
-      {{ item.contents | safe | trim }}
+      {{ item.mdsource | markdown | safe | trim }}
       {% endif %}
     </article>
     {% endfor %}
