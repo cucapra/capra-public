@@ -110,6 +110,19 @@ var site = Metalsmith(__dirname)
     done();
   })
 
+  // People.
+  .use(metadata({
+    people: 'data/people.yaml',
+  }))
+
+  // Format in-place Nunjucks markup and Markdown.
+  .use(inplace({
+    "engineOptions": { "filters": myFilters },
+  }))
+  .use(markdown({
+    smartypants: true,
+  }))
+
   // News feeds.
   .use(jsonfeed({
     collection: 'news',
@@ -118,17 +131,6 @@ var site = Metalsmith(__dirname)
     collection: 'news',
   }))
 
-  // People.
-  .use(metadata({
-    people: 'data/people.yaml',
-  }))
-
-  .use(inplace({
-    "engineOptions": { "filters": myFilters },
-  }))
-  .use(markdown({
-    smartypants: true,
-  }))
   .use(components({
     "componentsDirectory": "node_modules",
     "components": {
