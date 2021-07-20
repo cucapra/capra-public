@@ -20,7 +20,7 @@ var serveMode = process.argv.indexOf('--serve') != -1;
 
 var myFilters = {
   'markdown': function (str) {
-    return marked(str, { smartypants: true });
+    return marked(str.toString(), { smartypants: true });
   },
   'date': function (d, f) {
     return moment(d).format(f);

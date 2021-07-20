@@ -20,7 +20,7 @@ or <a href="/rss.xml">RSS</a>.
     </a>
   </p>
   {% else %}
-  {{ item.contents | safe | trim }}
+  {{ item.contents | markdown | safe | trim }}
   {% endif %}
 </article>
 {% endfor %}
