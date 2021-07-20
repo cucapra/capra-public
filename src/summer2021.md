@@ -59,7 +59,10 @@ You can also join via Zoom—look in your email or ask [Adrian](mailto:asampson@
             <td>Cascade: Ultra-fast Edge Computing for Intelligent ML</td>
         </tr>
         <tr>
-            <td class="date">August 10</td>
+            <td class="date">
+                August 10<br>
+                <b>1:30pm</b>
+            </td>
             <td>
                 <a href="https://sites.google.com/site/tapomayukh">Tapomayukh Bhattacharjee</a><br>
                 <a href="https://cacioepe.pe">A.F. Cooper</a><br>
