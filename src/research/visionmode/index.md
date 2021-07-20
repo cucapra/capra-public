@@ -1,5 +1,5 @@
 ---
-layout: layout.html
+layout: layout.html.njk
 title: "Vision Mode"
 longtitle: "Reconfiguring the Imaging Pipeline for Computer Vision"
 order: 3

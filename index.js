@@ -18,14 +18,17 @@ var moment = require('moment');
 
 var serveMode = process.argv.indexOf('--serve') != -1;
 
-// Nunjucks options.
-nunjucks.configure().addFilter('markdown', function (str) {
-  return marked(str, { smartypants: true });
-}).addFilter('date', function (d, f) {
-  return moment(d).format(f);
-}).addFilter('limit', function (array, limit) {
-  return array.slice(0, limit);
-});
+var myFilters = {
+  'markdown': function (str) {
+    return marked(str, { smartypants: true });
+  },
+  'date': function (d, f) {
+    return moment(d).format(f);
+  },
+  'limit': function (array, limit) {
+    return array.slice(0, limit);
+  },
+};
 
 var site = Metalsmith(__dirname)
   .source('./src')
@@ -38,9 +41,6 @@ var site = Metalsmith(__dirname)
     },
   })
   .use(ignore(['**/.DS_Store']))
-  .use(markdown({
-    smartypants: true,
-  }))
   .use(sass())
   .use(metadataIF())
   .use((files, metalsmith, done) => {
@@ -120,8 +120,10 @@ var site = Metalsmith(__dirname)
   }))
 
   .use(inplace({
-    engine: "nunjucks",
-    pattern: "**/*.{html,md}"
+    "engineOptions": { "filters": myFilters },
+  }))
+  .use(markdown({
+    smartypants: true,
   }))
   .use(components({
     "componentsDirectory": "node_modules",
@@ -131,7 +133,9 @@ var site = Metalsmith(__dirname)
       },
     },
   }))
-  .use(layouts('nunjucks'));
+  .use(layouts({
+    "engineOptions": { "filters": myFilters },
+  }));
 
 if (serveMode) {
   var serve = require('metalsmith-serve');

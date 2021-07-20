@@ -1,6 +1,6 @@
 ---
 title: "Summer Talk Series"
-layout: layout.html
+layout: layout.html.njk
 notitle: true
 ---
 # CSURP Talk Series

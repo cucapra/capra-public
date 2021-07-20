@@ -1,5 +1,5 @@
 ---
-layout: layout.html
+layout: layout.html.njk
 title: "Abstractions for Intelligent Systems"
 longtitle: "Abstractions for Natural Language & Intelligent Systems"
 order: 3

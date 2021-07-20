@@ -1,5 +1,5 @@
 ---
-layout: layout.html
+layout: layout.html.njk
 title: "Gator: Geometry Types"
 longtitle: "Geometry Types for Graphics Programming in Gator"
 ---

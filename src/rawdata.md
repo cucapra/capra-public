@@ -1,6 +1,6 @@
 ---
 title: "Raw Photo Dataset"
-layout: layout.html
+layout: layout.html.njk
 ---
 # RAW Photo Dataset Collection
 

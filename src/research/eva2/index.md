@@ -1,5 +1,5 @@
 ---
-layout: layout.html
+layout: layout.html.njk
 title: "Activation Motion Compensation"
 longtitle: "Exploiting Temporal Redundancy for Live Computer Vision"
 order: 2

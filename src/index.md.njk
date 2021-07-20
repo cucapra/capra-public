@@ -1,7 +1,7 @@
 ---
 title: Home
 longtitle: Computer Architecture & Programming Abstractions
-layout: front.html
+layout: front.html.njk
 order: 0
 roles:
     faculty: Faculty
@@ -102,43 +102,43 @@ Most camera systems are optimized for photography, so they waste time and energy
 ## People
 
 <div class="people">
-  {% for role, rolename in roles %}
-  <div class="category">
-    <h3>{{ rolename }}</h3>
-    <ul>
-      {%- for name, person in people | dictsort %}
-      {%- if person.role == role -%}
-      <li>
-        {% if person.link %}<a href="{{ person.link }}">{% endif -%}
-        {{ name }}
-        {%- if person.link %}</a>{% endif %}
-        {% if person.note -%}
-        <span class="note">{{ person.note }}</span>
-        {%- endif %}
-      </li>
-      {%- endif -%}
-      {% endfor -%}
-    </ul>
-  </div>
-  {% endfor %}
+{% for role, rolename in roles %}
+<div class="category">
+<h3>{{ rolename }}</h3>
+<ul>
+  {%- for name, person in people | dictsort %}
+  {%- if person.role == role -%}
+  <li>
+    {% if person.link %}<a href="{{ person.link }}">{% endif -%}
+    {{ name }}
+    {%- if person.link %}</a>{% endif %}
+    {% if person.note -%}
+    <span class="note">{{ person.note }}</span>
+    {%- endif %}
+  </li>
+  {%- endif -%}
+  {% endfor -%}
+</ul>
+</div>
+{% endfor %}
 </div>
 
 <div class="people alumni">
 <div class="category full-width">
 <h3>Alumni</h3>
-    <ul class="multi-col">
-      {%- for name, person in people | dictsort %}
-      {%- if person.role == "alum" -%}
-      <li>
-        {% if person.link %}<a href="{{ person.link }}">{% endif -%}
-        {{ name }}
-        {%- if person.link %}</a>{% endif %}
-        {% if person.note -%}
-        <span class="note">{{ person.note }}</span>
-        {%- endif %}
-      </li>
-      {%- endif -%}
-      {% endfor -%}
-    </ul>
+<ul class="multi-col">
+  {%- for name, person in people | dictsort %}
+  {%- if person.role == "alum" -%}
+  <li>
+    {% if person.link %}<a href="{{ person.link }}">{% endif -%}
+    {{ name }}
+    {%- if person.link %}</a>{% endif %}
+    {% if person.note -%}
+    <span class="note">{{ person.note }}</span>
+    {%- endif %}
+  </li>
+  {%- endif -%}
+  {% endfor -%}
+</ul>
 </div>
 </div>

@@ -1,7 +1,7 @@
 ---
 title: "Undergraduate Research"
 singleton: true
-layout: layout.html
+layout: layout.html.njk
 ---
 Doing research as an undergraduate can be fun, challenging, and rewarding---and it can help you decide whether you're interested in grad school.
 [Our research group][capra] includes many talented undergraduate researchers, and we often look for new collaborators.

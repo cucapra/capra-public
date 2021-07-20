@@ -1,6 +1,6 @@
 ---
 title: "Summer Talk Series"
-layout: layout.html
+layout: layout.html.njk
 notitle: true
 ---
 # CIS Summer Talk Series for Undergraduate Researchers
