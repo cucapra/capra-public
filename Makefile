@@ -1,10 +1,10 @@
 .PHONY: build clean view serve deploy
 
 build: node_modules
-	yarn run build
+	yarn build
 
 serve: node_modules
-	yarn run serve
+	yarn start
 
 clean:
 	rm -rf build

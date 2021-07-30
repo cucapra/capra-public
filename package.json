@@ -26,7 +26,7 @@
   },
   "scripts": {
     "build": "node index.js",
-    "serve": "node index.js --serve"
+    "start": "node index.js --serve"
   },
   "devDependencies": {
     "metalsmith-in-place": "^4.4.2",
