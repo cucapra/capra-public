@@ -93,6 +93,11 @@ All undergraduates working on computer science research this summer are invited 
 The event will by "hybrid," so you can participate either in Ithaca or on Zoom.
 Presenters will give a lightning talk and take questions from the audience.
 
+**Sign up to give a lightning talk.**
+Please [fill out this form][form] by **Friday, August 6** to register to give a lightning talk.
+
+[form]: https://forms.gle/yVqdHy3SRw6qK9dy9
+
 **Lightning talk guidelines.**
 Presenters will each give a 5-minute lightning talk.
 We recommend this format:
