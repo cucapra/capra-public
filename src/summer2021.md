@@ -89,6 +89,48 @@ You can also join via Zoom—look in your email or ask [Adrian](mailto:asampson@
 On Wednesday, August 11 at 3pm, we'll have a symposium for all the research that has been going on this summer!
 The symposium is an opportunity for summer researchers to share their experiences and progress with each other and with the rest of the department.
 
+#### Program
+
+1. 3:05pm: <b>Eric Chen</b>
+   <details><summary><i>Synthesizing Across Time</i></summary>Ever wondered how someone from today would look like in the 1920s? Or how hairstyles have changed between decades? We propose a GAN-based method to synthesize portraits across time.</details>
+2. 3:12pm: <b>Ruyu Yan</b>
+   <details>
+     <summary>Rephotography with AR on Mobile Device</summary>
+     A system that enables picture sampling with precise camera pose in the scene, powered by Apple ARKit and a guiding system for pose alignment. It outputs interactive visualizations of images varying in time and space.
+   </details>
+3. 3:19pm: <b>Devin Smedira</b>
+   <details>
+     <summary>Scheduling Appointments Online: The Power of Deferred Decision-Making</summary>
+     This summer I have been studying the Minimum Peak Appointment Scheduling Problem, an online variant of the bin packing problem. In this problem, an item's position within a bin needs to be decided in an online fashion, but the final placement of items into bins can be performed offline after execution. Previous work described an algorithm with an asymptotic competitive ratio for this problem lower than is possible for traditional bin packing, and my work this summer has resulted in a new algorithm reducing the ratio further.
+   </details>
+4. 3:26pm: <b>Longxiulin Deng</b>
+   <details>
+     <summary>Xplainr: Rapid Creation for Explainer Video</summary>
+     With the rise of distance learning and virtual lecturing, the need for simple tools for rapidly creating educational content has increased. We present the design and prototype of a tool that makes the best use of existing workflow for the fast creation of educational videos.
+   </details>
+5. 3:33pm: <b>Yagmur Dulger</b>
+   <details>
+     <summary>Attempts at Modeling Diffusion of Innovations in Social Networks</summary>
+     What set of individuals in a society should we advertise a new technology to (with limited budget), so that we maximize the number of people who end up adopting it? Taking as a starting point Eva Tardos's paper "Maximizing Spread of Influence in Social Networks", I spent the summer working on extending the model described in the paper, trying to approximate an answer to this NP-Hard problem.
+   </details>
+6. 3:40pm: <b>Aliva Das</b>
+   <details>
+     <summary>Automated Error Analysis for Template Filling</summary>
+     The project involves creating a system that automatically searches for a predefined set of errors among model generated templates and their respective filled slots as compared to the gold templates. This project hopes to supplement traditional, manual qualitative analysis of the models' output and attempts to offer details about the model performance which can be hard to interpret using common evaluation metrics such as F1.
+   </details>
+7. 3:47pm: <b>Sanjit Basker</b>
+   <details>
+     <summary>Motivating RCCA Encryption</summary>
+     At the beginnings of cryptography, various methods of justifying security were proposed. I'll motivate and introduce the definition of an RCCA-secure encryption scheme, which was the main topic of my project.
+   </details>
+8. 3:54pm: <b>Blake Gallay</b>
+   <details>
+     <summary>Tree Codes</summary>
+     While the problem of how to send individual messages over noisy channels has been studied for decades, the interactive communication setting has been resilient to our best efforts. A peculiar combinatorial object called a tree code is the key to provably good interactive protocols, but no constructions of these objects are known. The problem of finding such a construction is what I worked on this summer.
+   </details>
+
+#### Logistics and Advice
+
 All undergraduates working on computer science research this summer are invited to present.
 The event will by "hybrid," so you can participate either in Ithaca or on Zoom.
 Presenters will give a lightning talk and take questions from the audience.
