@@ -11,6 +11,7 @@ var filemetadata = require('metalsmith-filemetadata');
 var components   = require('metalsmith-components');
 var jsonfeed     = require('metalsmith-json-feed');
 var feed         = require('metalsmith-feed');
+var bibtex       = require('metalsmith-bibtex');
 
 var marked   = require('marked');
 var nunjucks = require('nunjucks');
@@ -27,6 +28,9 @@ var myFilters = {
   },
   'limit': function (array, limit) {
     return array.slice(0, limit);
+  },
+  'fmtAuthor': function (author) {
+    return author.split(' and ').join(', ');
   },
 };
 
@@ -96,6 +100,16 @@ var site = Metalsmith(__dirname)
   // People.
   .use(metadata({
     people: 'data/people.yaml',
+  }))
+
+  // Publications.
+  .use(bibtex({
+    collections: { pubs: 'pubs.bib' },
+    default: 'pubs',
+    style: 'default',
+    keystyle: 'numbered',
+    sortBy: 'year',
+    reverseOrder: true,
   }))
 
   // Format in-place Nunjucks markup and Markdown.

@@ -1,0 +1,12 @@
+---
+title: "Publications"
+layout: layout.html.njk
+---
+# Publications
+
+{% for key, pub in bibtex.pubs %}
+{%- if pub.entrytype == "inproceedings" -%}
+* "{{ pub.title }}." {{ pub.author | fmtAuthor }}.
+  In {{ pub.booktitle }} {{ pub.year}}.
+{%- endif -%}
+{% endfor %}
