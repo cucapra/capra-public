@@ -4,6 +4,10 @@ layout: layout.html.njk
 ---
 # Publications
 
+Download [a BibTeX file][bib] with these citations.
+
+[bib]: pubs.bib
+
 {% for key, pub in bibtex.pubs %}
 {%- if pub.entrytype == "inproceedings" -%}
 * "{{ pub.title }}." {{ pub.author | fmtAuthor }}.

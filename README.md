@@ -26,6 +26,7 @@ Pushing to this repository will update the public site via [Hooknook][].
 All the content lives under `src/`.
 The list of people is in a YAML file at `src/data/people.yaml` (add yourself there!).
 You can add research projects by adding subdirectories under `src/research/`.
+Add any new publications to the `pubs.bib` file.
 
 News items live under `src/news/`.
 Please post early and often!

@@ -12,6 +12,7 @@ var components   = require('metalsmith-components');
 var jsonfeed     = require('metalsmith-json-feed');
 var feed         = require('metalsmith-feed');
 var bibtex       = require('metalsmith-bibtex');
+var mcopy        = require('metalsmith-copy');
 
 var marked   = require('marked');
 var nunjucks = require('nunjucks');
@@ -103,6 +104,10 @@ var site = Metalsmith(__dirname)
   }))
 
   // Publications.
+  .use(mcopy({
+    pattern: '*.bib',
+    directory: 'pubs',
+  }))
   .use(bibtex({
     collections: { pubs: 'pubs.bib' },
     default: 'pubs',
