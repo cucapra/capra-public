@@ -2,5 +2,5 @@ Watch [Sam][]’s [ADA][] [demo video][video] featuring the [Calyx][] compiler i
 
 [ada]: https://adacenter.org
 [video]: https://youtu.be/IFTB8cfXTeo
-[calyx]: https://capra.cs.cornell.edu/calyx/
+[calyx]: https://calyxir.org
 [sam]: https://sgtpeacock.com
