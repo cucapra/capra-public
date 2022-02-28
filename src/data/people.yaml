@@ -65,7 +65,7 @@ Evan Su:
     note: "MEng 2018"
 
 Sachille Atapattu:
-    role: phd
+    role: alum
 
 Irene Yoon:
     role: alum
@@ -120,8 +120,9 @@ Arthur Wang:
     note: "MEng 2018"
 
 Zhijing Li:
-    role: phd
+    role: alum
     link: https://tissue3.github.io/
+    note: "MS 2021"
 
 Samuel Thomas:
     role: alum
@@ -225,3 +226,6 @@ Pai Li:
 
 Evan Williams:
     role: undergrad
+
+Oliver Daids:
+    role: phd
