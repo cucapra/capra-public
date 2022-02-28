@@ -171,7 +171,7 @@ Kevin Negy:
 
 Ross Tate:
     role: collaborator
-    link: https://www.cs.cornell.edu/~ross/
+    link: https://rosstate.org
 
 Kimberly Baum:
     role: alum
@@ -185,9 +185,6 @@ Karen Zhang:
     role: alum
     note: "BS 2021"
 
-Andrei Shpilenok:
-    role: undergrad
-
 Paul Joo:
     role: alum
     note: 'BS 2021'
@@ -196,20 +193,26 @@ Griffin Berlstein:
     role: phd
     link: https://griffinberlste.in
 
-Alma Thaler:
-    role: undergrad
-
-Andrii Iermolaiev:
-    role: undergrad
-
 'YoungSeok (Alex) Na':
     role: undergrad
 
 Jasper Liang:
     role: undergrad
-    
+
 Richard Wang:
     role: undergrad
 
 Jonathan Tran:
     role: phd
+
+Liam Daniels:
+    role: undergrad
+
+Jan-Paul Vincent:
+    role: undergrad
+
+David Siher:
+    role: undergrad
+
+Alaia Solko-Breslin:
+    role: undergrad
