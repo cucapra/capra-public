@@ -41,8 +41,8 @@ You can also join via Zoom—look in your email or ask [Adrian](mailto:asampson@
         </tr>
         <tr>
             <td class="date">July 7</td>
-            <td>TK</td>
-            <td>TK</td>
+            <td>Wen Sun</td>
+            <td>Interactive Machine Learning</td>
         </tr>
         <tr>
             <td class="date">July 14</td>
