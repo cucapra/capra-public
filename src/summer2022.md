@@ -7,7 +7,7 @@ notitle: true
 
 The CS department is running a series of enrichment talks for undergraduate researchers who are doing research in Bowers CIS this summer.
 (Non-undergrads are invited too!)
-It happens on **Thursdays at 3pm** in **Gates 310**.
+It happens on **Thursdays 3–4pm** in **Gates 310**.
 You can also join via Zoom—look in your email or ask [Adrian](mailto:asampson@cs.cornell.edu) for a link.
 
 <table>
@@ -26,8 +26,8 @@ You can also join via Zoom—look in your email or ask [Adrian](mailto:asampson@
         </tr>
         <tr>
             <td class="date">June 16</td>
-            <td>TK</td>
-            <td>TK</td>
+            <td>Ken Birman</td>
+            <td>The Evolution of Distributed Computing</td>
         </tr>
         <tr>
             <td class="date">June 23</td>
