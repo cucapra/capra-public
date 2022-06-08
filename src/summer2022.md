@@ -21,8 +21,8 @@ You can also join via Zoom—look in your email or ask [Adrian](mailto:asampson@
     <tbody>
         <tr>
             <td class="date">June 9</td>
-            <td>TK</td>
-            <td>TK</td>
+            <td>everybody</td>
+            <td>Introductions &amp; Snacks!</td>
         </tr>
         <tr>
             <td class="date">June 16</td>
