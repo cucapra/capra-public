@@ -20,11 +20,6 @@ You can also join via Zoom—look in your email or ask [Adrian](mailto:asampson@
     </thead>
     <tbody>
         <tr>
-            <td class="date">June 9</td>
-            <td>everybody</td>
-            <td>Introductions &amp; Snacks!</td>
-        </tr>
-        <tr>
             <td class="date">June 16</td>
             <td>Ken Birman</td>
             <td>The Evolution of Distributed Computing</td>
