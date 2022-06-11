@@ -21,22 +21,22 @@ You can also join via Zoom—look in your email or ask [Adrian](mailto:asampson@
     <tbody>
         <tr>
             <td class="date">June 16</td>
-            <td>Ken Birman</td>
+            <td><a href="https://www.cs.cornell.edu/ken/">Ken Birman</a></td>
             <td>The Evolution of Distributed Computing</td>
         </tr>
         <tr>
             <td class="date">June 23</td>
-            <td>TK</td>
+            <td><a href="https://gargnikhil.com">Nikhil Garg</a></td>
             <td>TK</td>
         </tr>
         <tr>
             <td class="date">June 30</td>
-            <td>Bharath Hariharan</td>
+            <td><a href="http://home.bharathh.info">Bharath Hariharan</a></td>
             <td>Navigating Research in Computer Vision & Machine Learning</td>
         </tr>
         <tr>
             <td class="date">July 7</td>
-            <td>Wen Sun</td>
+            <td><a href="https://wensun.github.io">Wen Sun</a></td>
             <td>Interactive Machine Learning</td>
         </tr>
         <tr>
