@@ -32,7 +32,7 @@ You can also join via Zoom—look in your email or ask [Adrian](mailto:asampson@
         <tr>
             <td class="date">June 30</td>
             <td><a href="http://home.bharathh.info">Bharath Hariharan</a></td>
-            <td>Navigating Research in Computer Vision & Machine Learning</td>
+            <td>Navigating Research in Computer Vision &amp; Machine Learning</td>
         </tr>
         <tr>
             <td class="date">July 7</td>
@@ -41,7 +41,7 @@ You can also join via Zoom—look in your email or ask [Adrian](mailto:asampson@
         </tr>
         <tr>
             <td class="date">July 14</td>
-            <td>TK</td>
+            <td><a href="http://www.abedavis.com">Abe Davis</a></td>
             <td>TK</td>
         </tr>
         <tr>
