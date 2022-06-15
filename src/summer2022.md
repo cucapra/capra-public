@@ -27,7 +27,7 @@ You can also join via Zoom—look in your email or ask [Adrian](mailto:asampson@
         <tr>
             <td class="date">June 23</td>
             <td><a href="https://gargnikhil.com">Nikhil Garg</a></td>
-            <td>TK</td>
+            <td>Computing to Answer Societal Questions</td>
         </tr>
         <tr>
             <td class="date">June 30</td>
@@ -56,7 +56,7 @@ You can also join via Zoom—look in your email or ask [Adrian](mailto:asampson@
         </tr>
         <tr>
             <td class="date">August 4</td>
-            <td>TK</td>
+            <td><a href="https://sdean.website">Sarah Dean</a></td>
             <td>TK</td>
         </tr>
     </tbody>
