@@ -7,7 +7,7 @@ notitle: true
 
 The CS department is running a series of enrichment talks for undergraduate researchers who are doing research in Bowers CIS this summer.
 (Non-undergrads are invited too!)
-It happens on **Thursdays 3–4pm** in **Gates 310**.
+It happens on **Thursdays 3–4pm** in **Gates 310** (except for a couple of weeks in an alternate location, indicated below).
 You can also join via Zoom—look in your email or ask [Adrian](mailto:asampson@cs.cornell.edu) for a link.
 
 <table>
@@ -22,7 +22,10 @@ You can also join via Zoom—look in your email or ask [Adrian](mailto:asampson@
         <tr>
             <td class="date">June 16</td>
             <td><a href="https://www.cs.cornell.edu/ken/">Ken Birman</a></td>
-            <td>The Evolution of Distributed Computing</td>
+            <td>
+                The Evolution of Distributed Computing<br>
+                <strong>in Gates 114</strong>
+            </td>
         </tr>
         <tr>
             <td class="date">June 23</td>
@@ -32,7 +35,10 @@ You can also join via Zoom—look in your email or ask [Adrian](mailto:asampson@
         <tr>
             <td class="date">June 30</td>
             <td><a href="http://home.bharathh.info">Bharath Hariharan</a></td>
-            <td>Navigating Research in Computer Vision &amp; Machine Learning</td>
+            <td>
+                Navigating Research in Computer Vision &amp; Machine Learning<br>
+                <strong>in Gates 114</strong>
+            </td>
         </tr>
         <tr>
             <td class="date">July 7</td>
