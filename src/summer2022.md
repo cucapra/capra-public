@@ -48,7 +48,7 @@ You can also join via Zoom—look in your email or ask [Adrian](mailto:asampson@
         <tr>
             <td class="date">July 14</td>
             <td><a href="http://www.abedavis.com">Abe Davis</a></td>
-            <td>TK</td>
+            <td>Creativity & Communication in Research (with other scattered stories and advice)</td>
         </tr>
         <tr>
             <td class="date">July 21</td>
