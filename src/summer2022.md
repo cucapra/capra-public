@@ -52,7 +52,12 @@ You can also join via Zoom—look in your email or ask [Adrian](mailto:asampson@
         </tr>
         <tr>
             <td class="date">July 21</td>
-            <td>TK</td>
+            <td>
+                Emily Ryu<br>
+                Justin Hsu<br>
+                Lisa Li<br>
+                Yunhe Liu
+            </td>
             <td>Applying to Grad School</td>
         </tr>
         <tr>
