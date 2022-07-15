@@ -137,8 +137,9 @@ Apurva Koti:
 #     role: undergrad
 
 Vivi Ye:
-    role: undergrad
+    role: alum
     link: 'https://www.viviyye.com'
+    note: "BS 2022"
 
 Katy Voor:
     role: alum
@@ -162,9 +163,6 @@ Maya Ifekauche:
 Jacob Delgado-López:
     role: alum
     note: "visitor, University of Puerto Rico"
-
-YooNa Chang:
-    role: undergrad
 
 Kevin Negy:
     role: phd
@@ -195,13 +193,15 @@ Griffin Berlstein:
     link: https://griffinberlste.in
 
 'YoungSeok (Alex) Na':
-    role: undergrad
+    role: alum
 
 Jasper Liang:
-    role: undergrad
+    role: alum
+    note: 'BS & Meng 2022'
 
 Richard Wang:
-    role: undergrad
+    role: alum
+    note: 'BS 2021'
 
 Jonathan Tran:
     role: phd
@@ -213,11 +213,13 @@ Jan-Paul Vincent:
     role: undergrad
 
 David Siher:
-    role: undergrad
+    role: alum
     link: https://davidsiher.dev
+    note: 'BS 2022'
 
 Alaia Solko-Breslin:
-    role: undergrad
+    role: alum
+    note: 'BS & Meng 2022'
 
 Crystal Hu:
     role: undergrad
@@ -234,3 +236,18 @@ Oliver Daids:
 Susan Garry:
     role: staff
     note: "Research Assistant"
+
+Caleb Kim:
+    role: undergrad
+
+Mateo Guynn:
+    role: undergrad
+
+Meredith Hu:
+    role: undergrad
+
+Nathaniel Navarro:
+    role: undergrad
+
+David Chen:
+    role: undergrad
