@@ -53,10 +53,10 @@ You can also join via Zoom—look in your email or ask [Adrian](mailto:asampson@
         <tr>
             <td class="date">July 21</td>
             <td>
-                Emily Ryu<br>
-                Justin Hsu<br>
+                <a href="https://emilyryu.github.io">Emily Ryu</a><br>
+                <a href="https://justinh.su">Justin Hsu</a><br>
                 Lisa Li<br>
-                Yunhe Liu
+                <a href="https://about.yunhe-liu.com">Yunhe Liua</a>
             </td>
             <td>Applying to Grad School</td>
         </tr>
