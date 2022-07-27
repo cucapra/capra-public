@@ -14,7 +14,7 @@ You can also join via Zoom—look in your email or ask [Adrian](mailto:asampson@
     <thead>
         <tr>
             <th>Date</th>
-            <th>Speaker</th>
+            <th style="width: 7em;">Speaker</th>
             <th>Topic</th>
         </tr>
     </thead>
@@ -62,7 +62,7 @@ You can also join via Zoom—look in your email or ask [Adrian](mailto:asampson@
         </tr>
         <tr>
             <td class="date">July 28</td>
-            <td>you!</td>
+            <td>(see below!)</td>
             <td>Summer Research Symposium</td>
         </tr>
         <tr>
