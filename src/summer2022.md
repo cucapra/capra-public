@@ -145,7 +145,7 @@ We recommend this format:
 
 * 1 minute: Motivation and background. Introduce the general area and tell the audience why they should care. If you work on algorithms for fast genome sequence alignment, for example, tell us about biologists who are bored of waiting for their alignment jobs to complete. Get creative here---this is your chance to get your audience to care!
 * 1 minute: Project introduction. Tell us about the project you contributed to. This might be broader than just what you contributed to. For example, if your work was on extending a programming language that other people in the lab had previously designed, tell us about the language and its goals.
-* 1 minutes: What you did. What was your focus for the summer, and what did you concretely do all day? If you have results or outcomes, tell us about those. If your work was more diffuse than that, just tell us more narratively what kept you busy all summer.
+* 1 minute: What you did. What was your focus for the summer, and what did you concretely do all day? If you have results or outcomes, tell us about those. If your work was more diffuse than that, just tell us more narratively what kept you busy all summer.
 * 1 minute: Reflection. While the rest of the talk is about the research, this last section is about *you* and your reactions to it. What did you enjoy about the research? What was challenging? Was this your first time---and if not, how did it differ from previous research experiences you've had? Did you learn anything? What advice would you give to someone considering summer CS research in the future? This section is totally open-ended; tell us anything you like about your experience this summer.
 
 Here are some guidelines to keep in mind:
