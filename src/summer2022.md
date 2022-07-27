@@ -92,7 +92,8 @@ The symposium is an opportunity for summer researchers to share their experience
    <b>Liam Daniels</b>
    <details>
    <summary><i>The Caiman Frontend</i></summary>
-   I will explain the objective of Caiman in general, the original merged IR-corresponding language I made, and then where I am currently with the Value Language.
+   Caiman is a programming language IR for programs using both a CPU and GPU that splits general logic and scheduling into two languages. In doing this, it attempts to reduce required manual programmer management while still allowing control, as well as facilitate creating new optimizations across the CPU/GPU boundary. This summer, I created a pretty printer for this IR and constructed a simple IR-like frontend language, and my current work is creating a second frontend language that more closely resembles an ordinary programming language.
+    </details>
 3. 3:14pm:
    <b>Ruyu Yan</b>
    <details>
