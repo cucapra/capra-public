@@ -68,7 +68,7 @@ You can also join via Zoom—look in your email or ask [Adrian](mailto:asampson@
         <tr>
             <td class="date">August 4</td>
             <td><a href="https://sdean.website">Sarah Dean</a></td>
-            <td>TK</td>
+            <td>Envisioning Information: Tips for Presenting Research</td>
         </tr>
     </tbody>
 </table>
