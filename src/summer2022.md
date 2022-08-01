@@ -56,7 +56,7 @@ You can also join via Zoom—look in your email or ask [Adrian](mailto:asampson@
                 <a href="https://emilyryu.github.io">Emily Ryu</a><br>
                 <a href="https://justinh.su">Justin Hsu</a><br>
                 Lisa Li<br>
-                <a href="https://about.yunhe-liu.com">Yunhe Liua</a>
+                <a href="https://about.yunhe-liu.com">Yunhe Liu</a>
             </td>
             <td>Applying to Grad School</td>
         </tr>
