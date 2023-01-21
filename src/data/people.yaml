@@ -209,9 +209,6 @@ Jonathan Tran:
 Mia Daniels:
     role: undergrad
 
-Jan-Paul Vincent:
-    role: undergrad
-
 David Siher:
     role: alum
     link: https://davidsiher.dev
@@ -220,9 +217,6 @@ David Siher:
 Alaia Solko-Breslin:
     role: alum
     note: 'BS & Meng 2022'
-
-Crystal Hu:
-    role: undergrad
 
 Pai Li:
     role: undergrad
@@ -252,3 +246,11 @@ Nathaniel Navarro:
 
 David Chen:
     role: undergrad
+
+Anshuman Mohan:
+    role: phd
+    link: https://www.cs.cornell.edu/~amohan/
+
+Priya Srikumar:
+    role: phd
+    link: https://priyasrikumar.com
