@@ -1,4 +1,4 @@
-[Griffin][]'s [ASPLOS paper on accelerator debugging][paper] won a Distinguished Artifact Award!
+[Griffin][]’s [ASPLOS paper on accelerator debugging][paper] won a Distinguished Artifact Award!
 [Try it out.][cider]
 
 [griffin]: https://griffinberlste.in
