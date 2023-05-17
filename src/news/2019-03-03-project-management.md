@@ -1,5 +1,5 @@
 ---
-link: https://rachitnigam.com/post/project-management/
+link: https://rachit.pl/post/project-management/
 title: Project Mangement for PhD students
 author: Rachit
 kind: post
