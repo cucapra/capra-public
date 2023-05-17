@@ -1,256 +1,332 @@
 Adrian Sampson:
     role: faculty
     link: https://www.cs.cornell.edu/~asampson/
-
-Mark Buckler:
-    role: alum
-    link: http://www.markbuckler.com
-    note: "PhD 2019"
-
-Philip Bedoukian:
-    role: phd
-
-Harrison Goldstein:
-    role: alum
-    link: http://harrisongoldste.in
-    note: "BS & MEng 2018"
-
-Alex Renda:
-    role: alum
-    link: http://alexrenda.com
-    note: "BS 2018"
-
-Suren Jayasuriya:
-    role: collaborator
-    link: https://web.asu.edu/imaging-lyceum
-
-Chris De Sa:
-    role: collaborator
-    link: http://www.cs.cornell.edu/~cdesa/
-
-Chris Batten:
-    role: collaborator
-    link: http://www.csl.cornell.edu/~cbatten/
-
-Zhiru Zhang:
-    role: collaborator
-    link: http://www.csl.cornell.edu/~zhiruz/
-
-James Bornholt:
-    role: collaborator
-    link: https://www.cs.utexas.edu/~bornholt/
-
-Nate Foster:
-    role: collaborator
-    link: https://www.cs.cornell.edu/~jnfoster/
-
-Dietrich Geisler:
-    role: phd
-    link: http://www.cs.cornell.edu/~dgeisler/
-
-Edwin Peguero:
-    role: alum
-    note: "MS 2021"
-
-Daniel Sainati:
-    role: alum
-    note: "BS & MEng 2018"
-
-Shiyu Wang:
-    role: alum
-    note: "MEng 2018"
-
-Evan Su:
-    role: alum
-    note: "MEng 2018"
-
-Sachille Atapattu:
-    role: alum
-
-Irene Yoon:
-    role: alum
-    link: https://www.cis.upenn.edu/~euisuny/
-    note: "BS 2019"
-
-Theodore Bauer:
-    role: alum
-    link: https://tedbauer.github.io
-    note: "BS 2019"
-
-Rachit Nigam:
-    role: phd
-    link: https://rachit.pl
-
-Alexa VanHattum:
-    role: phd
-    link: https://www.cs.cornell.edu/~avh/
-
-Neil Adit:
-    role: phd
-    link: http://www.neiladit.com
+    sort: 0
 
 Jenna Edwards:
     role: staff
     note: "Program Manager"
+    sort: 0
 
-Alex Wong:
-    role: alum
-    note: "MEng 2019"
+# ========== Collaborators ==============
 
-Kenneth Fang:
-    role: alum
-    note: "BS 2020"
+Suren Jayasuriya:
+    role: collaborator
+    link: https://web.asu.edu/imaging-lyceum
+    sort: 0
 
-Aditi Kabra:
-    role: alum
-    note: "BS 2019"
-    link: https://aditink.github.io/
+Chris De Sa:
+    role: collaborator
+    link: http://www.cs.cornell.edu/~cdesa/
+    sort: 0
 
-Yinnon Sanders:
-    role: alum
-    note: "BS 2019"
+Chris Batten:
+    role: collaborator
+    link: http://www.csl.cornell.edu/~cbatten/
+    sort: 0
 
-Horace He:
-    role: alum
-    note: "BS 2020"
-    link: http://horace.io
+Zhiru Zhang:
+    role: collaborator
+    link: http://www.csl.cornell.edu/~zhiruz/
+    sort: 0
 
-Arthur Wang:
-    role: alum
-    note: "MEng 2018"
+James Bornholt:
+    role: collaborator
+    link: https://www.cs.utexas.edu/~bornholt/
+    sort: 0
 
-Zhijing Li:
-    role: alum
-    link: https://tissue3.github.io/
-    note: "MS 2021"
-
-Samuel Thomas:
-    role: alum
-    note: 'BS 2020'
-    link: https://sgtpeacock.com/
-
-Apurva Koti:
-    role: alum
-    note: "BS 2020"
-
-# Ben Gillott:
-#     role: undergrad
-
-Vivi Ye:
-    role: alum
-    link: 'https://www.viviyye.com'
-    note: "BS 2022"
-
-Katy Voor:
-    role: alum
-    note: "BS 2020"
-
-# Palini Ramnarayan:
-#     role: undergrad
-
-Henry Liu:
-    role: alum
-    note: "BS & MEng 2020"
-
-Patrick LaFontaine:
-    role: alum
-    note: 'BS 2021'
-
-Maya Ifekauche:
-    role: alum
-    note: "visitor, Auburn University"
-
-Jacob Delgado-López:
-    role: alum
-    note: "visitor, University of Puerto Rico"
-
-Kevin Negy:
-    role: phd
-    link: https://www.cs.cornell.edu/~kevinnegy/
+Nate Foster:
+    role: collaborator
+    link: https://www.cs.cornell.edu/~jnfoster/
+    sort: 0
 
 Ross Tate:
     role: collaborator
     link: https://rosstate.org
 
-Kimberly Baum:
-    role: alum
-    note: "BS 2020"
 
-Chris Gyurgyik:
-    role: alum
-    note: "BS 2021"
+# ============= Current PhDs =================
 
-Karen Zhang:
-    role: alum
-    note: "BS 2021"
+Oliver Daids:
+    role: phd
+    sort: 0
 
-Paul Joo:
-    role: alum
-    note: 'BS 2021'
+Anshuman Mohan:
+    role: phd
+    link: https://www.cs.cornell.edu/~amohan/
+    sort: 0
+
+Priya Srikumar:
+    role: phd
+    link: https://priyasrikumar.com
+    sort: 0
+
+Jonathan Tran:
+    role: phd
+    sort: 0
+
+Philip Bedoukian:
+    role: phd
+    sort: 0
+
+Rachit Nigam:
+    role: phd
+    link: https://rachit.pl
+    sort: 0
+
+Alexa VanHattum:
+    role: phd
+    link: https://www.cs.cornell.edu/~avh/
+    sort: 0
+
+Neil Adit:
+    role: phd
+    link: http://www.neiladit.com
+    sort: 0
+
+Dietrich Geisler:
+    role: phd
+    link: http://www.cs.cornell.edu/~dgeisler/
+    sort: 0
+
+Kevin Negy:
+    role: phd
+    link: https://www.cs.cornell.edu/~kevinnegy/
+    sort: 0
 
 Griffin Berlstein:
     role: phd
     link: https://griffinberlste.in
+    sort: 0
 
-'YoungSeok (Alex) Na':
-    role: alum
+# ============== Current Students ================
 
-Jasper Liang:
-    role: alum
-    note: 'BS & Meng 2022'
+Pai Li:
+    role: undergrad
+    sort: 0
 
-Richard Wang:
-    role: alum
-    note: 'BS 2021'
+Evan Williams:
+    role: undergrad
+    sort: 0
 
-Jonathan Tran:
-    role: phd
+Susan Garry:
+    role: staff
+    note: "Research Associate"
+    sort: 0
+
+Caleb Kim:
+    role: undergrad
+    sort: 0
+
+Mateo Guynn:
+    role: undergrad
+    sort: 0
+
+Meredith Hu:
+    role: undergrad
+    link: https://meredithmhu.github.io/
+    sort: 0
+
+David Chen:
+    role: undergrad
+    sort: 0
 
 Mia Daniels:
     role: undergrad
+    sort: 0
+
+# ============= Alums =================
+# People appear in the order they are specified here
 
 David Siher:
     role: alum
     link: https://davidsiher.dev
     note: 'BS 2022'
+    sort: 2
 
 Alaia Solko-Breslin:
     role: alum
     note: 'BS & Meng 2022'
+    sort: 1
 
-Pai Li:
-    role: undergrad
+Jasper Liang:
+    role: alum
+    note: 'BS & Meng 2022'
+    sort: 2
 
-Evan Williams:
-    role: undergrad
+Vivi Ye:
+    role: alum
+    link: 'https://www.viviyye.com'
+    note: "BS 2022"
+    sort: 2
 
-Oliver Daids:
-    role: phd
+Edwin Peguero:
+    role: alum
+    note: "MS 2021"
+    sort: 1
 
-Susan Garry:
-    role: staff
-    note: "Research Associate"
+Zhijing Li:
+    role: alum
+    link: https://tissue3.github.io/
+    note: "MS 2021"
+    sort: 1
 
-Caleb Kim:
-    role: undergrad
+# Ben Gillott:
+#     role: undergrad
 
-Mateo Guynn:
-    role: undergrad
+Patrick LaFontaine:
+    role: alum
+    note: 'BS 2021'
+    sort: 2
 
-Meredith Hu:
-    role: undergrad
-    link: https://meredithmhu.github.io/
+Chris Gyurgyik:
+    role: alum
+    note: "BS 2021"
+    sort: 2
+
+Karen Zhang:
+    role: alum
+    note: "BS 2021"
+    sort: 2
+
+Paul Joo:
+    role: alum
+    note: 'BS 2021'
+    sort: 2
+
+Richard Wang:
+    role: alum
+    note: 'BS 2021'
+    sort: 2
+
+
+Kimberly Baum:
+    role: alum
+    note: "BS 2020"
+    sort: 2
+
+Katy Voor:
+    role: alum
+    note: "BS 2020"
+    sort: 2
+
+# Palini Ramnarayan:
+#     role: undergrad
+
+Kenneth Fang:
+    role: alum
+    note: "BS 2020"
+    sort: 2
+
+Horace He:
+    role: alum
+    note: "BS 2020"
+    link: http://horace.io
+    sort: 2
+
+
+Samuel Thomas:
+    role: alum
+    note: 'BS 2020'
+    link: https://sgtpeacock.com/
+    sort: 2
+
+Apurva Koti:
+    role: alum
+    note: "BS 2020"
+    sort: 2
+
+Henry Liu:
+    role: alum
+    note: "BS & MEng 2020"
+    sort: 1
+
+
+Aditi Kabra:
+    role: alum
+    note: "BS 2019"
+    link: https://aditink.github.io/
+    sort: 2
+
+Yinnon Sanders:
+    role: alum
+    note: "BS 2019"
+    sort: 2
+
+
+Mark Buckler:
+    role: alum
+    link: http://www.markbuckler.com
+    note: "PhD 2019"
+    sort: 0
+
+Irene Yoon:
+    role: alum
+    link: https://www.cis.upenn.edu/~euisuny/
+    note: "BS 2019"
+    sort: 2
+
+Theodore Bauer:
+    role: alum
+    link: https://tedbauer.github.io
+    note: "BS 2019"
+    sort: 2
+
+Alex Wong:
+    role: alum
+    note: "MEng 2019"
+    sort: 1
+
+Harrison Goldstein:
+    role: alum
+    link: http://harrisongoldste.in
+    note: "BS & MEng 2018"
+    sort: 1
+
+Alex Renda:
+    role: alum
+    link: http://alexrenda.com
+    note: "BS 2018"
+    sort: 2
+
+Daniel Sainati:
+    role: alum
+    note: "BS & MEng 2018"
+    sort: 1
+
+Shiyu Wang:
+    role: alum
+    note: "MEng 2018"
+    sort: 1
+
+Evan Su:
+    role: alum
+    note: "MEng 2018"
+    sort: 1
+
+Arthur Wang:
+    role: alum
+    note: "MEng 2018"
+    sort: 1
+
+Maya Ifekauche:
+    role: alum
+    note: "visitor, Auburn University"
+    sort: 3
+
+Jacob Delgado-López:
+    role: alum
+    note: "visitor, University of Puerto Rico"
+    sort: 3
+
+Sachille Atapattu:
+    role: alum
+    sort: 3
 
 Nathaniel Navarro:
-    role: undergrad
+    role: alum
+    sort: 3
 
-David Chen:
-    role: undergrad
-
-Anshuman Mohan:
-    role: phd
-    link: https://www.cs.cornell.edu/~amohan/
-
-Priya Srikumar:
-    role: phd
-    link: https://priyasrikumar.com
+'YoungSeok (Alex) Na':
+    role: alum
+    sort: 3

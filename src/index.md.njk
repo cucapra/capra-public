@@ -137,7 +137,10 @@ Most camera systems are optimized for photography, so they waste time and energy
 <div class="category full-width">
 <h3>Alumni</h3>
 <ul class="multi-col">
-  {%- for name, person in people | dictsort %}
+  {%- for weight, group in (people | list | groupby("value.sort")) %}
+  {%- for data in group  %}
+  {% set name = data.key %}
+  {% set person = data.value %}
   {%- if person.role == "alum" -%}
   <li>
     {% if person.link %}<a href="{{ person.link }}">{% endif -%}
@@ -148,6 +151,7 @@ Most camera systems are optimized for photography, so they waste time and energy
     {%- endif %}
   </li>
   {%- endif -%}
+  {% endfor -%}
   {% endfor -%}
 </ul>
 </div>
