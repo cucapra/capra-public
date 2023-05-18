@@ -1,3 +1,10 @@
+## The `sort` field is only meaningful for alums. It represents:
+## 0: PhD
+## 1: MS
+## 2: BS
+## 3: Undergrad
+## 4: Unique status
+
 Adrian Sampson:
     role: faculty
     link: https://www.cs.cornell.edu/~asampson/
@@ -312,21 +319,21 @@ Arthur Wang:
 Maya Ifekauche:
     role: alum
     note: "visitor, Auburn University"
-    sort: 3
+    sort: 4
 
 Jacob Delgado-López:
     role: alum
     note: "visitor, University of Puerto Rico"
-    sort: 3
+    sort: 4
 
 Sachille Atapattu:
     role: alum
-    sort: 3
+    sort: 4
 
 Nathaniel Navarro:
     role: alum
-    sort: 3
+    sort: 4
 
 'YoungSeok (Alex) Na':
     role: alum
-    sort: 3
+    sort: 4
