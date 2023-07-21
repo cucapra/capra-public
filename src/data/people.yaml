@@ -120,10 +120,6 @@ Meredith Hu:
     link: https://meredithmhu.github.io/
     sort: 0
 
-David Chen:
-    role: undergrad
-    sort: 0
-
 Basant Khalil:
     role: undergrad
     sort: 0
@@ -344,11 +340,15 @@ Nathaniel Navarro:
 
 Jonathan Tran:
     role: alum
-    note: "MEng 2023"
-    sort: 0
+    note: "MS 2023"
+    sort: 1
 
 Mia Daniels:
     role: alum
     note: "BS 2023"
     sort: 2
 
+David Chen:
+    role: alum
+    note: "MEng 2023"
+    sort: 1
