@@ -10,7 +10,7 @@ Adrian Sampson:
     link: https://www.cs.cornell.edu/~asampson/
     sort: 0
 
-Jenna Edwards:
+Shailja Gaur:
     role: staff
     note: "Program Manager"
     sort: 0
@@ -68,22 +68,9 @@ Priya Srikumar:
     link: https://priyasrikumar.com
     sort: 0
 
-Jonathan Tran:
-    role: phd
-    sort: 0
-
-Philip Bedoukian:
-    role: phd
-    sort: 0
-
 Rachit Nigam:
     role: phd
     link: https://rachit.pl
-    sort: 0
-
-Alexa VanHattum:
-    role: phd
-    link: https://www.cs.cornell.edu/~avh/
     sort: 0
 
 Neil Adit:
@@ -106,19 +93,18 @@ Griffin Berlstein:
     link: https://griffinberlste.in
     sort: 0
 
+Benjamin Carleton:
+    role: phd
+    sort: 0
+
+Susan Garry:
+    role: phd
+    sort: 0
+
 # ============== Current Students ================
 
 Pai Li:
     role: undergrad
-    sort: 0
-
-Evan Williams:
-    role: undergrad
-    sort: 0
-
-Susan Garry:
-    role: staff
-    note: "Research Associate"
     sort: 0
 
 Caleb Kim:
@@ -138,7 +124,15 @@ David Chen:
     role: undergrad
     sort: 0
 
-Mia Daniels:
+Basant Khalil:
+    role: undergrad
+    sort: 0
+
+Edmund Lam:
+    role: undergrad
+    sort: 0
+
+Ethan Gabizon:
     role: undergrad
     sort: 0
 
@@ -260,11 +254,21 @@ Yinnon Sanders:
     note: "BS 2019"
     sort: 2
 
-
 Mark Buckler:
     role: alum
     link: http://www.markbuckler.com
     note: "PhD 2019"
+    sort: 0
+
+Alexa VanHattum:
+    role: alum
+    link: https://www.cs.cornell.edu/~avh/
+    note: "PhD 2023"
+    sort: 0
+
+Philip Bedoukian:
+    role: alum
+    note: "PhD 2023"
     sort: 0
 
 Irene Yoon:
@@ -337,3 +341,14 @@ Nathaniel Navarro:
 'YoungSeok (Alex) Na':
     role: alum
     sort: 4
+
+Jonathan Tran:
+    role: alum
+    note: "MEng 2023"
+    sort: 0
+
+Mia Daniels:
+    role: alum
+    note: "BS 2023"
+    sort: 2
+
