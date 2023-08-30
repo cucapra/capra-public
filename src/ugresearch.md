@@ -19,6 +19,10 @@ Here are some things you should know about research in our group:
 We use GitHub issues to communicate with Cornell students interested in joining our research group.
 Please [fill out our issue template][issue] and we'll get back to you in the comments there.
 
+Please excuse us if it takes a while to get back to you, or if we don't end up finding a good fit.
+Research projects are somewhat unpredictable by nature, and opportunities to collaborate with new researchers don't always exist at every point in time.
+Remember to cast a wide net and consider other labs too!
+
 [capra]: /
 [CS 3110]: http://www.cs.cornell.edu/courses/cs3110/
 [CS 3410]: http://www.cs.cornell.edu/courses/cs3410/
