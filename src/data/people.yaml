@@ -101,6 +101,11 @@ Susan Garry:
     role: phd
     sort: 0
 
+Ayaka Yorihiro:
+    role: phd
+    link: https://ayakayorihiro.github.io
+    sort: 0
+
 # ============== Current Students ================
 
 Pai Li:
@@ -131,6 +136,27 @@ Edmund Lam:
 Ethan Gabizon:
     role: undergrad
     sort: 0
+
+Nathaniel Navarro:
+    role: undergrad
+    sort: 0
+
+Stephen Verderame:
+    role: undergrad
+    sort: 0
+
+Justin Ngai:
+    role: undergrad
+    sort: 0
+
+Kaden Lei:
+    role: undergrad
+    sort: 0
+
+Elias Castro:
+    role: undergrad
+    sort: 0
+
 
 # ============= Alums =================
 # People appear in the order they are specified here
@@ -329,10 +355,6 @@ Jacob Delgado-López:
     sort: 4
 
 Sachille Atapattu:
-    role: alum
-    sort: 4
-
-Nathaniel Navarro:
     role: alum
     sort: 4
 
