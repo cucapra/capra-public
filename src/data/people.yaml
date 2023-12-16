@@ -111,17 +111,9 @@ Caleb Kim:
     role: undergrad
     sort: 0
 
-Mateo Guynn:
-    role: undergrad
-    sort: 0
-
 Meredith Hu:
     role: undergrad
     link: https://meredithmhu.github.io/
-    sort: 0
-
-Basant Khalil:
-    role: undergrad
     sort: 0
 
 Edmund Lam:
@@ -371,3 +363,12 @@ David Chen:
     role: alum
     note: "MEng 2023"
     sort: 1
+
+Basant Khalil:
+    role: alum
+    note: "BS 2023"
+    sort: 2
+
+Mateo Guynn:
+    role: alum
+    sort: 2
