@@ -146,7 +146,7 @@ Most camera systems are optimized for photography, so they waste time and energy
 <h3>Alumni</h3>
 <ul class="multi-col">
   {%- for weight, group in (people | list | groupby("value.sort")) %}
-  {%- for data in group  %}
+  {%- for data in ( group | reverse )  %}
   {% set name = data.key %}
   {% set person = data.value %}
   {%- if person.role == "alum" -%}
