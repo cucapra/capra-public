@@ -15,6 +15,11 @@ Shailja Gaur:
     note: "Program Manager"
     sort: 0
 
+Kevin Laeufer:
+    role: staff
+    note: "Research Associate"
+    link: https://kevinlaeufer.com
+
 # ========== Collaborators ==============
 
 Suren Jayasuriya:
@@ -52,7 +57,7 @@ Ross Tate:
     link: https://rosstate.org
 
 
-# ============= Current PhDs =================
+# ============= Current PhDs & MSs ===============
 
 Oliver Daids:
     role: phd
@@ -66,16 +71,6 @@ Anshuman Mohan:
 Rachit Nigam:
     role: phd
     link: https://rachit.pl
-    sort: 0
-
-Neil Adit:
-    role: phd
-    link: http://www.neiladit.com
-    sort: 0
-
-Dietrich Geisler:
-    role: phd
-    link: http://www.cs.cornell.edu/~dgeisler/
     sort: 0
 
 Kevin Negy:
@@ -101,51 +96,17 @@ Ayaka Yorihiro:
     link: https://ayakayorihiro.github.io
     sort: 0
 
+Jiahan Xie:
+    role: phd  # actually MS, but we don't have a separate category
+    sort: 0
+
 # ============== Current Students ================
-
-Pai Li:
-    role: undergrad
-    sort: 0
-
-Caleb Kim:
-    role: undergrad
-    sort: 0
-    link: https://calebmkim.github.io
-
-Meredith Hu:
-    role: undergrad
-    link: https://meredithmhu.github.io/
-    sort: 0
 
 Edmund Lam:
     role: undergrad
     sort: 0
 
 Ethan Gabizon:
-    role: undergrad
-    sort: 0
-
-Nathaniel Navarro:
-    role: undergrad
-    sort: 0
-
-Stephen Verderame:
-    role: undergrad
-    sort: 0
-
-Justin Ngai:
-    role: undergrad
-    sort: 0
-
-Kaden Lei:
-    role: undergrad
-    sort: 0
-
-Elias Castro:
-    role: undergrad
-    sort: 0
-
-Elise Song:
     role: undergrad
     sort: 0
 
@@ -164,6 +125,18 @@ Ethan Uppal:
     sort: 0
 
 Cassandra Sziklai:
+    role: undergrad
+    sort: 0
+
+Parth Sarkar:
+    role: undergrad
+    sort: 0
+
+Serena Duncan:
+    role: undergrad
+    sort: 0
+
+Jeremy Ku-Benjet:
     role: undergrad
     sort: 0
 
@@ -304,6 +277,18 @@ Philip Bedoukian:
     note: "PhD 2023"
     sort: 0
 
+Dietrich Geisler:
+    role: alum
+    note: "PhD 2024"
+    link: http://www.cs.cornell.edu/~dgeisler/
+    sort: 0
+
+Neil Adit:
+    role: alum
+    note: "PhD 2024"
+    link: http://www.neiladit.com
+    sort: 0
+
 Irene Yoon:
     role: alum
     link: https://euisuny.github.io
@@ -393,4 +378,43 @@ Basant Khalil:
 
 Mateo Guynn:
     role: alum
+    note: "BS 2024"
+    sort: 2
+
+Elise Song:
+    role: alum
+    note: "BS & MEng 2024"
+    sort: 2
+
+Pai Li:
+    role: alum
+    note: "BS 2024"
+    sort: 2
+
+Caleb Kim:
+    role: alum
+    note: "BS 2024"
+    sort: 2
+    link: https://calebmkim.github.io
+
+Meredith Hu:
+    role: alum
+    note: "BS 2024"
+    sort: 2
+    link: https://meredithmhu.github.io/
+
+Nathaniel Navarro:
+    role: alum
+    note: "BS 2024"
+    sort: 2
+
+Stephen Verderame:
+    role: alum
+    note: "BS & MEng 2024"
+    sort: 2
+    link: https://stephenverderame.github.io
+
+Justin Ngai:
+    role: alum
+    note: "MEng 2023"
     sort: 2
