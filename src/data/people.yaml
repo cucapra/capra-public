@@ -68,11 +68,6 @@ Anshuman Mohan:
     link: https://www.cs.cornell.edu/~amohan/
     sort: 0
 
-Rachit Nigam:
-    role: phd
-    link: https://rachit.pl
-    sort: 0
-
 Kevin Negy:
     role: phd
     link: https://www.cs.cornell.edu/~kevinnegy/
@@ -270,6 +265,12 @@ Alexa VanHattum:
     role: alum
     link: https://www.cs.cornell.edu/~avh/
     note: "PhD 2023"
+    sort: 0
+
+Rachit Nigam:
+    role: alum
+    link: https://rachit.pl
+    note: "PhD 2024"
     sort: 0
 
 Philip Bedoukian:
