@@ -14,7 +14,7 @@ To build the site, do something like this:
 
 Or to preview it locally, use:
 
-    $ yarn run serve
+    $ yarn run start
 
 And follow the directions to open it in your browser.
 
