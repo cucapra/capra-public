@@ -82,7 +82,7 @@ Benjamin Carleton:
     role: phd
     sort: 0
 
-Susan Garry:
+Soos Garry:
     role: phd
     sort: 0
 
@@ -93,6 +93,10 @@ Ayaka Yorihiro:
 
 Jiahan Xie:
     role: phd  # actually MS, but we don't have a separate category
+    sort: 0
+
+Michael Xing:
+    role: phd  # also actually MS
     sort: 0
 
 # ============== Current Students ================
@@ -132,6 +136,22 @@ Serena Duncan:
     sort: 0
 
 Jeremy Ku-Benjet:
+    role: undergrad
+    sort: 0
+
+Pedro Pontes García:
+    role: undergrad
+    sort: 0
+
+Ryan Fu:
+    role: undergrad
+    sort: 0
+
+Jerry Ji:
+    role: undergrad  # MEng
+    sort: 0
+
+John Palsberg:
     role: undergrad
     sort: 0
 
