@@ -1,5 +1,5 @@
 ---
-link: https://griffinberlste.in/blog/2024-02-20-first-project/
+link: https://griffinberlste.in/blog/first-project/
 title: On Asking the Wrong Questions
 author: Griffin
 kind: post
