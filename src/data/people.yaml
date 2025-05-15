@@ -68,11 +68,6 @@ Anshuman Mohan:
     link: https://www.cs.cornell.edu/~amohan/
     sort: 0
 
-Kevin Negy:
-    role: phd
-    link: https://www.cs.cornell.edu/~kevinnegy/
-    sort: 0
-
 Griffin Berlstein:
     role: phd
     link: https://griffinberlste.in
@@ -157,6 +152,12 @@ John Palsberg:
 
 # ============= Alums =================
 # People appear in the order they are specified here
+
+Kevin Negy:
+    role: alum
+    link: https://www.cs.cornell.edu/~kevinnegy/
+    sort: 0
+    note: 'PhD 2025'
 
 David Siher:
     role: alum
