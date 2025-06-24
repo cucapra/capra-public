@@ -122,6 +122,11 @@ Cassandra Sziklai:
     role: undergrad
     sort: 0
 
+Cynthia Shao:
+    role: undergrad
+    link: https://www.linkedin.com/in/cynthiashao25/
+    sort: 0
+
 Parth Sarkar:
     role: undergrad
     sort: 0
@@ -290,7 +295,7 @@ Alexa VanHattum:
 
 Rachit Nigam:
     role: alum
-    link: https://rachit.pl
+    link: https://people.csail.mit.edu/rachit
     note: "PhD 2024"
     sort: 0
 
