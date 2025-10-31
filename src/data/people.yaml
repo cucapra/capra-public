@@ -82,10 +82,6 @@ Benjamin Carleton:
     role: phd
     sort: 0
 
-Soos Garry:
-    role: phd
-    sort: 0
-
 Ayaka Yorihiro:
     role: phd
     link: https://ayakayorihiro.github.io
@@ -94,10 +90,6 @@ Ayaka Yorihiro:
 Ernest Ng:
     role: phd
     link: https://ngernest.github.io
-    sort: 0
-
-Jiahan Xie:
-    role: phd  # actually MS, but we don't have a separate category
     sort: 0
 
 Michael Xing:
@@ -202,6 +194,16 @@ Kevin Negy:
     link: https://www.cs.cornell.edu/~kevinnegy/
     sort: 0
     note: 'PhD 2025'
+
+Soos Garry:
+    role: alum
+    sort: 1
+    note: 'MS 2025'
+
+Jiahan Xie:
+    role: alum
+    sort: 1
+    note: 'MS 2025'
 
 David Siher:
     role: alum
