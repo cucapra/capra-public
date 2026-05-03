@@ -94,11 +94,6 @@ Ernest Ng:
     link: https://ngernest.github.io
     sort: 0
 
-Michael Xing:
-    role: phd  # also actually MS
-    link: https://michaelxing.com/
-    sort: 0
-
 # ============== Current Students ================
 
 Charles Liggins:
@@ -495,3 +490,9 @@ Jerry Ji:
     role: alum  # MEng
     note: "BS & MEng 2025"
     sort: 3
+
+Michael Xing:
+    role: alum
+    link: https://michaelxing.com/
+    sort: 1
+    note: "BS & MS 2026"
