@@ -54,7 +54,7 @@ James Bornholt:
 
 Nate Foster:
     role: collaborator
-    link: https://www.cs.cornell.edu/~jnfoster/
+    link: https://natefoster.org
     sort: 0
 
 Ross Tate:
@@ -66,6 +66,7 @@ Ross Tate:
 
 Oliver Daids:
     role: phd
+    link: https://www.cs.cornell.edu/~ojd/
     sort: 0
 
 Anshuman Mohan:
@@ -80,6 +81,7 @@ Griffin Berlstein:
 
 Benjamin Carleton:
     role: phd
+    link: https://www.cs.cornell.edu/~carleton/
     sort: 0
 
 Ayaka Yorihiro:
@@ -112,22 +114,9 @@ Ethan Gabizon:
     role: undergrad
     sort: 0
 
-Kabir Samsi:
-    role: undergrad
-    link: https://www.linkedin.com/in/kabir-samsi/
-    sort: 0
-
-Akash Dhiraj:
-    role: undergrad
-    sort: 0
-
 Ethan Uppal:
     role: undergrad
     link: https://www.ethanuppal.com
-    sort: 0
-
-Cassandra Sziklai:
-    role: undergrad
     sort: 0
 
 Cynthia Shao:
@@ -143,10 +132,6 @@ Francis Pham:
 Nikil Shyamsunder:
     role: undergrad
     link: https://nikilshyamsunder.com/
-    sort: 0
-
-Parth Sarkar:
-    role: undergrad
     sort: 0
 
 Serena Duncan:
@@ -168,10 +153,6 @@ Helen Ge:
 
 Ryan Fu:
     role: undergrad
-    sort: 0
-
-Jerry Ji:
-    role: undergrad  # MEng
     sort: 0
 
 John Palsberg:
@@ -273,7 +254,6 @@ Richard Wang:
     note: 'BS 2021'
     sort: 2
 
-
 Kimberly Baum:
     role: alum
     note: "BS 2020"
@@ -298,7 +278,6 @@ Horace He:
     link: http://horace.io
     sort: 2
 
-
 Samuel Thomas:
     role: alum
     note: 'BS 2020'
@@ -314,7 +293,6 @@ Henry Liu:
     role: alum
     note: "BS & MEng 2020"
     sort: 1
-
 
 Aditi Kabra:
     role: alum
@@ -491,3 +469,29 @@ Justin Ngai:
     role: alum
     note: "MEng 2023"
     sort: 2
+
+Kabir Samsi:
+    role: alum
+    link: https://www.linkedin.com/in/kabir-samsi/
+    note: "BS 2026"
+    sort: 3
+
+Akash Dhiraj:
+    role: alum
+    note: "BS 2025"
+    sort: 3
+
+Cassandra Sziklai:
+    role: alum
+    note: "BS 2025"
+    sort: 3
+
+Parth Sarkar:
+    role: alum
+    note: "BS 2025"
+    sort: 3
+
+Jerry Ji:
+    role: alum  # MEng
+    note: "BS & MEng 2025"
+    sort: 3
