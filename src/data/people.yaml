@@ -74,11 +74,6 @@ Anshuman Mohan:
     link: https://www.cs.cornell.edu/~amohan/
     sort: 0
 
-Griffin Berlstein:
-    role: phd
-    link: https://griffinberlste.in
-    sort: 0
-
 Benjamin Carleton:
     role: phd
     link: https://www.cs.cornell.edu/~carleton/
@@ -169,6 +164,12 @@ Nipat Chenthanakij:
 # ============= Alums =================
 # People appear in the order they are specified here
 
+Griffin Berlstein:
+    role: phd
+    link: https://griffinberlste.in
+    sort: 0
+    note: 'PhD 2026'
+    
 Kevin Negy:
     role: alum
     link: https://www.cs.cornell.edu/~kevinnegy/
