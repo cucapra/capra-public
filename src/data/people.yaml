@@ -110,6 +110,10 @@ Charles Liggins:
     link: https://charlesliggins.com/
     sort: 0
 
+Ethan Berkowitz:
+    role: undergrad
+    sort: 0
+
 Ethan Uppal:
     role: undergrad
     link: https://www.ethanuppal.com
@@ -143,10 +147,6 @@ Modi Goldstein-Rosenfeld:
     sort: 0
 
 Ryan Breen:
-    role: undergrad
-    sort: 0
-
-Ethan Berkowitz:
     role: undergrad
     sort: 0
 
