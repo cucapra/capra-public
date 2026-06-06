@@ -486,8 +486,8 @@ Parth Sarkar:
     sort: 3
 
 Jerry Ji:
-    role: alum  # MEng
-    note: "BS & MEng 2025"
+    role: alum
+    note: "MEng 2025"
     sort: 3
 
 Michael Xing:
@@ -498,25 +498,40 @@ Michael Xing:
 
 Serena Duncan:
     role: alum
-    sort: 0
+    sort: 3
     note: 'BS 2026'
 
 Zihan Li:
     role: alum
-    sort: 0
+    sort: 3
     note: 'MEng 2025'
 
 Nipat Chenthanakij:
     role: alum
-    sort: 0
+    sort: 3
     note: 'MEng 2026'
 
 Edmund Lam:
     role: alum
-    sort: 0
+    sort: 3
     note: 'BS 2025'
 
 Ethan Gabizon:
     role: alum
-    sort: 0
+    sort: 3
     note: 'BS 2025'
+
+Sherri Qazi:
+    role: alum
+    sort: 3
+    note: 'MEng 2025'
+
+Ashwin Sawant:
+    role: alum
+    sort: 3
+    note: 'MEng 2026'
+
+Kevin Chen:
+    role: alum
+    sort: 3
+    note: 'MEng 2026'
