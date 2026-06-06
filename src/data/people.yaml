@@ -134,6 +134,30 @@ John Palsberg:
     role: undergrad
     sort: 0
 
+Michael Zhang:
+    role: undergrad
+    sort: 0
+
+Modi Goldstein-Rosenfeld:
+    role: undergrad
+    sort: 0
+
+Ryan Breen:
+    role: undergrad
+    sort: 0
+
+Ethan Berkowitz:
+    role: undergrad
+    sort: 0
+
+Preston Williams:
+    role: undergrad
+    sort: 0
+
+Aaditya Bahl:
+    role: undergrad
+    sort: 0
+
 # ============= Alums =================
 # People appear in the order they are specified here
 
@@ -170,6 +194,7 @@ Alaia Solko-Breslin:
     role: alum
     note: 'BS & Meng 2022'
     sort: 1
+    link: https://alaiasolkobreslin.github.io
 
 Jasper Liang:
     role: alum
