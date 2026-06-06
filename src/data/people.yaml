@@ -89,19 +89,25 @@ Ernest Ng:
     link: https://ngernest.github.io
     sort: 0
 
+Jeremy Ku-Benjet:
+    role: phd # MS
+    link: https://jeremykubenjet.com
+    sort: 0
+
+Helen Ge:
+    role: phd # MS
+    sort: 0
+
+Pedro Pontes García:
+    role: phd # MS
+    link: https://pedropontesgarcia.com
+    sort: 0
+
 # ============== Current Students ================
 
 Charles Liggins:
     role: undergrad
     link: https://charlesliggins.com/
-    sort: 0 
-    
-Edmund Lam:
-    role: undergrad
-    sort: 0
-
-Ethan Gabizon:
-    role: undergrad
     sort: 0
 
 Ethan Uppal:
@@ -124,41 +130,8 @@ Nikil Shyamsunder:
     link: https://nikilshyamsunder.com/
     sort: 0
 
-Serena Duncan:
-    role: undergrad
-    sort: 0
-
-Jeremy Ku-Benjet:
-    role: undergrad
-    sort: 0
-
-Pedro Pontes García:
-    role: undergrad
-    link: https://pedropontesgarcia.com
-    sort: 0
-
-Helen Ge:
-    role: undergrad
-    sort: 0
-
-Ryan Fu:
-    role: undergrad
-    sort: 0
-
 John Palsberg:
     role: undergrad
-    sort: 0
-
-Nagaa Dhaba:
-    role: undergrad
-    sort: 0
-
-Zihan Li:
-    role: undergrad # MEng
-    sort: 0
-
-Nipat Chenthanakij:
-    role: undergrad # MEng
     sort: 0
 
 # ============= Alums =================
@@ -168,7 +141,7 @@ Griffin Berlstein:
     role: alum
     link: https://griffinberlste.in
     sort: 0
-    sort: 'PhD 2026'
+    note: 'PhD 2026'
 
 Kevin Negy:
     role: alum
@@ -497,3 +470,28 @@ Michael Xing:
     link: https://michaelxing.com/
     sort: 1
     note: "BS & MS 2026"
+
+Serena Duncan:
+    role: alum
+    sort: 0
+    note: 'BS 2026'
+
+Zihan Li:
+    role: alum
+    sort: 0
+    note: 'MEng 2025'
+
+Nipat Chenthanakij:
+    role: alum
+    sort: 0
+    note: 'MEng 2026'
+
+Edmund Lam:
+    role: alum
+    sort: 0
+    note: 'BS 2025'
+
+Ethan Gabizon:
+    role: alum
+    sort: 0
+    note: 'BS 2025'
