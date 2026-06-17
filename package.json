@@ -23,7 +23,7 @@
     "metalsmith-metadata": "0.0.4",
     "metalsmith-metadata-in-filename": "^1.3.0",
     "moment": "^2.19.2",
-    "nunjucks": "^3.2.3",
+    "nunjucks": "^3.2.4",
     "octicons": "^8.5.0"
   },
   "scripts": {
